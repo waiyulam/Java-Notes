@@ -13,7 +13,7 @@ Answer samples from proficient solutions
 
 # 错题本
 每周巩固一次做过的题目： 解题思路+code+注释（分析时间空间复杂度）+同一道题目有两种解法 + 两种语言（JAVA & PYTHON )   
-做题归纳总结：  https://docs.google.com/spreadsheets/d/1gszcAt1NgN7GYj_uxEBpMqkoAGw2F36EFh3-pmU2yA0/edit#gid=0      
+[做题归纳总结](https://docs.google.com/spreadsheets/d/1gszcAt1NgN7GYj_uxEBpMqkoAGw2F36EFh3-pmU2yA0/edit#gid=0)   
 
 
 # Tutorials（ data structure + algorithms )
