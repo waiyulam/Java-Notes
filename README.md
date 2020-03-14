@@ -17,3 +17,5 @@ Answer samples from proficient solutions
 
 
 # Tutorials（ data structure + algorithms )
+1. [LeetCode Group](https://docs.google.com/spreadsheets/d/1I_fyfIoWEXtHJD32BmVXxj_tishqU7Rd8GqUpRgxhks/edit#gid=0)
+2. [LeetCode Sample Solutions](https://drive.google.com/drive/u/1/folders/1Ma_eh0Y6jalhbieUlX5A5nIQyIiFc59G)
