@@ -1,15 +1,34 @@
 # Leetcode
 Leetcode 题目整理 ( TAG -> DIFFICULTY -> AC ) 
 
-# 做题模板
-算法   
-数据结构    
-解题思路    
-复杂度分析    
-题目分类    
-总结    
-test case & 处理corner case     
-Answer samples from proficient solutions     
+## Problem solving 
+1. **Defien the problems**  
+    - State the problem specifically ( e.g Data types, Data volumn, Corner cases ,Worst cases, Time Complexity, API)
+    - Identify the expected steps of a process ( e.g. flowchart )
+2. **Generate Alternative solution and Evaluate**
+    - Specify consistent algorithms ( Time & Space )
+    - Seek potential alternative more efficient solutions 
+    - Data structures to be used 
+3. **Implement and follow up the solutions** 
+    - Plan and implement a unit test of the chosen alternative
+    - Seek acceptance criteria 
+    - Test the corner cases 
+
+## Template of solving problem (Included) 
+  - **Ideas and steps of a process**
+  - **Languages** ( At least two : python & java )
+  - **Algorithms** ( At least two)
+    - Classic solution (BFS, DFS , DP..)
+    - Best solution (BFS, DFS , DP..)
+  - **Data structures** 
+  - **Time & Space**  
+  - **Testing cases & corner cases evaluation & coverage** 
+  - **Problem Tag** ( e.g data strucutre, algorithms, difficulty )
+  - **Summary for future practices**
+    - what difference compared to other same type of quetions? 
+    - what are the tricks in solving this problem?
+  - **Sample answer from proficient solution discussion** 
+  - **Youtube video tutorials**      
 
 # 错题本
 每周巩固一次做过的题目： 解题思路+code+注释（分析时间空间复杂度）+同一道题目有两种解法 + 两种语言（JAVA & PYTHON )   
