@@ -3,11 +3,30 @@ Cracking the interview
 
 # CS Fundamentals 
 ## Introduction to Algorithms 
-1. Big O notation : worst case model of complexity, upper boundsand orders of growth
-2. Divide and Conquer algorithms and analysis of recurrence relations
-3. Dynamic Programming and memoization
-4. Greedy Algorithms:  Huffman Coding
-5. NP-completenes
+### Big O notation : worst case model of complexity, upper boundsand orders of growth (ECS122A)
+  -  [Introduction to Big O Notation and Time Complexity](https://www.youtube.com/watch?v=D6xkbGLQesk)
+  -  [Asymptotic Notation](https://www.youtube.com/watch?v=iOq5kSKqeR4)
+  -  [A Gentle Introduction to Algorithm Complexity Analysis](http://discrete.gr/complexity/)
+  -  [Cheat Sheet](http://bigocheatsheet.com/)
+  
+### Divide and Conquer algorithms and analysis of recurrence relations
+
+### Dynamic Programming and memoization
+  -  [Intro](https://www.youtube.com/watch?v=iv_yHjmkv4I)
+  -  [DP & Memoization](https://www.youtube.com/watch?v=P8Xa2BitN3I&t=13s)
+  -  [Fibonacci, Shortest Paths](https://www.youtube.com/watch?v=OQ5jsbhAv_M&t=7s) : Dijkstron & Floyd Warshall
+  -  [Text Justification, Blackjac](https://www.youtube.com/watch?v=ENyox7kNKeY&t=4s)
+  -  [Cheat Sheet](https://www.topcoder.com/community/competitive-programming/tutorials/dynamic-programming-from-novice-to-advanced/)
+
+  
+### Greedy Algorithms:  Huffman Coding
+### NP-completenes
+
+### String Manipulation 
+  -  [Longest Consecutive Characters](https://www.youtube.com/watch?v=qRNB8CV3_LU)
+  -  [Substring Search](https://www.coursera.org/learn/algorithms-part2/home/week/4)
+  -  Linear-time string matching: Z algorithm 
+
 
 ## Data Structures
 ![](https://res.cloudinary.com/practicaldev/image/fetch/s--WlnYH5fq--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://cdn-images-1.medium.com/max/1600/1%2ADyu63sMUVL-gYEZISOE2BQ.jpeg)
@@ -49,9 +68,6 @@ Cracking the interview
 ### Graph Search 
   -  [Intro](https://www.youtube.com/watch?v=zaBhtODEL0w&list=PLX6IKgS15Ue02WDPRCmYKuZicQHit9kFt)
   -  [BFS(breadth-first search) and DFS(depth-first search)](https://www.youtube.com/watch?v=uWL6FJhq5fM)
-  -  Shortest Path 
-    - Floyd-warshall 
-    - Digkstra 
 
 ### Binary Search 
   -  [Intro](https://youtu.be/P3YID7liBug)
@@ -67,15 +83,21 @@ Cracking the interview
   
 ### Others
   -  [Python Algorithms for Interviews](https://www.youtube.com/watch?v=p65AHm9MX80)
-  -  Linear-time string matching: Z algorithm 
 
-# [Leetcode](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Leetcode) : Run practice problems
+# Run practice problems
+## [Leetcode](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Leetcode) :
 - Easy 
 - Medium 
 - Hard 
-
-
+## [hackerrank](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/hackerrank)
 
 # Interview Questions 
+  - [Google Coding Interview --- Universal Value Tree Problem](https://www.youtube.com/watch?v=7HgsS8bRvjo)
+  - [Google Coding Interview Question and Answer #1: First Recurring Character ](https://www.youtube.com/watch?v=GJdiM-muYqc)
+  - [Find min and max element in a binary search tree ](https://www.youtube.com/watch?v=Ut90klNN264&index=30&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+  - [Find height of a binary tree ](https://www.youtube.com/watch?v=_pnqMz5nrRs&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=31)
+  - [Check if a binary tree is binary search tree or not](https://www.youtube.com/watch?v=yEwSGhSsT0U&index=35&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+  - [What Is Tail Recursion? Why Is It So Bad?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
+  
 
 # Others 
