@@ -7,9 +7,8 @@ Don't Rush. Enjoy the journey. Try to be a natural problem solver not a intervie
 
 # CS Fundamentals 
 ## Introduction to Algorithms 
-### Big O notation : worst case model of complexity, upper boundsand orders of growth (ECS122A)
-  -  [Introduction to Big O Notation and Time Complexity](https://www.youtube.com/watch?v=D6xkbGLQesk)
-  -  [Asymptotic Notation](https://www.youtube.com/watch?v=iOq5kSKqeR4)
+### Time & Space Complexity 
+  -  [Video no. 1-16 Abdul Bari's Algorithm Playlist](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O) (ps:After watching this 16 videos i can guarantee that you will gain mastery on Time Complexity for sure.)
   -  [A Gentle Introduction to Algorithm Complexity Analysis](http://discrete.gr/complexity/)
   -  [Cheat Sheet](http://bigocheatsheet.com/)
   
@@ -34,6 +33,8 @@ Don't Rush. Enjoy the journey. Try to be a natural problem solver not a intervie
 
 ## Data Structures
 ![](https://res.cloudinary.com/practicaldev/image/fetch/s--WlnYH5fq--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://cdn-images-1.medium.com/max/1600/1%2ADyu63sMUVL-gYEZISOE2BQ.jpeg)
+
+[Data Structures Easy to Advanced Course - Full Tutorial from a Google Engineer and ACM ICPC World Finalist](https://www.youtube.com/playlist?list=PLDV1Zeh2NRsB6SWUrDFW2RmDotAfPbeHu)(ps:This is one of the best materials to study on data structure topic. William implemented each on Java. But it doesn't really matter which language you use, i did this course in both in c++ and python. And try to code yourself after watching a data structure topic and do some leetcode question on that. And this is all you need to ace DS questions.)
 
 ### Arrays 
   - [Multi-dim Array](https://archive.org/details/0102WhatYouShouldKnow/02_05-multidimensionalArrays.mp4) 
