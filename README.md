@@ -1,5 +1,7 @@
 # Interview-Prep-Guide
-Cracking the interview : Interviewing can be tough because you can feel like you are making no progress. Having this study guide will help you track your progress and give you a better read on how you are doing!
+Cracking the interview : Interviewing can be tough because you can feel like you are making no progress. Having this study guide will help you track your progress and give you a better read on how you are doing!   
+
+
 ![](https://media.giphy.com/media/KWQy384u0Rn9bCvwMa/giphy.gif)
 
 # CS Fundamentals 
