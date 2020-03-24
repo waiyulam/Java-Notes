@@ -9,7 +9,7 @@ Cracking the interview
 4. Greedy Algorithms:  Huffman Coding
 5. NP-completenes
 
-### [Data Structures--video](https://www.youtube.com/watch?v=bum_19loj9A) 
+### Data Structures
 ![](https://res.cloudinary.com/practicaldev/image/fetch/s--WlnYH5fq--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://cdn-images-1.medium.com/max/1600/1%2ADyu63sMUVL-gYEZISOE2BQ.jpeg)
 
 #### Arrays 
@@ -32,7 +32,10 @@ Cracking the interview
 
 #### [Tries](https://www.youtube.com/watch?v=zIjfhVPRZCg)
 
-**[Crash Course Computer Science](https://www.youtube.com/watch?v=DuDz6B4cqVc&feature=youtu.be)** 
+#### Others 
+  -  [Data Structure Intro](https://www.youtube.com/watch?v=bum_19loj9A)
+  -  [Crash Course Computer Science](https://www.youtube.com/watch?v=DuDz6B4cqVc&feature=youtu.be)
+
 
 ### Algorithms 
 1. Sorting and search algorithms
