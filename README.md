@@ -1,5 +1,5 @@
 # Interview-Prep-Guide
-Cracking the interview 
+Cracking the interview : Interviewing can be tough because you can feel like you are making no progress. Having this study guide will help you track your progress and give you a better read on how you are doing!
 
 # CS Fundamentals 
 ## Introduction to Algorithms 
@@ -101,3 +101,71 @@ Cracking the interview
   
 
 # Others 
+## System Design 
+System design questions are crucial questions that show you are more than just a coder. You need to be able to think big picture as an engineer. Where do certain services belong, what kind of servers do you need, how would you manage traffic, etc. All of these ideas show that you are able to design software, not just code what people tell you to code.
+  - [Parking Lot System](https://youtu.be/DSGsa0pu8-k)
+  - [Whats App](https://www.youtube.com/watch?v=vvhC64hQZMk)
+  - [Uber design](https://youtu.be/umWABit-wbk)
+  - [Instagram](https://www.youtube.com/watch?v=QmX2NPkJTKg)
+  - [Tinder Service](https://www.youtube.com/watch?v=xQnIN9bW0og)
+
+## Database 
+### SQL
+#### Problems 
+  - [Trips and Users](https://leetcode.com/problems/trips-and-users/)
+  - [Human Traffic of Stadium](https://leetcode.com/problems/human-traffic-of-stadium/)
+  - [Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries/)
+  - [Exchange Seats](https://leetcode.com/problems/exchange-seats/)
+  - [Hackerrank The Report](https://www.hackerrank.com/challenges/the-report/problem)
+  - [Nth Highest Salary](https://leetcode.com/problems/nth-highest-salary/)
+  - [Symmetric Pairs](https://www.hackerrank.com/challenges/symmetric-pairs/problem)
+  - [OccupationsPlacements](https://www.hackerrank.com/challenges/occupations/problem)
+  - [Ollivander's Inventory](https://www.hackerrank.com/challenges/harry-potter-and-wands/problem)
+#### General
+  - [SQL Query Interview Questions](https://www.youtube.com/watch?v=uAWWhEA57bE)
+  - [Learning about ROW_NUMBER and Analytic Functions](https://www.youtube.com/watch?v=QFj-hZi8MKk)
+  - [Advanced Implementation Of Analytic Functions](https://www.youtube.com/watch?v=G3kYPzLWtpo&t=4s)
+  - [Advanced Implementation Of Analytic Functions Part 2](https://www.youtube.com/watch?v=XecU6Ieyu-4&t=54s)
+  - [Wise Owl SQL Videos](https://www.youtube.com/watch?v=2-1XQHAgDsM&list=PL6EDEB03D20332309)
+
+### Transaction
+
+## Operating System
+  - [Commonly Asked Operating Systems Interview Questions](https://www.geeksforgeeks.org/commonly-asked-operating-systems-interview-questions-set-1/)
+  - [What is Translation lookaside buffer?](https://www.geeksforgeeks.org/operating-system-translation-lookaside-buffer-tlb/)
+  - [Why does Round Robin avoid the Priority Inversion Problem?](https://leetcode.com/discuss/interview-question/operating-system/220604/Why-does-Round-Robin-avoid-the-Priority-Inversion-Problem)
+  - [Interrupt Vs System Call---What is 'inode' in file system?](https://leetcode.com/discuss/interview-question/operating-system/124838/Interrupt-Vs-System-Call)
+  - [Operating System Interview Questions and Answers --- Part I](https://www.youtube.com/watch?v=b18X4uOKjHs)
+  - [What is a kernel --- Gary explains](https://www.youtube.com/watch?v=mycVSMyShk8)
+  - [Round Robin Algorithm Tutorial (CPU Scheduling)](https://www.youtube.com/watch?v=aWlQYllBZDs)
+  - [The Magic of LRU Cache (100 Days of Google Dev)](https://www.youtube.com/watch?v=R5ON3iwx78M)
+  - [The Memory Hierarchy](https://www.youtube.com/watch?v=vjYF_fAZI5E&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-&index=24)
+  - [Interrupts](https://www.youtube.com/watch?v=uFKi2-J-6II&list=PLCiOXwirraUCBE9i_ukL8_Kfg6XNv7Se8&index=3)
+  - [Scheduling](https://www.youtube.com/watch?v=-Gu5mYdKbu4&index=4&list=PLCiOXwirraUCBE9i_ukL8_Kfg6XNv7Se8)
+
+## Concurrency 
+  - [User Level thread Vs Kernel Level thread](https://leetcode.com/discuss/interview-question/operating-system/124631/User-Level-thread-Vs-Kernel-Level-thread)
+  - [Intro to Processes & Threads](https://www.youtube.com/watch?v=exbKr6fnoUw)
+  - [Difference Between Process and Thread --- Georgia Tech --- Advanced Operating Systems](https://www.youtube.com/watch?v=O3EyzlZxx3g&t=11s)
+  - [Difference between forking and multithreading](https://leetcode.com/discuss/interview-question/operating-system/125024/Difference-between-forking-and-multithreading)
+  
+## OOP 
+  - [Inheritance](https://www.youtube.com/watch?v=9JpNY-XAseg)
+  - [Introduction to Polymorphism](https://www.youtube.com/watch?v=0xw06loTm1k)
+  - [Abstract and Concrete Classes](https://www.youtube.com/watch?v=TyPNvt6Zg8c)
+  - [Overriding Rules](https://www.youtube.com/watch?v=zN9pKULyoj4&t=3s)
+  - [Class to Hold Objects](https://www.youtube.com/watch?v=slY5Ag7IjM0)
+  - [Object-Oriented Programming](https://www.youtube.com/watch?v=lbXsrHGhBAU)
+
+## Design Patterns 
+  - [Sources1](https://sourcemaking.com/design_patterns)
+  - [Sources2](https://refactoring.guru/design-patterns)
+  - [Factory Design Pattern](https://www.youtube.com/watch?v=ub0DXaeV6hA)
+  - [Observer Design Pattern](https://youtu.be/wiQdrH2YpT4)
+  - [Adapter Design Pattern](https://www.youtube.com/watch?v=qG286LQM6BU&list=PLF206E906175C7E07&index=13)
+  - [Facade Design Pattern](https://www.youtube.com/watch?v=B1Y8fcYrz5o&list=PLF206E906175C7E07&index=14)
+  - [Chain of Responsibility Design Pattern](https://www.youtube.com/watch?v=jDX6x8qmjbA&list=PLF206E906175C7E07&index=22)
+  - [Interpreter Design Pattern](https://www.youtube.com/watch?v=6CVymSJQuJE&list=PLF206E906175C7E07&index=23)
+  - [Singleton Design Pattern Tutorial](https://www.youtube.com/watch?v=NZaXM67fxbs&list=PLF206E906175C7E07&index=7)
+  - [Patterns](https://youtu.be/LAP2A80Ajrg?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO&t=3344)
+  - [Head First Design Patterns](https://www.amazon.com/Head-First-Design-Patterns-Freeman/dp/0596007124)
