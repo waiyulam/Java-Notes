@@ -17,10 +17,10 @@ Cracking the interview
 
 ### Algorithms 
 1. Sorting and search algorithms
-2. Basic Graph Algorithms
-  - DFS 
-  - Shortest path : Floyd-warshall; Digkstra 
-  - Linear-time string matching: Z algorithm 
+2. Basic Graph Algorithms  
+  1. DFS 
+  2. Shortest path : Floyd-warshall; Digkstra 
+  3. Linear-time string matching: Z algorithm 
 
 
 ## Leetcode : Run practice problems
