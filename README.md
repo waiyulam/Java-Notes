@@ -50,7 +50,6 @@ Cracking the interview
 - Medium 
 - Hard 
 
-## Graph theory 
 
 
 ## Interview Questions 
