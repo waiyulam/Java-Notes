@@ -17,7 +17,7 @@ Cracking the interview
   - [Dynamic Array](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
   - [Resizing Array](https://archive.org/details/0102WhatYouShouldKnow/03_01-resizableArrays.mp4)
 
-- [Linked Lists](https://www.youtube.com/watch?v=njTh_OwMljA&feature=youtu.be) 
+#### [Linked Lists](https://www.youtube.com/watch?v=njTh_OwMljA&feature=youtu.be) 
   - [Linked Lists vs Array](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9)
 
 #### [Trees](https://www.youtube.com/watch?v=oSWTXtMglKE&feature=youtu.be)
@@ -30,9 +30,9 @@ Cracking the interview
 #### [Stacks and Queues ](https://youtu.be/wjI1WNcIntg)
   - [Using Stacks Last-In First-Out ](https://archive.org/details/0102WhatYouShouldKnow/05_01-usingStacksForLast-inFirst-out.mp4)
 
-#### [Crash Course Computer Science](https://www.youtube.com/watch?v=DuDz6B4cqVc&feature=youtu.be)
-
 #### [Tries](https://www.youtube.com/watch?v=zIjfhVPRZCg)
+
+**[Crash Course Computer Science](https://www.youtube.com/watch?v=DuDz6B4cqVc&feature=youtu.be)** 
 
 ### Algorithms 
 1. Sorting and search algorithms
