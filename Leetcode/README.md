@@ -15,6 +15,16 @@ Answer samples from proficient solutions
 每周巩固一次做过的题目： 解题思路+code+注释（分析时间空间复杂度）+同一道题目有两种解法 + 两种语言（JAVA & PYTHON )   
 [做题归纳总结](https://docs.google.com/spreadsheets/d/1gszcAt1NgN7GYj_uxEBpMqkoAGw2F36EFh3-pmU2yA0/edit#gid=0)   
 
+# Questions 
+- Warm ups : Before going through the video content about data structures and algorithms, consider trying out these problems below
+  - Sum of Even Numbers After Queries 
+  - Robot Return to Origin
+  - N-Repeated Element in Size 2N Array
+  - Balanced Binary Tree
+  - Longest Substring Without Repeating Characters
+  - Remove Nth Node From End of List
+  - Merge k Sorted Lists
+  - Next Permutation
 
 # Tutorials（ data structure + algorithms )
 1. [LeetCode Group](https://docs.google.com/spreadsheets/d/1I_fyfIoWEXtHJD32BmVXxj_tishqU7Rd8GqUpRgxhks/edit#gid=0)
