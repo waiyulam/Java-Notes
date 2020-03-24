@@ -23,7 +23,7 @@ Cracking the interview
   * Linear-time string matching: Z algorithm 
 
 
-## Leetcode : Run practice problems
+## [Leetcode](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Leetcode) : Run practice problems
 - Easy 
 - Medium 
 - Hard 
