@@ -87,6 +87,7 @@ Don't Rush. Enjoy the journey. Try to be a natural problem solver not a intervie
   
 ### Others
   -  [Python Algorithms for Interviews](https://www.youtube.com/watch?v=p65AHm9MX80)
+  -  [Comprehensive Data Structure and Algorithm Study Guide](https://leetcode.com/discuss/general-discussion/494279/comprehensive-data-structure-and-algorithm-study-guide)
 
 # Run practice problems
 ## [Leetcode](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Leetcode) :
