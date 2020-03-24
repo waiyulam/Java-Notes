@@ -30,6 +30,11 @@ Leetcode 题目整理 ( TAG -> DIFFICULTY -> AC )
   - **Sample answer from proficient solution discussion** 
   - **Youtube video tutorials**      
 
+# Docs 
+   - [Study Guide](https://docs.google.com/spreadsheets/d/1DlLt2_kRsSLbdoOYhMFcpBZMnA-1SK3A/edit#gid=1486985929)
+   - [Leetcode Groups](https://docs.google.com/spreadsheets/u/1/d/1I_fyfIoWEXtHJD32BmVXxj_tishqU7Rd8GqUpRgxhks/edit?usp=drive_web&ouid=104164318499100110569)
+   - [Solutions](https://docs.google.com/document/d/1Yo13hX7gILsXA0v3zbo1KS0J8r2-8NkXinwGT_v_eCI/edit)
+   
 # 错题本
 每周巩固一次做过的题目： 解题思路+code+注释（分析时间空间复杂度）+同一道题目有两种解法 + 两种语言（JAVA & PYTHON )   
 [做题归纳总结](https://docs.google.com/spreadsheets/d/1gszcAt1NgN7GYj_uxEBpMqkoAGw2F36EFh3-pmU2yA0/edit#gid=0)   
