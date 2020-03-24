@@ -10,6 +10,7 @@ Cracking the interview
 5. NP-completenes
 
 ### Data Structures 
+![](https://res.cloudinary.com/practicaldev/image/fetch/s--WlnYH5fq--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://cdn-images-1.medium.com/max/1600/1%2ADyu63sMUVL-gYEZISOE2BQ.jpeg) 
 1. Heaps
 2. Arrays
 3. Hash tables
