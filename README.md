@@ -55,7 +55,7 @@ ps:After watching this 16 videos i can guarantee that you will gain mastery on T
   -  [ ] [Cheat Sheet](http://bigocheatsheet.com/)
   
 ### Programming Paradigm
-[ ] Review ECS122A
+- [ ] Review ECS122A
 #### - Recursion and analysis of recurrence relations
   -  [ ] [Recursion Playlist by mycodeschool](https://www.youtube.com/playlist?list=PL2_aWCzGMAwLz3g66WrxFGSXvSsvyfzCO)
   -  [ ] [Masters Theorem for the proof of recursion](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)
