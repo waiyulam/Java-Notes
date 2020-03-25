@@ -25,12 +25,12 @@ Don't Rush. Enjoy the journey. Try to be a natural problem solver not a intervie
 
 # Table of Contents 
 * [CS Fundamentals](#CS-Funamentals)
-** [Introduction to Algorithms](#Introduction-to-Algorithms)
-*** [Time & Space Complexity ](#Time-&-Space-Complexity)
-*** [Programming Paradigm](#Programming-Paradigm)
-** [Data Structure](#Data-Structure)
-** [Algorithms](#Algorithms)
-** [Best DSA study Link](#Best-DSA-study-Link)
+	** [Introduction to Algorithms](#Introduction-to-Algorithms)
+		*** [Time & Space Complexity ](#Time-&-Space-Complexity)
+		*** [Programming Paradigm](#Programming-Paradigm)
+	** [Data Structure](#Data-Structure)
+	** [Algorithms](#Algorithms)
+	** [Best DSA study Link](#Best-DSA-study-Link)
 * [Run practice problems](#Run-practice-problems)
 * [Interview Questions](#Interview-Questions)
 * [Others](#Others)
