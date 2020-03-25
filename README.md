@@ -5,6 +5,24 @@ Don't Rush. Enjoy the journey. Try to be a natural problem solver not a intervie
 
 ![](https://media.giphy.com/media/KWQy384u0Rn9bCvwMa/giphy.gif)
 
+##  Regular Deliberate Strategic Practice
+### Retaining Computer Science Knowledge
+1. Review cs fundamentatals and make FlashCards for main points. Review the flash cards when you have time 
+2. Start doing coding interview questions while you're learning data structures and algorithms. 
+3. Review
+ 
+### Keep Practics when you get this point 
+1. Use Leetcode to practices different problems 
+2. Take a break from programming problems for a half hour and go through your flashcards.
+
+## Coding problem practice 
+- problem recognition, and where the right data structures and algorithms fit in
+- gathering requirements for the problem
+- talking your way through the problem like you will in the interview
+- coding on a whiteboard or paper, not a computer
+- coming up with time and space complexity for your solutions
+- testing your solutions
+
 # CS Fundamentals 
 ## Introduction to Algorithms 
 ### Time & Space Complexity 
