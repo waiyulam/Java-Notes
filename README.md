@@ -7,7 +7,7 @@ Don't Rush. Enjoy the journey. Try to be a natural problem solver not a intervie
 
 ##  Regular Deliberate Strategic Practice
 ### Retaining Computer Science Knowledge
-1. Review cs fundamentatals and make FlashCards for main points. Review the flash cards when you have time 
+1. Review cs fundamentatals and make [FlashCards](https://github.com/jwasham/computer-science-flash-cards) for main points. Review the flash cards when you have time 
 2. Start doing coding interview questions while you're learning data structures and algorithms. 
 3. Review
  
@@ -48,72 +48,73 @@ Don't Rush. Enjoy the journey. Try to be a natural problem solver not a intervie
 # CS Fundamentals 
 ## Introduction to Algorithms 
 ### Time and Space Complexity
-  -  [Video no. 1-16 Abdul Bari's Algorithm Playlist](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)  
+  -  [ ][Video no. 1-16 Abdul Bari's Algorithm Playlist](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)  
 ps:After watching this 16 videos i can guarantee that you will gain mastery on Time Complexity for sure.)  
 
-  -  [A Gentle Introduction to Algorithm Complexity Analysis](http://discrete.gr/complexity/)
-  -  [Cheat Sheet](http://bigocheatsheet.com/)
+  -  [ ][A Gentle Introduction to Algorithm Complexity Analysis](http://discrete.gr/complexity/)
+  -  [ ][Cheat Sheet](http://bigocheatsheet.com/)
   
 ### Programming Paradigm
-(Review ECS122A)
+[ ] Review ECS122A
 #### - Recursion and analysis of recurrence relations
-  -  [Recursion Playlist by mycodeschool](https://www.youtube.com/playlist?list=PL2_aWCzGMAwLz3g66WrxFGSXvSsvyfzCO)
-  -  [Masters Theorem for the proof of recursion](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)
+  -  [ ][Recursion Playlist by mycodeschool](https://www.youtube.com/playlist?list=PL2_aWCzGMAwLz3g66WrxFGSXvSsvyfzCO)
+  -  [ ][Masters Theorem for the proof of recursion](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)
 video no. 18 to no. 29 from Abdul Bari's Algorithm Playlist 
-  -  [Sparknotes tutorial on recursion types](https://www.sparknotes.com/cs/recursion/whatisrecursion/section2/)
-  -  Chapter 4 | Divide and Conquer | Page No.65 from Introduction to Algorithm by CLRS
-  -  UC Davis ECS122A 
+  -  [ ][Sparknotes tutorial on recursion types](https://www.sparknotes.com/cs/recursion/whatisrecursion/section2/)
+  -  [ ]Chapter 4 | Divide and Conquer | Page No.65 from Introduction to Algorithm by CLRS
 
 Almost everyone knows what recursion is, right? But that is not enough. You have to create some sort of mental model how recursion actually saves states by pushing function code to stack and reaches at the last/smallest problem and then solves it and then backtrack from there by poping function code from stack to top and etc. You have to spend sufficient time to understand recursion through studying and practicing, as recursion is will be the base of everything in this type.
 
 #### - Divide and Conquer algorithms 
-  -  Implement merge sort, segment tree, binary search etc. And study [Video no. 18, 33 to 38 from Abdul Bari Algorithm's Playlist](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)
+  -  [ ]Implement merge sort, segment tree, binary search etc. And study [Video no. 18, 33 to 38 from Abdul Bari Algorithm's Playlist](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)
 
 #### - Greedy Algorithms:  Huffman Coding
-  -  Proofing greedy algorithm is quite difficult. Studying known problems like knapsack, job schedule, optimal merge pattern, Huffman coding etc are enough to ace greedy questions. Study [Video no.39-no.45 from Abdul Bari Algorithm's Playlist](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)
+  -  [ ]Proofing greedy algorithm is quite difficult. Studying known problems like knapsack, job schedule, optimal merge pattern, Huffman coding etc are enough to ace greedy questions. Study [Video no.39-no.45 from Abdul Bari Algorithm's Playlist](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)
   
 #### - Backtracking & Branch and Bound
-  -  Study [Video no.63 to no.71 from Abdul Bari Algorithm's Playlist](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O). This topic is the key ingredient to solve Dynamic Programming questions.
+  -  [ ]Study [Video no.63 to no.71 from Abdul Bari Algorithm's Playlist](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O). This topic is the key ingredient to solve Dynamic Programming questions.
 
 #### - Big Guy: Dynamic Programming and memoization 😭
 Recognize the pattern/formula for a dp problem. Say for example: A String based DP problem involves a 2D matrix where [i][j] generally refers to the solution for index i to j of the String and etc. Here is what you should do, try to understand backtracking very well as that will be the key in solving DP. After getting a backtracking solution you can memoize the previous solutions and reduce solutions to 2/3 Degree Polynomial Time. 
 
-  -  [Intro](https://www.youtube.com/watch?v=iv_yHjmkv4I)
-  - [video no.19(MUST MUST!),20-22,26-27,39-45 from MIT OCW Introduction to Algorithm](https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-  -  [DP & Memoization](https://www.youtube.com/watch?v=P8Xa2BitN3I&t=13s)
+  - [ ][Intro](https://www.youtube.com/watch?v=iv_yHjmkv4I)
+  - [ ][video no.19(MUST MUST!),20-22,26-27,39-45 from MIT OCW Introduction to Algorithm](https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+  -  [ ][DP & Memoization](https://www.youtube.com/watch?v=P8Xa2BitN3I&t=13s)
 
 Anyway, you have to study known DP problems as much as you possibly can and try to recognize the patterns and types. 
-  -  [Fibonacci, Shortest Paths](https://www.youtube.com/watch?v=OQ5jsbhAv_M&t=7s) : Dijkstron & Floyd Warshall
-  -  [Text Justification, Blackjac](https://www.youtube.com/watch?v=ENyox7kNKeY&t=4s)
-  -  [Leetcode Coin(giveaway) winning post on Dynamic Programming Patterns by aatalyk](https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns)
-  -  [Tushar Roy's Dynamic Programing Playlist](https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)
-  -  [Video no.46 to no.60 from Abdul Bari Algorithm's Playlist](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)
-  -  [Cheat Sheet](https://www.topcoder.com/community/competitive-programming/tutorials/dynamic-programming-from-novice-to-advanced/)
+  -  [ ][Fibonacci, Shortest Paths](https://www.youtube.com/watch?v=OQ5jsbhAv_M&t=7s) : Dijkstron & Floyd Warshall
+  -  [ ][Text Justification, Blackjac](https://www.youtube.com/watch?v=ENyox7kNKeY&t=4s)
+  -  [ ][Leetcode Coin(giveaway) winning post on Dynamic Programming Patterns by aatalyk](https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns)
+  -  [ ][Tushar Roy's Dynamic Programing Playlist](https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)
+  -  [ ][Video no.46 to no.60 from Abdul Bari Algorithm's Playlist](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)
+  -  [ ][Cheat Sheet](https://www.topcoder.com/community/competitive-programming/tutorials/dynamic-programming-from-novice-to-advanced/)
   
 **Comment**: I find **Abdul bari's tutorial** more effective and easy to follow. His style to teach students is quite exceptional. Suppose you are studying Longest Common Subsequence, first understand the question really good -> try to solve a small problem of the main problem -> try to solve a bit big problem with the help of solution and see if you can find any formula/pattern -> if you can't find any then read discussion/solution(only algorithm not code) and try to code it up after understanding -> If still doesn't work for you then watch the video of that topic from the playlist i have mentioned and try hard this time to understand and visualize the algorithm. -> You solved a DP Question!   
 
 **Tips**: **Pythonistas** After you just come up with a 2N backtracking solution just use functools.lru_cache(maxsize=None) decorator and you will have a dp solution(almost 90% time).
 
 #### - Graph Theory (directed, undirected, weighted, rooted(IN & OUT) and unrooted tree, DAG etc)
-[Graph Theory Easy to Advanced Course - Full Tutorial from a Google Engineer and ACM ICPC World Finalist](https://www.youtube.com/playlist?list=PLDV1Zeh2NRsDGO4--qE8yH72HFL1Km93P)
+[ ][Graph Theory Easy to Advanced Course - Full Tutorial from a Google Engineer and ACM ICPC World Finalist](https://www.youtube.com/playlist?list=PLDV1Zeh2NRsDGO4--qE8yH72HFL1Km93P)
 
 Comment: There are so much overlaps in between greedy, dp with graph theory. Say for example Dijkstra, Prim's and Kruskal's Minimum Spanning tree are just Greedy Algorithms or backtracking is just DFS with branch pruning with condition. So you will find it a lot easier after studying programming paradigm section. In fact graph problems are either so easy to recognize that everything is given so explicitly that any one can recognize it as a typical graph question or may be it's too hidden to even think it as a graph question. So my suggestion is to think out of the box for a problem, think if a problem can be solved by using graphs. **Never forget that, Interviewers are just obsessed with binary tree, so try to solve as many questions as you can related to tree, specifically binary tree(and also n-ary tree). And also solve at least 20 questions with tag BFS and DFS in Leetcode which will definitely boost your tree and graph problem solving skill as graph traversal is the main toolkit to solve tree/graph problems in interview. That's all about graph.** 
 
 #### - Mathmatics (Number theory, Computational Geometry, Combinatorics, Linear Algebra etc)
-  - [MIT 6.042J Mathematics for Computer Science, Spring 2015](https://www.youtube.com/playlist?list=PLUl4u3cNGP60UlabZBeeqOuoLuj_KNphQ) and also try to examine your understand through their quiz and exams from [Mathematics for Computer Science MIT OCW main site](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/).
-  - Algebra Section 
-  - [English translation of e-maxx awesome algorithm text tutorial](http://cp-algorithms.com/)
+  - [ ][MIT 6.042J Mathematics for Computer Science, Spring 2015](https://www.youtube.com/playlist?list=PLUl4u3cNGP60UlabZBeeqOuoLuj_KNphQ) and also try to examine your understand through their quiz and exams from [Mathematics for Computer Science MIT OCW main site](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/).
+  - [ ]Algebra Section 
+  - [ ][English translation of e-maxx awesome algorithm text tutorial](http://cp-algorithms.com/)
 
-#### - NP-completenes
+#### - NP, NP-Complete and Approximation Algorithms
+  -  [ ]Know about the most famous classes of NP-complete problems, such as traveling salesman and the knapsack problem, and be able to recognize them when an interviewer asks you them in disguise.
+  -  [ ][Introduction to NP-Completeness](https://youtu.be/qcGnJ47Smlo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=2939)
 
 #### - String Manipulation 
-  -  Follow the string section from [CP Algorithms Site](http://cp-algorithms.com/).
-  -  [Longest Consecutive Characters](https://www.youtube.com/watch?v=qRNB8CV3_LU)
-  -  [Substring Search](https://www.coursera.org/learn/algorithms-part2/home/week/4)
-  -  Linear-time string matching: Z algorithm 
+  -  [ ]Follow the string section from [CP Algorithms Site](http://cp-algorithms.com/).
+  -  [ ][Longest Consecutive Characters](https://www.youtube.com/watch?v=qRNB8CV3_LU)
+  -  [ ][Substring Search](https://www.coursera.org/learn/algorithms-part2/home/week/4)
+  -  [ ]Linear-time string matching: Z algorithm 
 
 #### - Bit Manipulation 
-  -  Follow [HackerEarth Bit Manipulation Tutorial](https://www.hackerearth.com/practice/basic-programming/bit-manipulation/basics-of-bit-manipulation/tutorial/) and also [TopCoder Fun with Bits Tutorial](https://www.topcoder.com/community/competitive-programming/tutorials/a-bit-of-fun-fun-with-bits/).
+  -  [ ]Follow [HackerEarth Bit Manipulation Tutorial](https://www.hackerearth.com/practice/basic-programming/bit-manipulation/basics-of-bit-manipulation/tutorial/) and also [TopCoder Fun with Bits Tutorial](https://www.topcoder.com/community/competitive-programming/tutorials/a-bit-of-fun-fun-with-bits/).
 
 ## Data Structures
 ![](https://res.cloudinary.com/practicaldev/image/fetch/s--WlnYH5fq--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://cdn-images-1.medium.com/max/1600/1%2ADyu63sMUVL-gYEZISOE2BQ.jpeg)
@@ -134,7 +135,7 @@ ps:This is one of the best materials to study on data structure topic. William i
 ### Trees
   -  [Intro](https://www.youtube.com/watch?v=oSWTXtMglKE&feature=youtu.be)
 
-### Heaps
+### Heap / Priority Queue / Binary Heap
   -  [Intro](https://www.youtube.com/watch?v=t0Cq6tVNRBA&feature=youtu.be)
 
 ### Hash Table
@@ -168,6 +169,8 @@ ps:This is one of the best materials to study on data structure topic. William i
   -  [Bubble Sort](https://youtu.be/6Gv8vg0kcHc)
   -  [Merge Sort](https://youtu.be/KF2j-9iSf4Q)
   -  [Quick Sort](https://youtu.be/SLauY6PpjW4)
+  -  [stability in sorting algorithms](https://www.geeksforgeeks.org/stability-in-sorting-algorithms/)
+  -  Heap Sort: Heap sort is great, but not stable.
   
 ## Best DSA study Link
   -  [TopCoder Competitive Programming Tutorials](https://www.topcoder.com/community/competitive-programming/tutorials/)
@@ -244,6 +247,15 @@ System design questions are crucial questions that show you are more than just a
   - [Difference Between Process and Thread --- Georgia Tech --- Advanced Operating Systems](https://www.youtube.com/watch?v=O3EyzlZxx3g&t=11s)
   - [Difference between forking and multithreading](https://leetcode.com/discuss/interview-question/operating-system/125024/Difference-between-forking-and-multithreading)
   
+## Cache 
+  -  LRU cache:
+ 	- [The Magic of LRU Cache (100 Days of Google Dev)](https://www.youtube.com/watch?v=R5ON3iwx78M)
+ 	- [Implementing LRU ](https://www.youtube.com/watch?v=bq6N7Ym81iI)
+ 	- [LeetCode - 146 LRU Cache](https://www.youtube.com/watch?v=8-FZRAjR7qU)
+  -  CPU cache:
+ 	- [MIT 6.004 L15: The Memory Hierarchy](https://www.youtube.com/watch?v=vjYF_fAZI5E&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-&index=24)
+ 	- [MIT 6.004 L16: Cache Issues](https://www.youtube.com/watch?v=ajgC3-pyGlk&index=25&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82)
+	
 ## OOP 
   - [Inheritance](https://www.youtube.com/watch?v=9JpNY-XAseg)
   - [Introduction to Polymorphism](https://www.youtube.com/watch?v=0xw06loTm1k)
