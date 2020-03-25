@@ -26,9 +26,9 @@ Don't Rush. Enjoy the journey. Try to be a natural problem solver not a intervie
 # Table of Contents 
 - [CS Fundamentals](#CS-Funamentals)
 	* [Introduction to Algorithms](#Introduction-to-Algorithms)
-		+ [Time & Space Complexity ](#Time-&-Space-Complexity)
-		+ [Programming Paradigm](#Programming-Paradigm)
-	* [Data Structure](#Data-Structure)
+		+ [Time & Space Complexity](#Time-&-Space-Complexity)
+		+ [Programming Paradigm](#Programming-Paradigm-(Review-ECS122A))
+	* [Data Structures](#Data-Structures)
 	* [Algorithms](#Algorithms)
 	* [Best DSA study Link](#Best-DSA-study-Link)
 - [Run practice problems](#Run-practice-problems)
@@ -37,7 +37,7 @@ Don't Rush. Enjoy the journey. Try to be a natural problem solver not a intervie
 
 # CS Fundamentals 
 ## Introduction to Algorithms 
-### Time & Space Complexity 
+### Time & Space Complexity
   -  [Video no. 1-16 Abdul Bari's Algorithm Playlist](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)  
 ps:After watching this 16 videos i can guarantee that you will gain mastery on Time Complexity for sure.)  
 
