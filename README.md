@@ -240,3 +240,4 @@ The secret is nothing but **Regular Deliberate Strategic Practice**. We always t
   -  [CP and CI Study materials by Jasmine Chen(Google SWE)](https://github.com/lnishan/awesome-competitive-programming) : this one is gold
   -  [Great guideline on acing interviews and what to study?](https://medium.com/@nick.ciubotariu/ace-the-coding-interview-every-time-d169ce1fd3fc)
   -  [DSA for CP guys(CI guys should also try if you have time)](http://cp-algorithms.com/)
+  -  [Crackign the interview](https://www.youtube.com/playlist?list=PLX6IKgS15Ue02WDPRCmYKuZicQHit9kFt)
