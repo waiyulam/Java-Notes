@@ -15,7 +15,7 @@ ps:After watching this 16 videos i can guarantee that you will gain mastery on T
   -  [Cheat Sheet](http://bigocheatsheet.com/)
   
 ### Programming Paradigm (Review ECS122A)
-#### Recursion and analysis of recurrence relations
+#### - Recursion and analysis of recurrence relations
   -  [Recursion Playlist by mycodeschool](https://www.youtube.com/playlist?list=PL2_aWCzGMAwLz3g66WrxFGSXvSsvyfzCO)
   -  [Masters Theorem for the proof of recursion](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)
 video no. 18 to no. 29 from Abdul Bari's Algorithm Playlist 
@@ -25,16 +25,16 @@ video no. 18 to no. 29 from Abdul Bari's Algorithm Playlist
 
 Almost everyone knows what recursion is, right? But that is not enough. You have to create some sort of mental model how recursion actually saves states by pushing function code to stack and reaches at the last/smallest problem and then solves it and then backtrack from there by poping function code from stack to top and etc. You have to spend sufficient time to understand recursion through studying and practicing, as recursion is will be the base of everything in this type.
 
-#### Divide and Conquer algorithms 
+#### - Divide and Conquer algorithms 
   -  Implement merge sort, segment tree, binary search etc. And study [Video no. 18, 33 to 38 from Abdul Bari Algorithm's Playlist](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)
 
-#### Greedy Algorithms:  Huffman Coding
+#### - Greedy Algorithms:  Huffman Coding
   -  Proofing greedy algorithm is quite difficult. Studying known problems like knapsack, job schedule, optimal merge pattern, Huffman coding etc are enough to ace greedy questions. Study [Video no.39-no.45 from Abdul Bari Algorithm's Playlist](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)
   
-#### Backtracking & Branch and Bound
+#### - Backtracking & Branch and Bound
   -  Study [Video no.63 to no.71 from Abdul Bari Algorithm's Playlist](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O). This topic is the key ingredient to solve Dynamic Programming questions.
 
-#### Big Guy: Dynamic Programming and memoization 😭
+#### - Big Guy: Dynamic Programming and memoization 😭
 Recognize the pattern/formula for a dp problem. Say for example: A String based DP problem involves a 2D matrix where [i][j] generally refers to the solution for index i to j of the String and etc. Here is what you should do, try to understand backtracking very well as that will be the key in solving DP. After getting a backtracking solution you can memoize the previous solutions and reduce solutions to 2/3 Degree Polynomial Time. 
 
   -  [Intro](https://www.youtube.com/watch?v=iv_yHjmkv4I)
@@ -53,25 +53,25 @@ Anyway, you have to study known DP problems as much as you possibly can and try 
 
 **Tips**: **Pythonistas** After you just come up with a 2N backtracking solution just use functools.lru_cache(maxsize=None) decorator and you will have a dp solution(almost 90% time).
 
-#### Graph Theory (directed, undirected, weighted, rooted(IN & OUT) and unrooted tree, DAG etc)
+#### - Graph Theory (directed, undirected, weighted, rooted(IN & OUT) and unrooted tree, DAG etc)
 [Graph Theory Easy to Advanced Course - Full Tutorial from a Google Engineer and ACM ICPC World Finalist](https://www.youtube.com/playlist?list=PLDV1Zeh2NRsDGO4--qE8yH72HFL1Km93P)
 
 Comment: There are so much overlaps in between greedy, dp with graph theory. Say for example Dijkstra, Prim's and Kruskal's Minimum Spanning tree are just Greedy Algorithms or backtracking is just DFS with branch pruning with condition. So you will find it a lot easier after studying programming paradigm section. In fact graph problems are either so easy to recognize that everything is given so explicitly that any one can recognize it as a typical graph question or may be it's too hidden to even think it as a graph question. So my suggestion is to think out of the box for a problem, think if a problem can be solved by using graphs. **Never forget that, Interviewers are just obsessed with binary tree, so try to solve as many questions as you can related to tree, specifically binary tree(and also n-ary tree). And also solve at least 20 questions with tag BFS and DFS in Leetcode which will definitely boost your tree and graph problem solving skill as graph traversal is the main toolkit to solve tree/graph problems in interview. That's all about graph.** 
 
-#### Mathmatics (Number theory, Computational Geometry, Combinatorics, Linear Algebra etc)
+#### - Mathmatics (Number theory, Computational Geometry, Combinatorics, Linear Algebra etc)
   - [MIT 6.042J Mathematics for Computer Science, Spring 2015](https://www.youtube.com/playlist?list=PLUl4u3cNGP60UlabZBeeqOuoLuj_KNphQ) and also try to examine your understand through their quiz and exams from [Mathematics for Computer Science MIT OCW main site](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/).
   - Algebra Section 
   - [English translation of e-maxx awesome algorithm text tutorial](http://cp-algorithms.com/)
 
-#### NP-completenes
+#### - NP-completenes
 
-#### String Manipulation 
+#### - String Manipulation 
   -  Follow the string section from [CP Algorithms Site](http://cp-algorithms.com/).
   -  [Longest Consecutive Characters](https://www.youtube.com/watch?v=qRNB8CV3_LU)
   -  [Substring Search](https://www.coursera.org/learn/algorithms-part2/home/week/4)
   -  Linear-time string matching: Z algorithm 
 
-#### Bit Manipulation 
+#### - Bit Manipulation 
   -  Follow [HackerEarth Bit Manipulation Tutorial](https://www.hackerearth.com/practice/basic-programming/bit-manipulation/basics-of-bit-manipulation/tutorial/) and also [TopCoder Fun with Bits Tutorial](https://www.topcoder.com/community/competitive-programming/tutorials/a-bit-of-fun-fun-with-bits/).
 
 ## Data Structures
