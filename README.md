@@ -237,6 +237,7 @@ The secret is nothing but **Regular Deliberate Strategic Practice**. We always t
 
 ## Comprehensive gold materials 
   -  [Comprehensive Data Structure and Algorithm Study Guide](https://leetcode.com/discuss/general-discussion/494279/comprehensive-data-structure-and-algorithm-study-guide)
+  -  [Coding Interview University by John Washam](https://github.com/jwasham/coding-interview-university)
   -  [CP and CI Study materials by Jasmine Chen(Google SWE)](https://github.com/lnishan/awesome-competitive-programming) : this one is gold
   -  [Great guideline on acing interviews and what to study?](https://medium.com/@nick.ciubotariu/ace-the-coding-interview-every-time-d169ce1fd3fc)
   -  [DSA for CP guys(CI guys should also try if you have time)](http://cp-algorithms.com/)
