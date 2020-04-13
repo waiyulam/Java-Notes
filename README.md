@@ -50,7 +50,7 @@ Don't Rush. Enjoy the journey. Try to be a natural problem solver not a intervie
 ### Time and Space Complexity
   -  [x] [Video no. 1-16 Abdul Bari's Algorithm Playlist](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)  
 ps:After watching this 16 videos i can guarantee that you will gain mastery on Time Complexity for sure.)  
-
+--------------------------------------------------------------------------------------------------------   
   -  [ ] [Overall Recall of Algorithm Complexity Analysis](http://discrete.gr/complexity/)
   -  [ ] [Cheat Sheet](http://bigocheatsheet.com/)
   
