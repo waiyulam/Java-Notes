@@ -43,6 +43,7 @@ Don't Rush. Enjoy the journey. Try to be a natural problem solver not a intervie
 	* [Best DSA study Link](#Best-DSA-study-Link)
 - [Run practice problems](#Run-practice-problems)
 - [Interview Questions](#Interview-Questions)
+- [Programming Language Review](#Programming-Language-Review)
 - [Others](#Others)
 
 # CS Fundamentals 
@@ -197,6 +198,9 @@ Practices and Practices. only practice can guarantee success
   - [Check if a binary tree is binary search tree or not](https://www.youtube.com/watch?v=yEwSGhSsT0U&index=35&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
   - [What Is Tail Recursion? Why Is It So Bad?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
   
+# Programming Language Review 
+1. Java 
+2. Python 
 
 # Others 
 ## System Design 
