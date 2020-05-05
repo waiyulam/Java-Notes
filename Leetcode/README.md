@@ -33,8 +33,11 @@ Leetcode 题目整理 ( TAG -> DIFFICULTY -> AC )
 # Docs 
    - [Study Guide](https://docs.google.com/spreadsheets/d/1DlLt2_kRsSLbdoOYhMFcpBZMnA-1SK3A/edit#gid=1486985929)
    - [Leetcode Groups](https://docs.google.com/spreadsheets/u/1/d/1I_fyfIoWEXtHJD32BmVXxj_tishqU7Rd8GqUpRgxhks/edit?usp=drive_web&ouid=104164318499100110569)
-   - [Solutions](https://docs.google.com/document/d/1Yo13hX7gILsXA0v3zbo1KS0J8r2-8NkXinwGT_v_eCI/edit)
+   - [花花酱leetcode video solutions](https://space.bilibili.com/9880352?from=search&seid=16281611103588824138)
+   - [Grandyang solution copy](https://www.cnblogs.com/grandyang/p/4606334.html)
+   - [Sample Solutions](https://docs.google.com/document/d/1Yo13hX7gILsXA0v3zbo1KS0J8r2-8NkXinwGT_v_eCI/edit)
    - [Leetcode Animation](https://github.com/MisterBooo/LeetCodeAnimation)
+   - [Google High-frequency Questions](https://www.1point3acres.com/bbs/thread-611584-1-1.html)
    
 # 错题本
 每周巩固一次做过的题目： 解题思路+code+注释（分析时间空间复杂度）+同一道题目有两种解法 + 两种语言（JAVA & PYTHON )   

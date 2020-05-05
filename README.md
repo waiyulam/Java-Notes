@@ -43,15 +43,16 @@ Don't Rush. Enjoy the journey. Try to be a natural problem solver not a intervie
 	* [Best DSA study Link](#Best-DSA-study-Link)
 - [Run practice problems](#Run-practice-problems)
 - [Interview Questions](#Interview-Questions)
+- [Programming Language Review](#Programming-Language-Review)
 - [Others](#Others)
 
 # CS Fundamentals 
 ## Introduction to Algorithms 
 ### Time and Space Complexity
-  -  [ ] [Video no. 1-16 Abdul Bari's Algorithm Playlist](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)  
+  -  [x] [Video no. 1-16 Abdul Bari's Algorithm Playlist](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)  
 ps:After watching this 16 videos i can guarantee that you will gain mastery on Time Complexity for sure.)  
-
-  -  [ ] [A Gentle Introduction to Algorithm Complexity Analysis](http://discrete.gr/complexity/)
+--------------------------------------------------------------------------------------------------------   
+  -  [ ] [Overall Recall of Algorithm Complexity Analysis](http://discrete.gr/complexity/)
   -  [ ] [Cheat Sheet](http://bigocheatsheet.com/)
   
 ### Programming Paradigm
@@ -197,6 +198,9 @@ Practices and Practices. only practice can guarantee success
   - [Check if a binary tree is binary search tree or not](https://www.youtube.com/watch?v=yEwSGhSsT0U&index=35&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
   - [What Is Tail Recursion? Why Is It So Bad?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
   
+# Programming Language Review 
+1. Java 
+2. Python 
 
 # Others 
 ## System Design 
