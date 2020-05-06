@@ -59,14 +59,18 @@ ps:After watching this 16 videos i can guarantee that you will gain mastery on T
 - [ ] Review ECS122A
 #### - Recursion and analysis of recurrence relations
   -  [x] [Recursion Playlist by mycodeschool](https://www.youtube.com/playlist?list=PL2_aWCzGMAwLz3g66WrxFGSXvSsvyfzCO)
-video no. 18 to no. 29 from Abdul Bari's Algorithm Playlist 
+  -  [ ] [Masters Theorem for the proof of recursion: video no. 18 to no. 29 ](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)
+	**Understand types of recursion like tail, head, nested, tree(the one you need everywhere) etc**
   -  [ ] [Sparknotes tutorial on recursion types](https://www.sparknotes.com/cs/recursion/whatisrecursion/section2/)
-
+	**How is tail recursion better than not?**
+  -  [ ] [What Is Tail Recursion Why Is It So Bad?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
+  -  [ ] [Tail Recursion (video)](https://www.youtube.com/watch?v=L1jjXGfxozc)
+  
 Almost everyone knows what recursion is, right? But that is not enough. You have to create some sort of mental model how recursion actually saves states by pushing function code to stack and reaches at the last/smallest problem and then solves it and then backtrack from there by poping function code from stack to top and etc. You have to spend sufficient time to understand recursion through studying and practicing, as recursion is will be the base of everything in this type.
 
 #### - Divide and Conquer algorithms 
-  -  [ ] [Masters Theorem for the proof of recursion](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)
-  -  [ ] Implement merge sort, segment tree, binary search etc. And study [Video no. 18, 33 to 38 from Abdul Bari Algorithm's Playlist](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)
+  -  [ ] Implement merge sort, segment tree, binary search etc
+  -  [ ] [Video no. 18, 33 to 38 from Abdul Bari Algorithm's Playlist](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)
   -  [ ] Chapter 4 | Divide and Conquer | Page No.65 from Introduction to Algorithm by CLRS
   
 #### - Greedy Algorithms:  Huffman Coding
