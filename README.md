@@ -216,7 +216,7 @@ ps:This is one of the best materials to study on data structure topic. William i
   -  [ ] [Merge Sort](https://youtu.be/KF2j-9iSf4Q)
   -  [ ] [Quick Sort](https://youtu.be/SLauY6PpjW4)
   -  [ ] [stability in sorting algorithms](https://www.geeksforgeeks.org/stability-in-sorting-algorithms/)
-  -  [ ] Heap Sort: Heap sort is great, but not stable.
+  -  [ ] [Heap Sort](https://www.youtube.com/watch?v=HqPJF2L5h9U&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O&index=32): Heap sort is great, but not stable.
   
 ## Best DSA study Link
   -  [ ] [TopCoder Competitive Programming Tutorials](https://www.topcoder.com/community/competitive-programming/tutorials/)
