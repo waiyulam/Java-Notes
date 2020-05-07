@@ -79,6 +79,12 @@ Recursion is made for solving problems that can be broken down into smaller, rep
 Almost everyone knows what recursion is, right? But that is not enough. You have to create some sort of mental model how recursion actually saves states by pushing function code to stack and reaches at the last/smallest problem and then solves it and then backtrack from there by poping function code from stack to top and etc. You have to spend sufficient time to understand recursion through studying and practicing, as recursion is will be the base of everything in this type.
 
 #### - Divide and Conquer algorithms  
+**Paradigm** : DAC breaks a problem into subproblems that are similar to the original problem, recursively solves the subproblems, and finally combines the solutions to the subproblems to solve the original problem. Because DAC solves subproblems recursively, each subproblem must be smaller than the original problem, and there must be a base case for subproblems.
+* Divide the problem into a number of subproblems that are smaller instances of the same problem.
+* Conquer the subproblems by solving them recursively. If they are small enough, solve the subproblems as base cases.
+* Combine the solutions to the subproblems into the solution for the original problem.
+![](https://cdn.kastatic.org/ka-perseus-images/db9d172fc33b90e905c1213b8cce660c228bb99c.png)
+
   -  [ ] [Video no. 18, 33 to 38 from Abdul Bari Algorithm's Playlist](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)
   -  [ ] Chapter 4 | Divide and Conquer | Page No.65 from Introduction to Algorithm by CLRS
   -  [ ] Implement max sub-array, matrix multiplication, stressen, merge sort, segment tree, binary search
