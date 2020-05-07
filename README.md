@@ -62,12 +62,19 @@ ps:After watching this 16 videos i can guarantee that you will gain mastery on T
   -  [x] [Masters Theorem for the proof of recursion: video no. 18 to no. 29 ](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)    
   
 **Understand types of recursion like tail, head, nested, tree(the one you need everywhere) etc**
-  -  [ ] [Sparknotes tutorial on recursion types](https://www.sparknotes.com/cs/recursion/whatisrecursion/section2/) 
+  -  [x] [Sparknotes tutorial on recursion types](https://www.sparknotes.com/cs/recursion/whatisrecursion/section2/) 
   
 **How is tail recursion better than not?**
   -  [ ] [What Is Tail Recursion Why Is It So Bad?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
-  -  [ ] [Tail Recursion (video)](https://www.youtube.com/watch?v=L1jjXGfxozc)
-  
+  -  [ ] [Tail Recursion (video)](https://www.youtube.com/watch?v=L1jjXGfxozc)   
+Space consumed by recursive functions is expensive. Beside using recursion for more element and simple code, we should take this into consideration and be aware of how to optimize the solution for better performance. For example, if the function only ends at calling itself, we might consider that is there any iterative method to solve it. 
+
+**Iterative vs. Recursive**   
+Recursion is made for solving problems that can be broken down into smaller, repetitive problems. It is especially good for working on things that have many possible branches and are too complex for an iterative approach. For iterative approach, we are solving problem from bottom to up but for resursive approach, we are solving problem in top-down method. But sometimes problem are too complex to be solved iteratively such as searching in file system. Trees and graphs are data structures that recursion is the best and easiest way to do traversal and Recursion works well for this type of structure because you can search multiple branching paths without having to include many different checks and conditions for every possibility..
+-  [x] [When to Loop? When to Recurse?](https://medium.com/better-programming/when-to-loop-when-to-recurse-b786ad8977de)
+-  [x] [What is recursion and when should I use it?](https://stackoverflow.com/questions/3021/what-is-recursion-and-when-should-i-use-it) 
+-  [x] [When resursion is useful](https://www.quora.com/Is-recursion-actually-useful-I-cant-find-any-reason-to-use-it-Why-do-some-people-love-to-use-it)
+
 Almost everyone knows what recursion is, right? But that is not enough. You have to create some sort of mental model how recursion actually saves states by pushing function code to stack and reaches at the last/smallest problem and then solves it and then backtrack from there by poping function code from stack to top and etc. You have to spend sufficient time to understand recursion through studying and practicing, as recursion is will be the base of everything in this type.
 
 #### - Divide and Conquer algorithms 
