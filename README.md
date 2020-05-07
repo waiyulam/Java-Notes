@@ -59,7 +59,7 @@ ps:After watching this 16 videos i can guarantee that you will gain mastery on T
 - [ ] Review ECS122A
 #### - Recursion and analysis of recurrence relations
   -  [x] [Recursion Playlist by mycodeschool](https://www.youtube.com/playlist?list=PL2_aWCzGMAwLz3g66WrxFGSXvSsvyfzCO)
-  -  [ ] [Masters Theorem for the proof of recursion: video no. 18 to no. 29 ](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)    
+  -  [x] [Masters Theorem for the proof of recursion: video no. 18 to no. 29 ](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)    
   
 **Understand types of recursion like tail, head, nested, tree(the one you need everywhere) etc**
   -  [ ] [Sparknotes tutorial on recursion types](https://www.sparknotes.com/cs/recursion/whatisrecursion/section2/) 
