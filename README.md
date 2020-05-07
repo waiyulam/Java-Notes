@@ -63,10 +63,13 @@ ps:After watching this 16 videos i can guarantee that you will gain mastery on T
   
 **Understand types of recursion like tail, head, nested, tree(the one you need everywhere) etc**
   -  [x] [Sparknotes tutorial on recursion types](https://www.sparknotes.com/cs/recursion/whatisrecursion/section2/) 
+  -  [x] [Types of recursion part 1 (video)](https://www.youtube.com/watch?v=t9whckmAEq0)
+  -  [x] [Types of recursion part 2 (video)](https://www.youtube.com/watch?v=HIt_GPuD7wk)
   
 **How is tail recursion better than not?**
-  -  [ ] [What Is Tail Recursion Why Is It So Bad?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
-  -  [ ] [Tail Recursion (video)](https://www.youtube.com/watch?v=L1jjXGfxozc)   
+  -  [x] [What Is Tail Recursion Why Is It So Bad?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
+  -  [x] [Tail Recursion vs Head Recursion (video )](https://www.youtube.com/watch?v=lG6HxO7cDRw)  
+
 Space consumed by recursive functions is expensive. Beside using recursion for more element and simple code, we should take this into consideration and be aware of how to optimize the solution for better performance. For example, if the function only ends at calling itself, we might consider that is there any iterative method to solve it. 
 
 **Iterative vs. Recursive**   
