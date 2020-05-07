@@ -55,8 +55,6 @@ ps:After watching this 16 videos i can guarantee that you will gain mastery on T
   -  [ ] [Overall Recall of Algorithm Complexity Analysis](http://discrete.gr/complexity/)
   -  [ ] [Cheat Sheet](http://bigocheatsheet.com/)
   
-### Programming Paradigm
-- [ ] Review ECS122A
 #### - Recursion and analysis of recurrence relations
   -  [x] [Recursion Playlist by mycodeschool](https://www.youtube.com/playlist?list=PL2_aWCzGMAwLz3g66WrxFGSXvSsvyfzCO)
   -  [x] [Masters Theorem for the proof of recursion: video no. 18 to no. 29 ](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)    
@@ -217,6 +215,7 @@ Practices and Practices. only practice can guarantee success
 # Programming Language Review 
 1. Java 
 2. Python 
+3. C++ 
 
 # Others 
 ## System Design 
