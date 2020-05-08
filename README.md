@@ -217,6 +217,7 @@ ps:This is one of the best materials to study on data structure topic. William i
   -  [ ] [Quick Sort](https://youtu.be/SLauY6PpjW4)
   -  [ ] [stability in sorting algorithms](https://www.geeksforgeeks.org/stability-in-sorting-algorithms/)
   -  [ ] [Heap Sort](https://www.youtube.com/watch?v=HqPJF2L5h9U&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O&index=32): Heap sort is great, but not stable.
+  -  [ ] [sorting analysis in different criterias](https://www.youtube.com/watch?v=ak-pz7tS5DE&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O&index=35)
   
 ## Best DSA study Link
   -  [ ] [TopCoder Competitive Programming Tutorials](https://www.topcoder.com/community/competitive-programming/tutorials/)
