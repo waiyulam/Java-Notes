@@ -37,7 +37,8 @@ Don't Rush. Enjoy the journey. Try to be a natural problem solver not a intervie
 - [CS Fundamentals](#CS-Funamentals)
 	* [Introduction to Algorithms](#Introduction-to-Algorithms)
 		+ [Time&Space Complexity](#Time-and-Space-Complexity)
-		+ [Programming Paradigm](#Programming-Paradigm)
+		+ [Recursion](#Recursion-and-analysis-of-recurrence-relations)
+		+ [Divide and Conquer](#Divide-and-Conquer-algorithms)
 	* [Data Structures](#Data-Structures)
 	* [Algorithms](#Algorithms)
 	* [Best DSA study Link](#Best-DSA-study-Link)
@@ -49,33 +50,61 @@ Don't Rush. Enjoy the journey. Try to be a natural problem solver not a intervie
 # CS Fundamentals 
 ## Introduction to Algorithms 
 ### Time and Space Complexity
+--------------------------------------------------------------------------------------------------------   
   -  [x] [Video no. 1-16 Abdul Bari's Algorithm Playlist](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)  
 ps:After watching this 16 videos i can guarantee that you will gain mastery on Time Complexity for sure.)  
---------------------------------------------------------------------------------------------------------   
+
   -  [ ] [Overall Recall of Algorithm Complexity Analysis](http://discrete.gr/complexity/)
   -  [ ] [Cheat Sheet](http://bigocheatsheet.com/)
   
-### Programming Paradigm
-- [ ] Review ECS122A
-#### - Recursion and analysis of recurrence relations
-  -  [ ] [Recursion Playlist by mycodeschool](https://www.youtube.com/playlist?list=PL2_aWCzGMAwLz3g66WrxFGSXvSsvyfzCO)
-  -  [ ] [Masters Theorem for the proof of recursion](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)
-video no. 18 to no. 29 from Abdul Bari's Algorithm Playlist 
-  -  [ ] [Sparknotes tutorial on recursion types](https://www.sparknotes.com/cs/recursion/whatisrecursion/section2/)
-  -  [ ] Chapter 4 | Divide and Conquer | Page No.65 from Introduction to Algorithm by CLRS
+### Recursion and analysis of recurrence relations
+--------------------------------------------------------------------------------------------------------   
+  -  [x] [Recursion Playlist by mycodeschool](https://www.youtube.com/playlist?list=PL2_aWCzGMAwLz3g66WrxFGSXvSsvyfzCO)
+  -  [x] [Masters Theorem for the proof of recursion: video no. 18 to no. 29 ](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)    
+  
+**Understand types of recursion like tail, head, nested, tree(the one you need everywhere) etc**
+  -  [x] [Sparknotes tutorial on recursion types](https://www.sparknotes.com/cs/recursion/whatisrecursion/section2/) 
+  -  [x] [Types of recursion part 1 (video)](https://www.youtube.com/watch?v=t9whckmAEq0)
+  -  [x] [Types of recursion part 2 (video)](https://www.youtube.com/watch?v=HIt_GPuD7wk)
+  
+**How is tail recursion better than not?**
+  -  [x] [What Is Tail Recursion Why Is It So Bad?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
+  -  [x] [Tail Recursion vs Head Recursion (video )](https://www.youtube.com/watch?v=lG6HxO7cDRw)  
+
+Space consumed by recursive functions is expensive. Beside using recursion for more element and simple code, we should take this into consideration and be aware of how to optimize the solution for better performance. For example, if the function only ends at calling itself, we might consider that is there any iterative method to solve it. 
+
+**Iterative vs. Recursive**   
+Recursion is made for solving problems that can be broken down into smaller, repetitive problems. It is especially good for working on things that have many possible branches and are too complex for an iterative approach. For iterative approach, we are solving problem from bottom to up but for resursive approach, we are solving problem in top-down method. But sometimes problem are too complex to be solved iteratively such as searching in file system. Trees and graphs are data structures that recursion is the best and easiest way to do traversal and Recursion works well for this type of structure because you can search multiple branching paths without having to include many different checks and conditions for every possibility..
+-  [x] [When to Loop? When to Recurse?](https://medium.com/better-programming/when-to-loop-when-to-recurse-b786ad8977de)
+-  [x] [What is recursion and when should I use it?](https://stackoverflow.com/questions/3021/what-is-recursion-and-when-should-i-use-it) 
+-  [x] [When resursion is useful](https://www.quora.com/Is-recursion-actually-useful-I-cant-find-any-reason-to-use-it-Why-do-some-people-love-to-use-it)
 
 Almost everyone knows what recursion is, right? But that is not enough. You have to create some sort of mental model how recursion actually saves states by pushing function code to stack and reaches at the last/smallest problem and then solves it and then backtrack from there by poping function code from stack to top and etc. You have to spend sufficient time to understand recursion through studying and practicing, as recursion is will be the base of everything in this type.
 
-#### - Divide and Conquer algorithms 
-  -  [ ] Implement merge sort, segment tree, binary search etc. And study [Video no. 18, 33 to 38 from Abdul Bari Algorithm's Playlist](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)
+### Divide and Conquer algorithms
+--------------------------------------------------------------------------------------------------------   
+**Paradigm** : DAC breaks a problem into subproblems that are similar to the original problem, recursively solves the subproblems, and finally combines the solutions to the subproblems to solve the original problem. Because DAC solves subproblems recursively, each subproblem must be smaller than the original problem, and there must be a base case for subproblems.
+* Divide the problem into a number of subproblems that are smaller instances of the same problem.
+* Conquer the subproblems by solving them recursively. If they are small enough, solve the subproblems as base cases.
+* Combine the solutions to the subproblems into the solution for the original problem.
+![](https://cdn.kastatic.org/ka-perseus-images/db9d172fc33b90e905c1213b8cce660c228bb99c.png)
 
-#### - Greedy Algorithms:  Huffman Coding
+  -  [x] [Video no. 18, 33 to 38 from Abdul Bari Algorithm's Playlist](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)
+  -  [ ] Chapter 4 | Divide and Conquer | Page No.65 from Introduction to Algorithm by CLRS
+  -  [ ] Implement DAC algorithms : max sub-array, matrix multiplication, stressen, [merge sort](https://www.geeksforgeeks.org/python-program-for-merge-sort/), segment tree, binary search
+  	-  [Geeksforgeeks](https://www.geeksforgeeks.org/divide-and-conquer-algorithm-introduction/)
+	-  [Khan Academy](https://www.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/divide-and-conquer-algorithms)
+  
+### Greedy Algorithms:  Huffman Coding
+--------------------------------------------------------------------------------------------------------   
   -  [ ] Proofing greedy algorithm is quite difficult. Studying known problems like knapsack, job schedule, optimal merge pattern, Huffman coding etc are enough to ace greedy questions. Study [Video no.39-no.45 from Abdul Bari Algorithm's Playlist](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)
   
-#### - Backtracking & Branch and Bound
+### Backtracking & Branch and Bound
+--------------------------------------------------------------------------------------------------------   
   -  [ ] Study [Video no.63 to no.71 from Abdul Bari Algorithm's Playlist](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O). This topic is the key ingredient to solve Dynamic Programming questions.
 
-#### - Big Guy: Dynamic Programming and memoization 😭
+### Big Guy: Dynamic Programming and memoization 😭
+--------------------------------------------------------------------------------------------------------   
 Recognize the pattern/formula for a dp problem. Say for example: A String based DP problem involves a 2D matrix where [i][j] generally refers to the solution for index i to j of the String and etc. Here is what you should do, try to understand backtracking very well as that will be the key in solving DP. After getting a backtracking solution you can memoize the previous solutions and reduce solutions to 2/3 Degree Polynomial Time. 
 
   - [ ] [Intro](https://www.youtube.com/watch?v=iv_yHjmkv4I)
@@ -88,33 +117,39 @@ Anyway, you have to study known DP problems as much as you possibly can and try 
   -  [ ] [Leetcode Coin(giveaway) winning post on Dynamic Programming Patterns by aatalyk](https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns)
   -  [ ] [Tushar Roy's Dynamic Programing Playlist](https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)
   -  [ ] [Video no.46 to no.60 from Abdul Bari Algorithm's Playlist](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)
+  -  [ ] [DP vs. DAC](https://www.geeksforgeeks.org/dynamic-programming-vs-divide-and-conquer/?ref=rp)
   -  [ ] [Cheat Sheet](https://www.topcoder.com/community/competitive-programming/tutorials/dynamic-programming-from-novice-to-advanced/)
   
 **Comment**: I find **Abdul bari's tutorial** more effective and easy to follow. His style to teach students is quite exceptional. Suppose you are studying Longest Common Subsequence, first understand the question really good -> try to solve a small problem of the main problem -> try to solve a bit big problem with the help of solution and see if you can find any formula/pattern -> if you can't find any then read discussion/solution(only algorithm not code) and try to code it up after understanding -> If still doesn't work for you then watch the video of that topic from the playlist i have mentioned and try hard this time to understand and visualize the algorithm. -> You solved a DP Question!   
 
 **Tips**: **Pythonistas** After you just come up with a 2N backtracking solution just use functools.lru_cache(maxsize=None) decorator and you will have a dp solution(almost 90% time).
 
-#### - Graph Theory (directed, undirected, weighted, rooted(IN & OUT) and unrooted tree, DAG etc)
+### Graph Theory (directed, undirected, weighted, rooted(IN & OUT) and unrooted tree, DAG etc)
+--------------------------------------------------------------------------------------------------------   
 - [ ] [Graph Theory Easy to Advanced Course - Full Tutorial from a Google Engineer and ACM ICPC World Finalist](https://www.youtube.com/playlist?list=PLDV1Zeh2NRsDGO4--qE8yH72HFL1Km93P)
 
 Comment: There are so much overlaps in between greedy, dp with graph theory. Say for example Dijkstra, Prim's and Kruskal's Minimum Spanning tree are just Greedy Algorithms or backtracking is just DFS with branch pruning with condition. So you will find it a lot easier after studying programming paradigm section. In fact graph problems are either so easy to recognize that everything is given so explicitly that any one can recognize it as a typical graph question or may be it's too hidden to even think it as a graph question. So my suggestion is to think out of the box for a problem, think if a problem can be solved by using graphs. **Never forget that, Interviewers are just obsessed with binary tree, so try to solve as many questions as you can related to tree, specifically binary tree(and also n-ary tree). And also solve at least 20 questions with tag BFS and DFS in Leetcode which will definitely boost your tree and graph problem solving skill as graph traversal is the main toolkit to solve tree/graph problems in interview. That's all about graph.** 
 
-#### - Mathmatics (Number theory, Computational Geometry, Combinatorics, Linear Algebra etc)
+### Mathmatics (Number theory, Computational Geometry, Combinatorics, Linear Algebra etc)
+--------------------------------------------------------------------------------------------------------   
   - [ ] [MIT 6.042J Mathematics for Computer Science, Spring 2015](https://www.youtube.com/playlist?list=PLUl4u3cNGP60UlabZBeeqOuoLuj_KNphQ) and also try to examine your understand through their quiz and exams from [Mathematics for Computer Science MIT OCW main site](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/).
   - [ ] Algebra Section 
   - [ ] [English translation of e-maxx awesome algorithm text tutorial](http://cp-algorithms.com/)
 
-#### - NP, NP-Complete and Approximation Algorithms
+### NP, NP-Complete and Approximation Algorithms
+--------------------------------------------------------------------------------------------------------   
   -  [ ] Know about the most famous classes of NP-complete problems, such as traveling salesman and the knapsack problem, and be able to recognize them when an interviewer asks you them in disguise.
   -  [ ] [Introduction to NP-Completeness](https://youtu.be/qcGnJ47Smlo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=2939)
 
-#### - String Manipulation 
+### String Manipulation 
+--------------------------------------------------------------------------------------------------------   
   -  [ ] Follow the string section from [CP Algorithms Site](http://cp-algorithms.com/).
   -  [ ] [Longest Consecutive Characters](https://www.youtube.com/watch?v=qRNB8CV3_LU)
   -  [ ] [Substring Search](https://www.coursera.org/learn/algorithms-part2/home/week/4)
   -  [ ] Linear-time string matching: Z algorithm 
 
-#### - Bit Manipulation 
+### Bit Manipulation 
+--------------------------------------------------------------------------------------------------------   
   -  [ ] Follow [HackerEarth Bit Manipulation Tutorial](https://www.hackerearth.com/practice/basic-programming/bit-manipulation/basics-of-bit-manipulation/tutorial/) and also [TopCoder Fun with Bits Tutorial](https://www.topcoder.com/community/competitive-programming/tutorials/a-bit-of-fun-fun-with-bits/).
 
 ## Data Structures
@@ -125,32 +160,40 @@ Comment: There are so much overlaps in between greedy, dp with graph theory. Say
 ps:This is one of the best materials to study on data structure topic. William implemented each on Java. But it doesn't really matter which language you use, i did this course in both in c++ and python. And try to code yourself after watching a data structure topic and do some leetcode question on that. And this is all you need to ace DS questions.)
 
 ### Arrays 
+--------------------------------------------------------------------------------------------------------   
   - [ ] [Multi-dim Array](https://archive.org/details/0102WhatYouShouldKnow/02_05-multidimensionalArrays.mp4) 
   - [ ] [Dynamic Array](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
   - [ ] [Resizing Array](https://archive.org/details/0102WhatYouShouldKnow/03_01-resizableArrays.mp4)
 
 ### Linked Lists
+--------------------------------------------------------------------------------------------------------   
   -  [ ] [Intro](https://www.youtube.com/watch?v=njTh_OwMljA&feature=youtu.be) 
   -  [ ] [Linked Lists vs Array](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9)
 
 ### Trees
+--------------------------------------------------------------------------------------------------------   
   -  [ ] [Intro](https://www.youtube.com/watch?v=oSWTXtMglKE&feature=youtu.be)
 
 ### Heap / Priority Queue / Binary Heap
+--------------------------------------------------------------------------------------------------------   
   -  [ ] [Intro](https://www.youtube.com/watch?v=t0Cq6tVNRBA&feature=youtu.be)
 
 ### Hash Table
+--------------------------------------------------------------------------------------------------------   
   -  [ ] [Intro](https://www.youtube.com/watch?v=shs0KM3wKv8&feature=youtu.be)
   -  [ ] [Phone Book Problem](https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem)
 
 ### Stacks and Queues
+--------------------------------------------------------------------------------------------------------   
   -  [ ] [Intro](https://youtu.be/wjI1WNcIntg)
   -  [ ] [Using Stacks Last-In First-Out ](https://archive.org/details/0102WhatYouShouldKnow/05_01-usingStacksForLast-inFirst-out.mp4)
 
 ### Tries
+--------------------------------------------------------------------------------------------------------   
   -  [ ] [Intro](https://www.youtube.com/watch?v=zIjfhVPRZCg)
 
 ### Others 
+--------------------------------------------------------------------------------------------------------   
   -  [ ] [Data Structure Intro](https://www.youtube.com/watch?v=bum_19loj9A)
   -  [ ] [Crash Course Computer Science](https://www.youtube.com/watch?v=DuDz6B4cqVc&feature=youtu.be)
 
@@ -158,21 +201,28 @@ ps:This is one of the best materials to study on data structure topic. William i
 ## Algorithms 
 ![](https://res.cloudinary.com/practicaldev/image/fetch/s--POn2iYyz--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://cdn-images-1.medium.com/max/1600/1%2AbPpvELo9_QqQsDz7CSbwXQ.gif) 
 
-### Graph Search 
+### Graph Search
+--------------------------------------------------------------------------------------------------------   
   -  [ ] [Intro](https://www.youtube.com/watch?v=zaBhtODEL0w&list=PLX6IKgS15Ue02WDPRCmYKuZicQHit9kFt)
   -  [ ] [BFS(breadth-first search) and DFS(depth-first search)](https://www.youtube.com/watch?v=uWL6FJhq5fM)
 
 ### Binary Search 
+--------------------------------------------------------------------------------------------------------   
   -  [ ] [Intro](https://youtu.be/P3YID7liBug)
   -  [ ] [Binary Search Tree Review](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
   
 ### Sorting
-  -  [ ] [Bubble Sort](https://youtu.be/6Gv8vg0kcHc)
-  -  [ ] [Merge Sort](https://youtu.be/KF2j-9iSf4Q)
-  -  [ ] [Quick Sort](https://youtu.be/SLauY6PpjW4)
-  -  [ ] [stability in sorting algorithms](https://www.geeksforgeeks.org/stability-in-sorting-algorithms/)
-  -  [ ] Heap Sort: Heap sort is great, but not stable.
-  
+--------------------------------------------------------------------------------------------------------   
+-  [ ] [Bubble Sort](https://youtu.be/6Gv8vg0kcHc)
+-  [ ] [Merge Sort](https://youtu.be/KF2j-9iSf4Q)
+-  [ ] [Quick Sort](https://youtu.be/SLauY6PpjW4)   
+	- [Standard](https://www.geeksforgeeks.org/python-program-for-quicksort/)
+	- [median of three](https://github.com/meclark256/Coursera/blob/master/QuickSort.py)
+-  [ ] [stability in sorting algorithms](https://www.geeksforgeeks.org/stability-in-sorting-algorithms/)   
+	- [quicksort](https://www.geeksforgeeks.org/stable-quicksort/)
+-  [ ] [Heap Sort](https://www.youtube.com/watch?v=HqPJF2L5h9U&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O&index=32): Heap sort is great, but not stable.
+-  [ ] [sorting analysis in different criterias](https://www.youtube.com/watch?v=ak-pz7tS5DE&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O&index=35)
+
 ## Best DSA study Link
   -  [ ] [TopCoder Competitive Programming Tutorials](https://www.topcoder.com/community/competitive-programming/tutorials/)
   -  [ ] [Technical interview Guide by Yangshun](https://yangshun.github.io/tech-interview-handbook/introduction/)
@@ -201,6 +251,7 @@ Practices and Practices. only practice can guarantee success
 # Programming Language Review 
 1. Java 
 2. Python 
+3. C++ 
 
 # Others 
 ## System Design 
