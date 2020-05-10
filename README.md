@@ -216,8 +216,8 @@ ps:This is one of the best materials to study on data structure topic. William i
   -  [ ] [Bubble Sort](https://youtu.be/6Gv8vg0kcHc)
   -  [ ] [Merge Sort](https://youtu.be/KF2j-9iSf4Q)
   -  [ ] [Quick Sort](https://youtu.be/SLauY6PpjW4)
-  -  [ ] [stability in sorting algorithms](https://www.geeksforgeeks.org/stability-in-sorting-algorithms/)
-  	- [ ] [quicksort](https://www.geeksforgeeks.org/stable-quicksort/)
+  -  [ ] [stability in sorting algorithms](https://www.geeksforgeeks.org/stability-in-sorting-algorithms/)   
+  	* [quicksort](https://www.geeksforgeeks.org/stable-quicksort/)
   -  [ ] [Heap Sort](https://www.youtube.com/watch?v=HqPJF2L5h9U&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O&index=32): Heap sort is great, but not stable.
   -  [ ] [sorting analysis in different criterias](https://www.youtube.com/watch?v=ak-pz7tS5DE&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O&index=35)
   
