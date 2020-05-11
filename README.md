@@ -91,7 +91,7 @@ Almost everyone knows what recursion is, right? But that is not enough. You have
 
   -  [x] [Video no. 18, 33 to 38 from Abdul Bari Algorithm's Playlist](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)
   -  [ ] Chapter 4 | Divide and Conquer | Page No.65 from Introduction to Algorithm by CLRS
-  -  [ ] Implement DAC algorithms : max sub-array, matrix multiplication, stressen, [merge sort](https://www.geeksforgeeks.org/python-program-for-merge-sort/), segment tree, binary search
+  -  [x] Implement DAC algorithms : [major element](https://leetcode.com/problems/majority-element/solution/), merge sort, binary search, quick sort
   	-  [Geeksforgeeks](https://www.geeksforgeeks.org/divide-and-conquer-algorithm-introduction/)
 	-  [Khan Academy](https://www.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/divide-and-conquer-algorithms)
   
@@ -215,9 +215,10 @@ ps:This is one of the best materials to study on data structure topic. William i
 --------------------------------------------------------------------------------------------------------   
 -  [ ] [Bubble Sort](https://youtu.be/6Gv8vg0kcHc)
 -  [ ] [Merge Sort](https://youtu.be/KF2j-9iSf4Q)
+	- [Standard](https://www.geeksforgeeks.org/python-program-for-merge-sort/)
 -  [ ] [Quick Sort](https://youtu.be/SLauY6PpjW4)   
 	- [Standard](https://www.geeksforgeeks.org/python-program-for-quicksort/)
-	- [median of three](https://github.com/meclark256/Coursera/blob/master/QuickSort.py)
+	- [Median of three](https://github.com/meclark256/Coursera/blob/master/QuickSort.py)
 -  [ ] [stability in sorting algorithms](https://www.geeksforgeeks.org/stability-in-sorting-algorithms/)   
 	- [quicksort](https://www.geeksforgeeks.org/stable-quicksort/)
 -  [ ] [Heap Sort](https://www.youtube.com/watch?v=HqPJF2L5h9U&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O&index=32): Heap sort is great, but not stable.
