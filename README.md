@@ -97,7 +97,8 @@ Almost everyone knows what recursion is, right? But that is not enough. You have
   
 ### Greedy Algorithms:  Huffman Coding
 --------------------------------------------------------------------------------------------------------   
-  -  [ ] Proofing greedy algorithm is quite difficult. Studying known problems like knapsack, job schedule, optimal merge pattern, Huffman coding etc are enough to ace greedy questions. Study [Video no.39-no.45 from Abdul Bari Algorithm's Playlist](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)
+  -  [ ] [Video no.39-no.45 from Abdul Bari Algorithm's Playlist](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)   
+Proofing greedy algorithm is quite difficult. Studying known problems like knapsack, job schedule, optimal merge pattern, Huffman coding etc are enough to ace greedy questions.  
   
 ### Backtracking & Branch and Bound
 --------------------------------------------------------------------------------------------------------   
