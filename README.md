@@ -91,7 +91,7 @@ Almost everyone knows what recursion is, right? But that is not enough. You have
 
   -  [x] [Video no. 18, 33 to 38 from Abdul Bari Algorithm's Playlist](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)
   -  [ ] Chapter 4 | Divide and Conquer | Page No.65 from Introduction to Algorithm by CLRS
-  -  [x] Implement DAC algorithms : [major element](https://leetcode.com/problems/majority-element/solution/), merge sort, binary search, quick sort
+  -  [x] Implement DAC algorithms : [major element](https://leetcode.com/problems/majority-element/solution/), maximum subarray sum, merge sort, binary search, quick sort
   	-  [Geeksforgeeks](https://www.geeksforgeeks.org/divide-and-conquer-algorithm-introduction/)
 	-  [Khan Academy](https://www.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/divide-and-conquer-algorithms)
   
