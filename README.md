@@ -96,9 +96,14 @@ Almost everyone knows what recursion is, right? But that is not enough. You have
 	-  [Khan Academy](https://www.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/divide-and-conquer-algorithms)
   
 ### Greedy Algorithms:  Huffman Coding
---------------------------------------------------------------------------------------------------------   
+-------------------------------------------------------------------------------------------------------- 
+A greedy algorithm is any algorithm that follows the problem-solving heuristic of making the **locally optimal choice** at **each stage** with the **intent of finding a global optimum**. In many problems, a greedy strategy does not usually produce an optimal solution, but nonetheless a greedy heuristic may yield locally optimal solutions that approximate a globally optimal solution in a reasonable amount of time.    
+
+For example, a greedy strategy for the travelling salesman problem (which is of a high computational complexity) is the following heuristic: "At each step of the journey, visit the nearest unvisited city." This **heuristic** does not intend to find a best solution, but it **terminates in a reasonable number of steps**; finding an optimal solution to such a complex problem typically requires unreasonably many steps. In mathematical optimization, greedy algorithms optimally solve combinatorial problems having the properties of matroids, and give constant-factor approximations to optimization problems with submodular structure.
+ 
   -  [x] [Video no.39-no.45 from Abdul Bari Algorithm's Playlist](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)   
-Proofing greedy algorithm is quite difficult. Studying known problems like knapsack, job schedule, optimal merge pattern, Huffman coding etc are enough to ace greedy questions.  
+Proofing greedy algorithm is quite difficult. Studying known problems like knapsack, job schedule, optimal merge pattern, Huffman coding etc are enough to ace greedy questions.
+  -  [ ] [Geeks: Greedy Algorithms](https://www.geeksforgeeks.org/greedy-algorithms/)
   
 ### Backtracking & Branch and Bound
 --------------------------------------------------------------------------------------------------------   
