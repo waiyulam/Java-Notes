@@ -40,6 +40,7 @@ Don't Rush. Enjoy the journey. Try to be a natural problem solver not a intervie
 		+ [Recursion](#Recursion-and-analysis-of-recurrence-relations)
 		+ [Divide and Conquer](#Divide-and-Conquer-algorithms)
 		+ [Greedy Algorithms](#Greedy-Algorithms)
+		+ [Backtracking & Branch and Bound](#Backtracking-&-Branch-and-Bound)
 	* [Data Structures](#Data-Structures)
 	* [Algorithms](#Algorithms)
 	* [Best DSA study Link](#Best-DSA-study-Link)
@@ -140,16 +141,11 @@ Anyway, you have to study known DP problems as much as you possibly can and try 
 
 Comment: There are so much overlaps in between greedy, dp with graph theory. Say for example Dijkstra, Prim's and Kruskal's Minimum Spanning tree are just Greedy Algorithms or backtracking is just DFS with branch pruning with condition. So you will find it a lot easier after studying programming paradigm section. In fact graph problems are either so easy to recognize that everything is given so explicitly that any one can recognize it as a typical graph question or may be it's too hidden to even think it as a graph question. So my suggestion is to think out of the box for a problem, think if a problem can be solved by using graphs. **Never forget that, Interviewers are just obsessed with binary tree, so try to solve as many questions as you can related to tree, specifically binary tree(and also n-ary tree). And also solve at least 20 questions with tag BFS and DFS in Leetcode which will definitely boost your tree and graph problem solving skill as graph traversal is the main toolkit to solve tree/graph problems in interview. That's all about graph.** 
 
-### Mathmatics (Number theory, Computational Geometry, Combinatorics, Linear Algebra etc)
---------------------------------------------------------------------------------------------------------   
-  - [ ] [MIT 6.042J Mathematics for Computer Science, Spring 2015](https://www.youtube.com/playlist?list=PLUl4u3cNGP60UlabZBeeqOuoLuj_KNphQ) and also try to examine your understand through their quiz and exams from [Mathematics for Computer Science MIT OCW main site](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/).
-  - [ ] Algebra Section 
-  - [ ] [English translation of e-maxx awesome algorithm text tutorial](http://cp-algorithms.com/)
-
 ### NP, NP-Complete and Approximation Algorithms
 --------------------------------------------------------------------------------------------------------   
   -  [ ] Know about the most famous classes of NP-complete problems, such as traveling salesman and the knapsack problem, and be able to recognize them when an interviewer asks you them in disguise.
   -  [ ] [Introduction to NP-Completeness](https://youtu.be/qcGnJ47Smlo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=2939)
+  -  [ ] [Approximate Greedy Algorithms for NP Complete Problems](https://www.geeksforgeeks.org/greedy-algorithms/#approximateGreedyAlgorthms)
 
 ### String Manipulation 
 --------------------------------------------------------------------------------------------------------   
@@ -264,6 +260,12 @@ Practices and Practices. only practice can guarantee success
 2. Python 
 3. C++ 
 
+# Mathmatics Basics  (Number theory, Computational Geometry, Combinatorics, Linear Algebra etc)
+--------------------------------------------------------------------------------------------------------   
+  - [ ] [MIT 6.042J Mathematics for Computer Science, Spring 2015](https://www.youtube.com/playlist?list=PLUl4u3cNGP60UlabZBeeqOuoLuj_KNphQ) and also try to examine your understand through their quiz and exams from [Mathematics for Computer Science MIT OCW main site](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/).
+  - [ ] Algebra Section 
+  - [ ] [English translation of e-maxx awesome algorithm text tutorial](http://cp-algorithms.com/)
+  
 # Others 
 ## System Design 
 System design questions are crucial questions that show you are more than just a coder. You need to be able to think big picture as an engineer. Where do certain services belong, what kind of servers do you need, how would you manage traffic, etc. All of these ideas show that you are able to design software, not just code what people tell you to code.
