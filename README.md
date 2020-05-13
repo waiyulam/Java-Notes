@@ -39,6 +39,7 @@ Don't Rush. Enjoy the journey. Try to be a natural problem solver not a intervie
 		+ [Time&Space Complexity](#Time-and-Space-Complexity)
 		+ [Recursion](#Recursion-and-analysis-of-recurrence-relations)
 		+ [Divide and Conquer](#Divide-and-Conquer-algorithms)
+		+ [Greedy Algorithms](#Greedy-Algorithms)
 	* [Data Structures](#Data-Structures)
 	* [Algorithms](#Algorithms)
 	* [Best DSA study Link](#Best-DSA-study-Link)
@@ -95,7 +96,7 @@ Almost everyone knows what recursion is, right? But that is not enough. You have
   	-  [Geeksforgeeks](https://www.geeksforgeeks.org/divide-and-conquer-algorithm-introduction/)
 	-  [Khan Academy](https://www.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/divide-and-conquer-algorithms)
   
-### Greedy Algorithms:  Huffman Coding
+### Greedy Algorithms
 -------------------------------------------------------------------------------------------------------- 
 A greedy algorithm is any algorithm that follows the problem-solving heuristic of making the **locally optimal choice** at **each stage** with the **intent of finding a global optimum**. In many problems, a greedy strategy does not usually produce an optimal solution, but nonetheless a greedy heuristic may yield locally optimal solutions that approximate a globally optimal solution in a reasonable amount of time.    
 
@@ -103,7 +104,10 @@ For example, a greedy strategy for the travelling salesman problem (which is of 
  
   -  [x] [Video no.39-no.45 from Abdul Bari Algorithm's Playlist](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)   
 Proofing greedy algorithm is quite difficult. Studying known problems like knapsack, job schedule, optimal merge pattern, Huffman coding etc are enough to ace greedy questions.
+
   -  [ ] [Geeks: Greedy Algorithms](https://www.geeksforgeeks.org/greedy-algorithms/)
+  
+Greedy is an algorithmic paradigm that builds up a solution piece by piece, always choosing the next piece that offers the most obvious and immediate benefit. So the problems where choosing locally optimal also leads to global solution are best fit for Greedy.
   
 ### Backtracking & Branch and Bound
 --------------------------------------------------------------------------------------------------------   
