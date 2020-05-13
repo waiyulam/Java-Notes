@@ -40,7 +40,7 @@ Don't Rush. Enjoy the journey. Try to be a natural problem solver not a intervie
 		+ [Recursion](#Recursion-and-analysis-of-recurrence-relations)
 		+ [Divide and Conquer](#Divide-and-Conquer-algorithms)
 		+ [Greedy Algorithms](#Greedy-Algorithms)
-		+ [Backtracking & Branch and Bound](#Backtracking-&-Branch-and-Bound)
+		+ [Backtracking & Branch and Bound](#Backtracking,Branch-and-Bound)
 	* [Data Structures](#Data-Structures)
 	* [Algorithms](#Algorithms)
 	* [Best DSA study Link](#Best-DSA-study-Link)
@@ -110,7 +110,7 @@ Proofing greedy algorithm is quite difficult. Studying known problems like knaps
   
 Greedy is an algorithmic paradigm that builds up a solution piece by piece, always choosing the next piece that offers the most obvious and immediate benefit. So the problems where choosing locally optimal also leads to global solution are best fit for Greedy.
   
-### Backtracking & Branch and Bound
+### Backtracking,Branch and Bound
 --------------------------------------------------------------------------------------------------------   
   -  [ ] Study [Video no.63 to no.71 from Abdul Bari Algorithm's Playlist](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O). This topic is the key ingredient to solve Dynamic Programming questions.
 
