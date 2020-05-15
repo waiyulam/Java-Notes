@@ -114,11 +114,13 @@ Greedy is an algorithmic paradigm that builds up a solution piece by piece, alwa
 --------------------------------------------------------------------------------------------------------   
  This topic is the key ingredient to solve Dynamic Programming questions. Both follow Brute force approach and both generate state space tree but in different ways. Backtraking is implemented in depth-wise(DFS) and Brand&Bound is implemented in level-wise(BFS). 
 
- -  [ ] [Video no.63 to no.71 from Abdul Bari Algorithm's Playlist](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O). 
+ -  [x] [Video no.63 to no.71 from Abdul Bari Algorithm's Playlist](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O). 
  -  [ ] Practices the following problem 
  	- Hamiltonian Cycle Problem using backtracking 
 	- Graph Coloring Problem using backtracking 
 	- Sum of subsets Problem using backtracking 
+	- 0/1 Knapsack Problem using BnB
+	- Traveling Salesman using BnB
 
 ### Big Guy: Dynamic Programming and memoization 😭
 --------------------------------------------------------------------------------------------------------   
