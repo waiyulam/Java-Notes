@@ -118,14 +118,15 @@ This topic is the key ingredient to solve Dynamic Programming questions. Both fo
 
 **Branch and bound** is an algorithm design paradigm which is generally used for solving combinatorial optimization problems. These problems typically exponential in terms of time complexity and may require exploring all possible permutations in worst case. The backtracking based solution works better than brute force by **ignoring infeasible solutions**. But BnB can do better (than backtracking) if we know a **bound on best possible solution subtree rooted with every node**. If the best in subtree is worse than current best, we can simply ignore this node and its subtrees.While branch and bround is similar to backtracing in the sense that it also use state space tree for solving a problem, BnB is useful for solving **optimization problem ( only minimization )** and we can convert maximization problem to minimization.   
 
-In addition, there are also three ways to implement branch and bound approach which are **stack, queue, and leastcost**. For leastcost approach, instead of generating entire tree, we always pcik up the node that is least cost and explore that one. It turns out that it is easier to reach the minimization solution quickly compared to other two. (Depends on problems) 
+In addition, there are also three ways to implement branch and bound approach which are **stack, queue, and leastcost**. For leastcost approach, instead of generating entire tree, we always pcik up the node that is least cost and explore that one. It turns out that it is easier to reach the minimization solution quickly compared to other two. (Depends on problems) Branch and bound is very useful technique for searching a solution but in worst case, we need to fully calculate the entire tree. At best, we only need to fully calculate one path through the tree and prune the rest of it.
 
  -  [x] [Video no.63 to no.71 from Abdul Bari Algorithm's Playlist](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O). 
  -  [ ] Practices the following problem 
  	- [Hamiltonian Cycle Problem using backtracking](https://www.geeksforgeeks.org/hamiltonian-cycle-backtracking-6/)
 	- [Graph Coloring Problem using backtracking](https://www.geeksforgeeks.org/m-coloring-problem-backtracking-5/)
 	- [Sum of subsets Problem using backtracking](https://www.geeksforgeeks.org/subset-sum-backtracking-4/)
-	- 0/1 Knapsack Problem using BnB
+	- [0/1 Knapsack Problem using BnB](https://www.geeksforgeeks.org/0-1-knapsack-using-branch-and-bound/)
+		- [Implementation](https://www.geeksforgeeks.org/implementation-of-0-1-knapsack-using-branch-and-bound/)
 	- Traveling Salesman using BnB
 
 ### Big Guy: Dynamic Programming and memoization 😭
