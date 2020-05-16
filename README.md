@@ -120,7 +120,7 @@ While branch and bround is similar to backtracing in the sense that it also use 
  -  [ ] Practices the following problem 
  	- [Hamiltonian Cycle Problem using backtracking](https://www.geeksforgeeks.org/hamiltonian-cycle-backtracking-6/)
 	- [Graph Coloring Problem using backtracking](https://www.geeksforgeeks.org/m-coloring-problem-backtracking-5/)
-	- Sum of subsets Problem using backtracking 
+	- [Sum of subsets Problem using backtracking](https://www.geeksforgeeks.org/subset-sum-backtracking-4/)
 	- 0/1 Knapsack Problem using BnB
 	- Traveling Salesman using BnB
 
