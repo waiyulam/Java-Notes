@@ -128,7 +128,7 @@ In addition, there are also three ways to implement branch and bound approach wh
 	- [0/1 Knapsack Problem using BnB](https://www.geeksforgeeks.org/0-1-knapsack-using-branch-and-bound/)
 		- [Implementation](https://www.geeksforgeeks.org/implementation-of-0-1-knapsack-using-branch-and-bound/)
 		- [Video](https://www.youtube.com/watch?v=slayHO7gKEQ)
-	- Traveling Salesman using BnB
+	- [Traveling Salesman using BnB](https://www.techiedelight.com/travelling-salesman-problem-using-branch-and-bound/)
 
 ### Big Guy: Dynamic Programming and memoization 😭
 --------------------------------------------------------------------------------------------------------   
