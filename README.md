@@ -137,7 +137,7 @@ In addition, there are also three ways to implement branch and bound approach wh
 **Recognize the pattern/formula for a dp problem**. Now one of the most important study material for DP. How many of us know that a dynamic programming is nothing but a **topological sort of problem dependency directed acyclic graph** which means if you can generate a *test case for a DP problem that has a cycle then that DP solution will fail for that cyclic graph*. To know all of this cool things and understand DP really good then study:    
   -  [ ] [Intro](https://www.youtube.com/watch?v=iv_yHjmkv4I)  
   -  [ ] [video no.19(MUST MUST!),20-22,26-27,39-45 from MIT OCW Introduction to Algorithm](https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-  -  [ ] [Fibonacci, Shortest Paths](https://www.youtube.com/watch?v=OQ5jsbhAv_M&t=7s) : Dijkstron & Floyd Warshall
+  -  [ ] [Fibonacci, Shortest Paths: Dijkstron & Floyd Warshall](https://www.youtube.com/watch?v=OQ5jsbhAv_M&t=7s)
   -  [ ] [Text Justification, Blackjac](https://www.youtube.com/watch?v=ENyox7kNKeY&t=4s)
   -  [ ] [DP vs. DAC](https://www.geeksforgeeks.org/dynamic-programming-vs-divide-and-conquer/?ref=rp)    
         
