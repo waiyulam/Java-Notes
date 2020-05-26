@@ -134,27 +134,35 @@ In addition, there are also three ways to implement branch and bound approach wh
 ### Dynamic Programming and memoization
 --------------------------------------------------------------------------------------------------------   
 #### Dynamic Programming 
-**Recognize the pattern/formula for a dp problem**. Say for example: A String based DP problem involves a 2D matrix where [i][j] generally refers to the solution for index i to j of the String and etc. Here is what you should do, try to understand backtracking very well as that will be the key in solving DP. After getting a backtracking solution you can memoize the previous solutions and reduce solutions to 2/3 Degree Polynomial Time. 
-
-  -  [ ] [Intro](https://www.youtube.com/watch?v=iv_yHjmkv4I)
-Anyway, you have to study known DP problems as much as you possibly can and try to recognize the patterns and types. 
-  -  [ ] [Leetcode Coin(giveaway) winning post on Dynamic Programming Patterns by aatalyk](https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns)
-Study and solve all questions from here. Just stick with it till the last question of this article. And when studying the article try to follow:
-  -  [ ] [Tushar Roy's Dynamic Programing Playlist](https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)
-  -  [ ] [Video no.46 to no.60 from Abdul Bari Algorithm's Playlist](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)
-I find Abdul bari's tutorial more effective and easy to follow. His style to teach students is quite exceptional. Suppose you are studying Longest Common Subsequence, first understand the question really good -> try to solve a small problem of the main problem -> try to solve a bit big problem with the help of solution and see if you can find any formula/pattern -> if you can't find any then read discussion/solution(only algorithm not code) and try to code it up after understanding -> If still doesn't work for you then watch the video of that topic from the playlist i have mentioned and try hard this time to understand and visualize the algorithm. -> You solved a DP Question! Yahoo!.
-Now one of the most important study material for DP. How many of us know that a dynamic programming is nothing but a topological sort of problem dependency directed acyclic graph which means if you can generate a test case for a DP problem that has a cycle then that DP solution will fail for that cyclic graph. To know all of this cool things and understand DP really good then study:-
-  - [ ] [video no.19(MUST MUST!),20-22,26-27,39-45 from MIT OCW Introduction to Algorithm](https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+**Recognize the pattern/formula for a dp problem**. Now one of the most important study material for DP. How many of us know that a dynamic programming is nothing but a **topological sort of problem dependency directed acyclic graph** which means if you can generate a *test case for a DP problem that has a cycle then that DP solution will fail for that cyclic graph*. To know all of this cool things and understand DP really good then study:    
+  -  [ ] [Intro](https://www.youtube.com/watch?v=iv_yHjmkv4I)  
+  -  [ ] [video no.19(MUST MUST!),20-22,26-27,39-45 from MIT OCW Introduction to Algorithm](https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
   -  [ ] [Fibonacci, Shortest Paths](https://www.youtube.com/watch?v=OQ5jsbhAv_M&t=7s) : Dijkstron & Floyd Warshall
   -  [ ] [Text Justification, Blackjac](https://www.youtube.com/watch?v=ENyox7kNKeY&t=4s)
-  -  [ ] [DP vs. DAC](https://www.geeksforgeeks.org/dynamic-programming-vs-divide-and-conquer/?ref=rp)
-  -  [ ] [Cheat Sheet](https://www.topcoder.com/community/competitive-programming/tutorials/dynamic-programming-from-novice-to-advanced/)  
+  -  [ ] [DP vs. DAC](https://www.geeksforgeeks.org/dynamic-programming-vs-divide-and-conquer/?ref=rp)    
+        
+Anyway, you have to study known DP problems as much as you possibly can and try to recognize the **patterns and types**.       
+  -  [ ] [Leetcode Coin(giveaway) winning post on Dynamic Programming Patterns by aatalyk](https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns)    
+       
+Study and solve all questions from here. Just stick with it till the last question of this article. And when studying the article try to follow:       
+  -  [ ] [Tushar Roy's Dynamic Programing Playlist](https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)
+  -  [ ] [Video no.46 to no.60 from Abdul Bari Algorithm's Playlist](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)        
+  
+I find Abdul bari's tutorial more effective and easy to follow. His style to teach students is quite exceptional. Suppose you are studying *Longest Common Subsequence*. 
+	1. **understand the question** really good 
+	2. try to **solve a small problem** of the main problem 
+	3. try to solve a bit big problem with the help of solution and see if you can **find any formula/pattern** 
+	4. if you can't find any then read **is discussion/solution(only algorithm not code)** and try to **code it up** after understanding 
+	5. If still doesn't work for you then **watch the video of that topic from the playlist i have mentioned** and try hard this time to understand and visualize the algorithm. 
+	6. You solved a DP Question! Yahoo!.
+
 #### Memoization
   -  [ ] [DP & Memoization](https://www.youtube.com/watch?v=P8Xa2BitN3I&t=13s)
   -  [ ] [What is memoization and how can I use it in Python?](https://stackoverflow.com/questions/1988804/what-is-memoization-and-how-can-i-use-it-in-python)     
   
-**Tips**: **Pythonistas** After you just come up with a 2N backtracking solution just use functools.lru_cache(maxsize=None) decorator and you will have a dp solution(almost 90% time).
-
+**Tips**: **Pythonistas** After you just come up with a 2N backtracking solution just use functools.lru_cache(maxsize=None) decorator and you will have a dp solution(almost 90% time).Say for example: A String based DP problem involves a 2D matrix where [i][j] generally refers to the solution for index i to j of the String and etc. Here is what you should do, try to understand backtracking very well as that will be the key in solving DP. After getting a backtracking solution you can memoize the previous solutions and reduce solutions to 2/3 Degree Polynomial Time.    
+  -  [ ] [Cheat Sheet](https://www.topcoder.com/community/competitive-programming/tutorials/dynamic-programming-from-novice-to-advanced/) 
+  
 ### Graph Theory (directed, undirected, weighted, rooted(IN & OUT) and unrooted tree, DAG etc)
 --------------------------------------------------------------------------------------------------------   
 - [ ] [Graph Theory Easy to Advanced Course - Full Tutorial from a Google Engineer and ACM ICPC World Finalist](https://www.youtube.com/playlist?list=PLDV1Zeh2NRsDGO4--qE8yH72HFL1Km93P)
