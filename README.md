@@ -148,13 +148,13 @@ Study and solve all questions from here. Just stick with it till the last questi
   -  [ ] [Tushar Roy's Dynamic Programing Playlist](https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)
   -  [ ] [Video no.46 to no.60 from Abdul Bari Algorithm's Playlist](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)        
   
-I find Abdul bari's tutorial more effective and easy to follow. His style to teach students is quite exceptional. Suppose you are studying *Longest Common Subsequence*. 
-	1. **understand the question** really good 
-	2. try to **solve a small problem** of the main problem 
-	3. try to solve a bit big problem with the help of solution and see if you can **find any formula/pattern** 
-	4. if you can't find any then read **is discussion/solution(only algorithm not code)** and try to **code it up** after understanding 
-	5. If still doesn't work for you then **watch the video of that topic from the playlist i have mentioned** and try hard this time to understand and visualize the algorithm. 
-	6. You solved a DP Question! Yahoo!.
+I find Abdul bari's tutorial more effective and easy to follow. His style to teach students is quite exceptional. Suppose you are studying *Longest Common Subsequence*    
+1. **understand the question** really good 
+2. try to **solve a small problem** of the main problem 
+3. try to solve a bit big problem with the help of solution and see if you can **find any formula/pattern** 
+4. if you can't find any then read **is discussion/solution(only algorithm not code)** and try to **code it up** after understanding 
+5. If still doesn't work for you then **watch the video of that topic from the playlist i have mentioned** and try hard this time to understand and visualize the algorithm. 
+6. You solved a DP Question! Yahoo!.
 
 #### Memoization
   -  [ ] [DP & Memoization](https://www.youtube.com/watch?v=P8Xa2BitN3I&t=13s)
