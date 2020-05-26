@@ -121,7 +121,7 @@ This topic is the key ingredient to solve Dynamic Programming questions. Both fo
 In addition, there are also three ways to implement branch and bound approach which are **stack, queue, and leastcost**. For leastcost approach, instead of generating entire tree, we always pcik up the node that is least cost and explore that one. It turns out that it is easier to reach the minimization solution quickly compared to other two. (Depends on problems) Branch and bound is very useful technique for searching a solution but in worst case, we need to fully calculate the entire tree. At best, we only need to fully calculate one path through the tree and prune the rest of it.
 
  -  [x] [Video no.63 to no.71 from Abdul Bari Algorithm's Playlist](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O). 
- -  [ ] Practices the following problem 
+ -  [x] Practices the following problem 
  	- [Hamiltonian Cycle Problem using backtracking](https://www.geeksforgeeks.org/hamiltonian-cycle-backtracking-6/)
 	- [Graph Coloring Problem using backtracking](https://www.geeksforgeeks.org/m-coloring-problem-backtracking-5/)
 	- [Sum of subsets Problem using backtracking](https://www.geeksforgeeks.org/subset-sum-backtracking-4/)
