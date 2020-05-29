@@ -170,6 +170,7 @@ Comment: There are so much overlaps in between greedy, dp with graph theory. Say
 ### NP, NP-Complete and Approximation Algorithms
 --------------------------------------------------------------------------------------------------------   
   -  [ ] Know about the most famous classes of NP-complete problems, such as traveling salesman and the knapsack problem, and be able to recognize them when an interviewer asks you them in disguise.
+  -  [ ] [video no.23 from MIT OCW Introduction to Algorithm](https://www.youtube.com/watch?v=moPtwq_cVH8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=23)
   -  [ ] [Video no.72 to no.73 from Abdul Bari Algorithm's Playlist](https://www.youtube.com/watch?v=e2cF8a5aAhE&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O&index=72)
   -  [ ] [Introduction to NP-Completeness](https://youtu.be/qcGnJ47Smlo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=2939)
   -  [ ] [Approximate Greedy Algorithms for NP Complete Problems](https://www.geeksforgeeks.org/greedy-algorithms/#approximateGreedyAlgorthms)
