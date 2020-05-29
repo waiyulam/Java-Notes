@@ -303,6 +303,9 @@ System design questions are crucial questions that show you are more than just a
   - [Instagram](https://www.youtube.com/watch?v=QmX2NPkJTKg)
   - [Tinder Service](https://www.youtube.com/watch?v=xQnIN9bW0og)
 
+## Parallel Architecture design 
+  -  [CS 258 Parallel Processors from UCB ](https://people.eecs.berkeley.edu/~culler/cs258-s99/)
+  
 ## Database 
 ### SQL
 #### Problems 
