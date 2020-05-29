@@ -136,7 +136,7 @@ In addition, there are also three ways to implement branch and bound approach wh
 #### Dynamic Programming 
 **Recognize the pattern/formula for a dp problem**. Now one of the most important study material for DP. How many of us know that a dynamic programming is nothing but a **topological sort of problem dependency directed acyclic graph** which means if you can generate a *test case for a DP problem that has a cycle then that DP solution will fail for that cyclic graph*. To know all of this cool things and understand DP really good then study:    
   -  [x] [Intro](https://www.youtube.com/watch?v=iv_yHjmkv4I)  
-  -  [ ] [video no.19(MUST MUST!),20-22,26-27,39-45 from MIT OCW Introduction to Algorithm](https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+  -  [x] [video no.19(MUST MUST!),20-22 from MIT OCW Introduction to Algorithm](https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
   -  [ ] [DP vs. DAC](https://www.geeksforgeeks.org/dynamic-programming-vs-divide-and-conquer/?ref=rp)    
         
 Anyway, you have to study known DP problems as much as you possibly can and try to recognize the **patterns and types**.       
@@ -160,6 +160,7 @@ I find Abdul bari's tutorial more effective and easy to follow. His style to tea
   
 **Tips**: **Pythonistas** After you just come up with a 2N backtracking solution just use functools.lru_cache(maxsize=None) decorator and you will have a dp solution(almost 90% time).Say for example: A String based DP problem involves a 2D matrix where [i][j] generally refers to the solution for index i to j of the String and etc. Here is what you should do, try to understand backtracking very well as that will be the key in solving DP. After getting a backtracking solution you can memoize the previous solutions and reduce solutions to 2/3 Degree Polynomial Time.    
   -  [ ] [Cheat Sheet](https://www.topcoder.com/community/competitive-programming/tutorials/dynamic-programming-from-novice-to-advanced/) 
+  -  [ ] [26-27,39-45 from MIT OCW Introduction to Algorithm](https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
   
 ### Graph Theory (directed, undirected, weighted, rooted(IN & OUT) and unrooted tree, DAG etc)
 --------------------------------------------------------------------------------------------------------   
