@@ -140,7 +140,7 @@ To know all of this cool things and understand DP really good then study:
   -  [x] [Intro](https://www.youtube.com/watch?v=iv_yHjmkv4I)  
   -  [x] [video no.19(MUST MUST!),20-22 from MIT OCW Introduction to Algorithm](https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
   -  [ ] [DP vs. DAC](https://www.geeksforgeeks.org/dynamic-programming-vs-divide-and-conquer/?ref=rp)    
-
+![](https://media.geeksforgeeks.org/wp-content/uploads/01-DP-vs-DC-DP-vs-DC-diagram-1024x492.png)
 **Dynamic Programming Prerequisites/Restrictions**
 As we’ve just discovered there are two key attributes that divide and conquer problem must have in order for dynamic programming to be applicable:
 1. **Optimal substructure** : optimal solution can be constructed from optimal solutions of its subproblems
@@ -163,6 +163,7 @@ I find Abdul bari's tutorial more effective and easy to follow. His style to tea
 6. You solved a DP Question! Yahoo!.
 
 #### Memoization
+Memoization (top-down cache filling) refers to the technique of caching and reusing previously computed results. 
   -  [ ] [DP & Memoization](https://www.youtube.com/watch?v=P8Xa2BitN3I&t=13s)
   -  [ ] [What is memoization and how can I use it in Python?](https://stackoverflow.com/questions/1988804/what-is-memoization-and-how-can-i-use-it-in-python)     
   
