@@ -151,7 +151,7 @@ As we’ve just discovered there are two key attributes that divide and conquer 
 Once these two conditions are met we can say that this divide and conquer problem may be solved using dynamic programming approach.    
 Dynamic programing is based on divide and conquer principle and may be applied only if the problem has overlapping sub-problems and optimal substructure (like in Levenshtein distance case). Dynamic programming then is using memoization or tabulation technique to store solutions of overlapping sub-problems for later usage.      
 
-Anyway, you have to study known DP problems as much as you possibly can and try to recognize the **patterns and types**.       
+*Anyway, you have to study known DP problems as much as you possibly can and try to recognize the **patterns and types***.       
   -  [ ] [Leetcode Coin(giveaway) winning post on Dynamic Programming Patterns by aatalyk](https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns)    
        
 Study and solve all questions from here. Just stick with it till the last question of this article. And when studying the article try to follow:       
