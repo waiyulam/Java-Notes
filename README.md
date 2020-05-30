@@ -133,7 +133,7 @@ In addition, there are also three ways to implement branch and bound approach wh
 
 ### Dynamic Programming and memoization
 --------------------------------------------------------------------------------------------------------   
-#### Dynamic Programming: Recognize the pattern/formula for a dp problem
+#### Dynamic Programming Intro : Recognize the pattern/formula for a dp problem
 Dynamic Programming is mainly an optimization over plain recursion. Wherever we see a recursive solution that has repeated calls for same inputs, we can optimize it using Dynamic Programming. The idea is to simply store the results of subproblems, so that we do not have to re-compute them when needed later. This simple optimization reduces time complexities from exponential to polynomial. Now one of the most important study material for DP. How many of us know that a dynamic programming is nothing but a **topological sort of problem dependency directed acyclic graph** which means if you can generate a *test case for a DP problem that has a cycle then that DP solution will fail for that cyclic graph*. If some problem instances can be seen as pieces of other problem instances, we can store our work along the way to avoid doing the same work. One way to think of DP is "careful/clever brute force" while trying out all possible solutions and get polynomial time if do it carefully. Then **DP = "GUESSING" + "RECURSION" + "MEMOIZATION"**. The main challenge for using DP paradigm is to identify the subproblems and guess the possible solution for part of the problem.   
 To know all of this cool things and understand DP really good then study:    
 
@@ -151,6 +151,12 @@ As we’ve just discovered there are two key attributes that divide and conquer 
 Once these two conditions are met we can say that this divide and conquer problem may be solved using dynamic programming approach.    
 Dynamic programing is based on divide and conquer principle and may be applied only if the problem has overlapping sub-problems and optimal substructure (like in Levenshtein distance case). Dynamic programming then is using memoization or tabulation technique to store solutions of overlapping sub-problems for later usage.      
 
+#### Memoization and tabulation 
+Memoization (top-down cache filling) refers to the technique of caching and reusing previously computed results. 
+  -  [ ] [DP & Memoization](https://www.youtube.com/watch?v=P8Xa2BitN3I&t=13s)
+  -  [ ] [What is memoization and how can I use it in Python?](https://stackoverflow.com/questions/1988804/what-is-memoization-and-how-can-i-use-it-in-python)     
+  
+#### Problems Practices: happy coding ~
 *Anyway, you have to study known DP problems as much as you possibly can and try to recognize the **patterns and types***.       
   -  [ ] [Leetcode Coin(giveaway) winning post on Dynamic Programming Patterns by aatalyk](https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns)    
        
@@ -165,13 +171,9 @@ I find Abdul bari's tutorial more effective and easy to follow. His style to tea
 4. if you can't find any then read **is discussion/solution(only algorithm not code)** and try to **code it up** after understanding 
 5. If still doesn't work for you then **watch the video of that topic from the playlist i have mentioned** and try hard this time to understand and visualize the algorithm. 
 6. You solved a DP Question! Yahoo!.
-
-#### Memoization
-Memoization (top-down cache filling) refers to the technique of caching and reusing previously computed results. 
-  -  [ ] [DP & Memoization](https://www.youtube.com/watch?v=P8Xa2BitN3I&t=13s)
-  -  [ ] [What is memoization and how can I use it in Python?](https://stackoverflow.com/questions/1988804/what-is-memoization-and-how-can-i-use-it-in-python)     
   
-**Tips**: **Pythonistas** After you just come up with a 2N backtracking solution just use functools.lru_cache(maxsize=None) decorator and you will have a dp solution(almost 90% time).Say for example: A String based DP problem involves a 2D matrix where [i][j] generally refers to the solution for index i to j of the String and etc. Here is what you should do, try to understand backtracking very well as that will be the key in solving DP. After getting a backtracking solution you can memoize the previous solutions and reduce solutions to 2/3 Degree Polynomial Time.    
+#### Tips and Others
+- **Pythonistas** After you just come up with a 2N backtracking solution just use functools.lru_cache(maxsize=None) decorator and you will have a dp solution(almost 90% time).Say for example: A String based DP problem involves a 2D matrix where [i][j] generally refers to the solution for index i to j of the String and etc. Here is what you should do, try to understand backtracking very well as that will be the key in solving DP. After getting a backtracking solution you can memoize the previous solutions and reduce solutions to 2/3 Degree Polynomial Time.    
   -  [ ] [Cheat Sheet](https://www.topcoder.com/community/competitive-programming/tutorials/dynamic-programming-from-novice-to-advanced/) 
   -  [ ] [26-27,39-45 from MIT OCW Introduction to Algorithm](https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
   
