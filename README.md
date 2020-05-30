@@ -134,11 +134,19 @@ In addition, there are also three ways to implement branch and bound approach wh
 ### Dynamic Programming and memoization
 --------------------------------------------------------------------------------------------------------   
 #### Dynamic Programming 
+**Recognize the pattern/formula for a dp problem**. Now one of the most important study material for DP. How many of us know that a dynamic programming is nothing but a **topological sort of problem dependency directed acyclic graph** which means if you can generate a *test case for a DP problem that has a cycle then that DP solution will fail for that cyclic graph*. If some problem instances can be seen as pieces of other problem instances, we can store our work along the way to avoid doing the same work. One way to think of DP is "careful/clever brute force" while trying out all possible solutions and get polynomial time if do it carefully. Then **DP = "GUESSING" + "RECURSION" + "MEMOIZATION"**. The main challenge for using DP paradigm is to identify the subproblems and guess the possible solution for part of the problem.   
+To know all of this cool things and understand DP really good then study:    
 **Recognize the pattern/formula for a dp problem**. Now one of the most important study material for DP. How many of us know that a dynamic programming is nothing but a **topological sort of problem dependency directed acyclic graph** which means if you can generate a *test case for a DP problem that has a cycle then that DP solution will fail for that cyclic graph*. To know all of this cool things and understand DP really good then study:    
   -  [x] [Intro](https://www.youtube.com/watch?v=iv_yHjmkv4I)  
   -  [x] [video no.19(MUST MUST!),20-22 from MIT OCW Introduction to Algorithm](https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
   -  [ ] [DP vs. DAC](https://www.geeksforgeeks.org/dynamic-programming-vs-divide-and-conquer/?ref=rp)    
-        
+
+**Dynamic Programming Prerequisites/Restrictions**
+As we’ve just discovered there are two key attributes that divide and conquer problem must have in order for dynamic programming to be applicable:
+1. **Optimal substructure** : optimal solution can be constructed from optimal solutions of its subproblems
+2. **Overlapping sub-problems** : problem can be broken down into subproblems which are reused several times or a recursive algorithm for the problem solves the same subproblem over and over rather than always generating new subproblems        
+Once these two conditions are met we can say that this divide and conquer problem may be solved using dynamic programming approach.    
+
 Anyway, you have to study known DP problems as much as you possibly can and try to recognize the **patterns and types**.       
   -  [ ] [Leetcode Coin(giveaway) winning post on Dynamic Programming Patterns by aatalyk](https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns)    
        
