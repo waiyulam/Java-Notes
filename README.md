@@ -153,7 +153,7 @@ Dynamic programing is based on divide and conquer principle and may be applied o
 
 #### Memoization and tabulation 
 Memoization (top-down cache filling) refers to the technique of caching and reusing previously computed results. 
-  -  [ ] [DP & Memoization](https://www.youtube.com/watch?v=P8Xa2BitN3I&t=13s)
+  -  [x] [HackerRank: DP & Memoization](https://www.youtube.com/watch?v=P8Xa2BitN3I&t=13s)
   -  [ ] [What is memoization and how can I use it in Python?](https://stackoverflow.com/questions/1988804/what-is-memoization-and-how-can-i-use-it-in-python)     
   
 #### Problems Practices: happy coding ~
