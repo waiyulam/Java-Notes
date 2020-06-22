@@ -1,20 +1,49 @@
 # Dynamic Programming Patterns
 
 ## Patterns
-- [Minimum (Maximum) Path to Reach a Target](#Minimum(Maximum)_Path)
-- [Distinct Ways](#Distinct_Ways)
-- [Merging Intervals](#Merging_Intervals)
-- [DP on Strings](#DP_on_Strings)
-- [Decision Making](#Decision_Making)
+- [Minimum (Maximum) Path to Reach a Target](#Minimum(Maximum)-Path)
+- [Distinct Ways](#Distinct-Ways)
+- [Merging Intervals](#Merging-Intervals)
+- [DP on Strings](#DP-on-Strings)
+- [Decision Making](#Decision-Making)
 
 ### Minimum(Maximum) Path
 Generate problem statement for this pattern    
-**Statement** : Given a target find minimum (maximum) cost / path / sum to reach the target.
+
+**Statement** : Given a target find minimum (maximum) cost / path / sum to reach the target.  
+
 **Approach** : Choose minimum (maximum) path among all possible paths before the current state, then add value for the current state.
 ```python
 routes[i] = min(routes[i-1], routes[i-2], ... , routes[i-k]) + cost[i]
 ```
 
+**Bottom up: Iterative solution**:Generate optimal solutions for all values in the target and return the value for the target.
+```python
+for (int i = 1; i <= target; ++i) {
+   for (int j = 0; j < ways.size(); ++j) {
+       if (ways[j] <= i) {
+           dp[i] = min(dp[i], dp[i - ways[j]] + cost / path / sum) ;
+       }
+   }
+}
+return dp[target]
+```
+**Leetcode similar problems**:   
+- Min Cost Climbing Stairs 
+- Minimum Path Sum
+- Coin Change
+- Minimum Falling Path Sum 
+- Minimum Cost For Tickets
+- 2 Keys Keyboard
+- Perfect Squares
+- Last Stone Weight II
+- Triangle 
+- Ones and Zeroes
+- Maximal Square
+- Coin Change
+- Tiling a Rectangle with the Fewest Squares
+- Dungeon Game
+- Minimum Number of Refueling Stops
 
 ### Distinct Ways
 
