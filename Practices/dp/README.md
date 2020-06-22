@@ -29,7 +29,7 @@ for (int i = 1; i <= target; ++i) {
 return dp[target]
 ```
 **Leetcode similar problems**:   
-- Min Cost Climbing Stairs 
+- [Min Cost Climbing Stairs](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/climbing_stairs.py)
 - Minimum Path Sum
 - Coin Change
 - Minimum Falling Path Sum 
