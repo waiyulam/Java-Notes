@@ -147,7 +147,8 @@ To know all of this cool things and understand DP really good then study:
 **Dynamic Programming Prerequisites/Restrictions**
 As we’ve just discovered there are two key attributes that divide and conquer problem must have in order for dynamic programming to be applicable.:
 1. **Optimal substructure** : optimal solution can be constructed from optimal solutions of its subproblems
-2. **Overlapping sub-problems** : problem can be broken down into subproblems which are reused several times or a recursive algorithm for the problem solves the same subproblem over and over rather than always generating new subproblems        
+2. **Overlapping sub-problems** : problem can be broken down into subproblems which are reused several times or a recursive algorithm for the problem solves the same subproblem over and over rather than always generating new subproblems       
+
 Once these two conditions are met we can say that this divide and conquer problem may be solved using dynamic programming approach.    
 Dynamic programing is based on divide and conquer principle and may be applied only if the problem has overlapping sub-problems and optimal substructure (like in Levenshtein distance case). Dynamic programming then is using memoization or tabulation technique to store solutions of overlapping sub-problems for later usage.      
 
