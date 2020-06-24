@@ -31,7 +31,7 @@ return dp[target]
 **Leetcode similar problems**:   
 - [Min Cost Climbing Stairs](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/climbing_stairs.py)
 - [Minimum Path Sum](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/mps.py)
-- Coin Change
+- [Review: **Coin Change**](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/coin_change.py)
 - Minimum Falling Path Sum 
 - Minimum Cost For Tickets
 - 2 Keys Keyboard
