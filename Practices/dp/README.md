@@ -33,7 +33,7 @@ return dp[target]
 - [Minimum Path Sum](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/mps.py)
 - [**Coin Change**](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/coin_change.py)
 - [Minimum Falling Path Sum](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/falling_path.py)
-- Minimum Cost For Tickets
+- [Minimum Cost For Tickets](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/cost_tickets.py)
 - 2 Keys Keyboard
 - Perfect Squares
 - Last Stone Weight II
