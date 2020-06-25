@@ -59,16 +59,17 @@ class Solution(object):
 
     # Bottom up 
     def minFallingPathSum(self,A):
-        dp = [[[0] for i in range(len(A))] for j in range(len(A))]
-        for j in range(len(A)):
-            dp[len(A)-1][j] = A[len(A)-1][j]
-        for i in reversed(range(len(A)-1)):
-            for j in range(len(A)):
+        n = len(A)
+        dp = [[[0] for i in range(n)] for j in range(n)]
+        for j in range(n):
+            dp[n-1][j] = A[n-1][j]
+        for i in reversed(range(n-1)):
+            for j in range(n):
                 res = []
                 res.append(dp[i+1][j])
                 if j != 0:
                     res.append(dp[i+1][j-1])
-                if j != len(A)-1:
+                if j != n-1:
                     res.append(dp[i+1][j+1])
                 dp[i][j] = A[i][j] + min(res)
         return min(dp[0])
