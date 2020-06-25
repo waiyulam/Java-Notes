@@ -20,34 +20,20 @@ class Solution(object):
         """
         # Bottom up 
         n = len(days)
-        m = len(costs)
-        dp = [[0] for i in range(n)]
-        dp[n-1] = min(costs)
-        for i in reversed(range(n-1)):
+        durations = [1,7,30]
+        dp = [[0] for i in range(n+1)]
+        dp[n] = 0
+
+        for i in reversed(range(n)):
             minimum = sys.maxsize
-            for j in range(m):
-                # one day pass
-                if j==0:
-                    covered = days[i]
-                # 7-day pass 
-                elif j== 1:
-                    covered = days[i] + 6
-                # 30-day pass
-                elif j ==2:
-                    covered = days[i] + 29
+            j = i 
+            for c,d in zip(costs,durations):
+                covered = days[i] + d - 1
                 # Find the first index greater than covered day in days from day[i]
-                found = -1
-                for k in range(i,n):
-                    if (days[k] > covered):
-                        found = k
-                        break
+                while j < n and days[j] <= covered:
+                    j += 1
                 # Compute the cost 
-                if found == -1:
-                    cost = costs[j]
-                else:
-                    cost = costs[j] + dp[found]
-                if cost < minimum:
-                    minimum = cost 
+                minimum = min(minimum,c + dp[j])
             dp[i] = minimum
         return dp[0]
 
