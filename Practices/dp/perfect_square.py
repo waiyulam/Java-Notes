@@ -1,5 +1,6 @@
 # Improving coin change bottom up dp algorithm
 # perfect square: https://leetcode.com/problems/perfect-squares/ 
+# Solution : https://www.cnblogs.com/grandyang/p/4800552.html
 import sys 
 
 class Solution(object):
