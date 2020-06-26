@@ -1,11 +1,16 @@
 # 2 key keyboard : https://leetcode.com/problems/2-keys-keyboard/
 
 class Solution(object):
+    # DP soluion : bottom up
     def minSteps(self, n):
         """
         :type n: int
         :rtype: int
         """
+        if (n == 1):
+            return 0
+        if (n == 2):
+            return 2 
         # dp[i] denote minimal operations for i 'A'
         dp = [[sys.maxsize] for i in range(n+1)]
         # A
@@ -21,4 +26,3 @@ class Solution(object):
                 if ((i-j)%j == 0):
                     dp[i] = min(dp[i],dp[j] + 1+ (i-j)//j)
         return dp[n]
-        
