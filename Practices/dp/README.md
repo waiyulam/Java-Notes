@@ -37,7 +37,7 @@ return dp[target]
 - [2 Keys Keyboard](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/keyboard.py)
 - [Perfect Squares](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/perfect_square.py)
 - [**Last Stone Weight II**](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/stone2.py)
-- Triangle 
+- [Triangle](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/triangle.py)
 - Ones and Zeroes
 - Maximal Square
 - Coin Change
