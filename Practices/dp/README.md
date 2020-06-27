@@ -36,7 +36,7 @@ return dp[target]
 - [Minimum Cost For Tickets](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/cost_tickets.py)
 - [2 Keys Keyboard](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/keyboard.py)
 - [Perfect Squares](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/perfect_square.py)
-- [Last Stone Weight II](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/stone2.py)
+- [**Last Stone Weight II**](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/stone2.py)
 - Triangle 
 - Ones and Zeroes
 - Maximal Square
