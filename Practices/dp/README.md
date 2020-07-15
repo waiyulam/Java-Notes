@@ -39,7 +39,7 @@ return dp[target]
 - [**Last Stone Weight II**](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/stone2.py)
 - [Triangle](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/triangle.py)
 - [Ones and Zeroes](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/zerosones.py)
-- Maximal Square
+- [**Maximal Square**](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/maxsquare.py)
 - Coin Change
 - Tiling a Rectangle with the Fewest Squares
 - Dungeon Game
