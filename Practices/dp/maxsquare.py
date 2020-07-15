@@ -1,4 +1,6 @@
 # Solution : https://leetcode.com/problems/maximal-square/solution/
+# Triangle solution to reduce space complexity
+
 class Solution(object):
     def maximalSquare(self, matrix):
         """
