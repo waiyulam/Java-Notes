@@ -24,3 +24,5 @@ Output : 7 For example,
 given the dungeon below, the initial health of the knight must be at least 7 if
 he follows the optimal path RIGHT-> RIGHT -> DOWN -> DOWN.
 
+![](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/Dungeon/4CDAD80C1.jpeg)
+![](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/Dungeon/4CDAD80C2.jpeg)
