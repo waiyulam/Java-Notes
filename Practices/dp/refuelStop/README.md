@@ -44,8 +44,9 @@ now reach capacity further with t+1 refueling stops.
 
 For example, if we could reach a distance of 15 with 1 refueling stop, and now
 we added a station at location 10 with 30 liters of fuel, then we could
-potentially reach a distance of 45 with 2 refueling stops.
-'''python
+potentially reach a distance of 45 with 2 refueling stops.   
+
+```python
 class Solution(object):
     def minRefuelStops(self, target, startFuel, stations):
         dp = [startFuel] + [0] * len(stations)
@@ -57,7 +58,7 @@ class Solution(object):
         for i, d in enumerate(dp):
             if d >= target: return i
         return -1
-'''
+```
 **Complexity Analysis**
 
 Time Complexity: O(N^2) where NN is the length of stations.
