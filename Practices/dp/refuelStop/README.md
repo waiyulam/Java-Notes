@@ -1,5 +1,7 @@
 871. Minimum Number of Refueling Stops
 
+[花花解说](https://www.youtube.com/watch?v=vWTPA5zw24M) 
+
 A car travels from a starting position to a destination which is target miles
 east of the starting position.
 
