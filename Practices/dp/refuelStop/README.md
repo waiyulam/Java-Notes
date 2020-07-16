@@ -23,14 +23,15 @@ considered to have arrived.
 **Note**:
 
 1 <= target, startFuel, stations[i][1] <= 10^9 
+
 0 <= stations.length <= 500 
+
 0 < stations[0][0] < stations[1][0] < ... < stations[stations.length-1][0] < target
 
 **Approach 1: Dynamic Programming Intuition**
 
-Let's determine dp[i], the farthest location we can get to using i refueling
-stops. This is motivated by the fact that we want the smallest i for which dp[i]
->= target.
+Let's determine dp(i), the farthest location we can get to using i refueling
+stops. This is motivated by the fact that we want the smallest i for which dp(i) >= target.
 
 **Algorithm**
 
@@ -44,7 +45,7 @@ now reach capacity further with t+1 refueling stops.
 For example, if we could reach a distance of 15 with 1 refueling stop, and now
 we added a station at location 10 with 30 liters of fuel, then we could
 potentially reach a distance of 45 with 2 refueling stops.
-
+'''python
 class Solution(object):
     def minRefuelStops(self, target, startFuel, stations):
         dp = [startFuel] + [0] * len(stations)
@@ -56,7 +57,7 @@ class Solution(object):
         for i, d in enumerate(dp):
             if d >= target: return i
         return -1
-
+'''
 **Complexity Analysis**
 
 Time Complexity: O(N^2) where NN is the length of stations.
