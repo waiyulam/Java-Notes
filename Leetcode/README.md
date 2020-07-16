@@ -33,7 +33,7 @@ Leetcode 题目整理 ( TAG -> DIFFICULTY -> AC )
 # Docs 
    - [Study Guide](https://docs.google.com/spreadsheets/d/1DlLt2_kRsSLbdoOYhMFcpBZMnA-1SK3A/edit#gid=1486985929)
    - [Leetcode Groups](https://docs.google.com/spreadsheets/u/1/d/1I_fyfIoWEXtHJD32BmVXxj_tishqU7Rd8GqUpRgxhks/edit?usp=drive_web&ouid=104164318499100110569)
-   - [花花酱leetcode video solutions](https://space.bilibili.com/9880352?from=search&seid=16281611103588824138)
+   - [花花酱leetcode video solutions](https://www.youtube.com/user/xxfflower)
    - [Grandyang solution copy](https://www.cnblogs.com/grandyang/p/4606334.html)
    - [Sample Solutions](https://docs.google.com/document/d/1Yo13hX7gILsXA0v3zbo1KS0J8r2-8NkXinwGT_v_eCI/edit)
    - [Leetcode Animation](https://github.com/MisterBooo/LeetCodeAnimation)
