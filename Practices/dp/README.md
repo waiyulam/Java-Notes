@@ -42,7 +42,7 @@ return dp[target]
 - [**Maximal Square**](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/maxsquare.py)
 - [**Tiling a Rectangle with the Fewest Squares**](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/tilingrectangle)
 - [**Dungeon Game**](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/Dungeon)
-- Minimum Number of Refueling Stops
+- [**Minimum Number of Refueling Stops**](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/refuelStop)
 
 ### Distinct Ways
 
