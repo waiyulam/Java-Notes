@@ -40,8 +40,7 @@ return dp[target]
 - [Triangle](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/triangle.py)
 - [Ones and Zeroes](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/zerosones.py)
 - [**Maximal Square**](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/maxsquare.py)
-- Coin Change
-- Tiling a Rectangle with the Fewest Squares
+- [**Tiling a Rectangle with the Fewest Squares**](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/tilingrectangle.py)
 - Dungeon Game
 - Minimum Number of Refueling Stops
 
