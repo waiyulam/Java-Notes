@@ -11,7 +11,7 @@ class Solution(object):
         dp = [-sys.maxsize for i in range(N+1)]
         dp[0] = startFuel
         for i in range(N):
-            for t in reversed(range(i+1)):
+            for t in reversed(range(i+1)): # key: t in reversed order 
                 if (dp[t] >= stations[i][0]):
                     dp[t+1] = max(dp[t+1],dp[t]+stations[i][1])
         
