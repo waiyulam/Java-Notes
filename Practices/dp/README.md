@@ -64,13 +64,7 @@ return dp[target]
 ```
 #### Examples 
 - [Climbing Stairs easy](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/climing_stairs)
-```python
-for (int stair = 2; stair <= n; ++stair) {
-   for (int step = 1; step <= 2; ++step) {
-       dp[stair] += dp[stair-step];   
-   }
-}
-```
+
 - Unique Paths Medium
 ```python
 for (int i = 1; i < m; ++i) {
