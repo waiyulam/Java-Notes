@@ -44,3 +44,11 @@ dp[i]=dp[i-1]+dp[i-2]
 Time complexity : O(n) 
 
 Space complexity : O(n)
+
+```python
+for (int stair = 2; stair <= n; ++stair) {
+   for (int step = 1; step <= 2; ++step) {
+       dp[stair] += dp[stair-step];   
+   }
+}
+```

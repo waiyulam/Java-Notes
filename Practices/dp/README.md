@@ -63,15 +63,9 @@ for (int i = 1; i <= target; ++i) {
 return dp[target]
 ```
 #### Examples 
-70. Climbing Stairs easy
-```python
-for (int stair = 2; stair <= n; ++stair) {
-   for (int step = 1; step <= 2; ++step) {
-       dp[stair] += dp[stair-step];   
-   }
-}
-```
-62. Unique Paths Medium
+- [Climbing Stairs easy](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/climing_stairs)
+
+- Unique Paths Medium
 ```python
 for (int i = 1; i < m; ++i) {
    for (int j = 1; j < n; ++j) {
@@ -79,7 +73,8 @@ for (int i = 1; i < m; ++i) {
    }
 }
 ```
-1155. Number of Dice Rolls With Target Sum Medium
+
+- Number of Dice Rolls With Target Sum Medium
 ```python
 for (int rep = 1; rep <= d; ++rep) {
    vector<int> new_ways(target+1);
@@ -97,33 +92,33 @@ for (int rep = 1; rep <= d; ++rep) {
 #### Practices 
 Note : Some questions point out the number of repetitions, in that case, add one more loop to simulate every repetition.
 
-688. Knight Probability in Chessboard Medium
+- Knight Probability in Chessboard Medium
 
-494. Target Sum Medium
+- Target Sum Medium
 
-377. Combination Sum IV Medium
+- Combination Sum IV Medium
 
-935. Knight Dialer Medium
+- Knight Dialer Medium
 
-1223. Dice Roll Simulation Medium
+- Dice Roll Simulation Medium
 
-416. Partition Equal Subset Sum Medium
+- Partition Equal Subset Sum Medium
 
-808. Soup Servings Medium
+- Soup Servings Medium
 
-790. Domino and Tromino Tiling Medium
+- Domino and Tromino Tiling Medium
 
-801. Minimum Swaps To Make Sequences Increasing
+- Minimum Swaps To Make Sequences Increasing
 
-673. Number of Longest Increasing Subsequence Medium
+- Number of Longest Increasing Subsequence Medium
 
-63. Unique Paths II Medium
+- Unique Paths II Medium
 
-576. Out of Boundary Paths Medium
+- Out of Boundary Paths Medium
 
-1269. Number of Ways to Stay in the Same Place After Some Steps Hard
+- Number of Ways to Stay in the Same Place After Some Steps Hard
 
-1220. Count Vowels Permutation Hard
+- Count Vowels Permutation Hard
 ### Merging Intervals
 
 ### DP on Strings
