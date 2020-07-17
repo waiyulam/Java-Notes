@@ -28,7 +28,7 @@ for (int i = 1; i <= target; ++i) {
 }
 return dp[target]
 ```
-**Leetcode similar problems**:   
+#### Practices 
 - [Min Cost Climbing Stairs](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/climbing_stairs)
 - [Minimum Path Sum](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/mps)
 - [**Coin Change**](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/coin_change)
