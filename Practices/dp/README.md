@@ -65,14 +65,7 @@ return dp[target]
 #### Examples 
 - [Climbing Stairs easy](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/climing_stairs)
 
-- Unique Paths Medium
-```python
-for (int i = 1; i < m; ++i) {
-   for (int j = 1; j < n; ++j) {
-       dp[i][j] = dp[i][j-1] + dp[i-1][j];
-   }
-}
-```
+- [Unique Paths Medium](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/uniquePaths)
 
 - Number of Dice Rolls With Target Sum Medium
 ```python
