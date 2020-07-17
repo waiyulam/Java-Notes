@@ -62,6 +62,7 @@ for (int i = 1; i <= target; ++i) {
 }
 return dp[target]
 ```
+#### Examples 
 70. Climbing Stairs easy
 ```python
 for (int stair = 2; stair <= n; ++stair) {
@@ -93,7 +94,7 @@ for (int rep = 1; rep <= d; ++rep) {
    ways = new_ways;
 }
 ```
-
+#### Practices 
 Note : Some questions point out the number of repetitions, in that case, add one more loop to simulate every repetition.
 
 688. Knight Probability in Chessboard Medium
