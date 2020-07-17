@@ -63,7 +63,7 @@ for (int i = 1; i <= target; ++i) {
 return dp[target]
 ```
 #### Examples 
-70. Climbing Stairs easy
+70. [Climbing Stairs easy](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/climing_stairs)
 ```python
 for (int stair = 2; stair <= n; ++stair) {
    for (int step = 1; step <= 2; ++step) {
