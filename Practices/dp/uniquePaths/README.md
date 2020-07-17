@@ -31,3 +31,4 @@ Constraints:
 1. 1 <= m, n <= 100
 2. It's guaranteed that the answer will be less than or equal to 2 * 10 ^ 9.
 
+![](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/uniquePaths/Dynamic%20Programming%20Practices%20.jpeg)
