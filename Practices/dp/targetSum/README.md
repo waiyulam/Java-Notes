@@ -31,3 +31,8 @@ There are 5 ways to assign symbols to make the sum of nums be target 3.
 
 ## Two way for DP solution 
 ![](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/targetSum/twoways.png)
+
+## [Optimization : 0/1 knapsack](https://www.youtube.com/watch?v=zks6mN06xdQ)
+![](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/targetSum/optimization1.png)
+![](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/targetSum/optimization2.png)
+![](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/targetSum/optimization3.png)
