@@ -27,3 +27,5 @@ There are 5 ways to assign symbols to make the sum of nums be target 3.
 - The sum of elements in the given array will not exceed 1000.
 - Your output answer is guaranteed to be fitted in a 32-bit integer.
 
+![](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/targetSum/Dynamic%20Programming%20Practices%20.jpeg)
+
