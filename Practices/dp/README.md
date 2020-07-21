@@ -75,7 +75,7 @@ Note : Some questions point out the number of repetitions, in that case, add one
 
 - [Knight Probability in Chessboard Medium](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/knight_chessboard)
 
-- [Target Sum Medium](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/targetSum)
+- [**Target Sum Medium**](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/targetSum)
 
 - Combination Sum IV Medium
 
