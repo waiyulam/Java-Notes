@@ -44,6 +44,20 @@ class Solution(object):
             dp_prep = dp_cur
         return dp_prep[S+OFFSET]
 
+# 变形-> 0/1 knapsack problem 
+
+    def findTargetSumWays_optimized(self,nums,S):
+        S = abs(S)
+        MAX = sum(nums)
+        if (S>MAX or (S+MAX)%2 != 0): return 0
+        target = (S+MAX) / 2
+        dp = [0 for _ in range(target+1)]
+        dp[0] = 1
+        for n in nums:
+            for i in reversed(range(n,target+1)):
+                dp[i] += dp[i - n]
+        return dp[target]
+                
 if __name__ == "__main__":
     s = Solution()
     nums = [1,1,1]
