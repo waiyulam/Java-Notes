@@ -29,3 +29,5 @@ There are 5 ways to assign symbols to make the sum of nums be target 3.
 
 ![](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/targetSum/Dynamic%20Programming%20Practices%20.jpeg)
 
+## Two way for DP solution 
+![](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/targetSum/twoways.png)
