@@ -73,8 +73,7 @@ return dp[target]
 #### Practices 
 Note : Some questions point out the number of repetitions, in that case, add one more loop to simulate every repetition.
 
-- Knight Probability in Chessboard Medium
-
+- [Knight Probability in Chessboard Medium](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/knight_chessboard)
 - Target Sum Medium
 
 - Combination Sum IV Medium
