@@ -67,21 +67,9 @@ return dp[target]
 
 - [Unique Paths Medium](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/uniquePaths)
 
-- Number of Dice Rolls With Target Sum Medium
-```python
-for (int rep = 1; rep <= d; ++rep) {
-   vector<int> new_ways(target+1);
-   for (int already = 0; already <= target; ++already) {
-       for (int pipe = 1; pipe <= f; ++pipe) {
-           if (already - pipe >= 0) {
-               new_ways[already] += ways[already - pipe];
-               new_ways[already] %= mod;
-           }
-       }
-   }
-   ways = new_ways;
-}
-```
+- [Number of Dice Rolls With Target Sum Medium](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/rolldice)
+
+
 #### Practices 
 Note : Some questions point out the number of repetitions, in that case, add one more loop to simulate every repetition.
 

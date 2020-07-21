@@ -47,3 +47,21 @@ Explanation:
 The answer must be returned modulo 10^9 + 7.
 ```
 
+![](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/rolldice/D143AD1B1.jpeg)
+![](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/rolldice/D143AD1B2.jpeg)
+![](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/rolldice/emulation.png)
+
+```python
+for (int rep = 1; rep <= d; ++rep) {
+   vector<int> new_ways(target+1);
+   for (int already = 0; already <= target; ++already) {
+       for (int pipe = 1; pipe <= f; ++pipe) {
+           if (already - pipe >= 0) {
+               new_ways[already] += ways[already - pipe];
+               new_ways[already] %= mod;
+           }
+       }
+   }
+   ways = new_ways;
+}
+```
