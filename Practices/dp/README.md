@@ -79,7 +79,7 @@ Note : Some questions point out the number of repetitions, in that case, add one
 
 - [Combination Sum IV Medium](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/combinationSumIV)
 
-- Knight Dialer Medium
+- [Knight Dialer Medium](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/knightDialer)
 
 - Dice Roll Simulation Medium
 
