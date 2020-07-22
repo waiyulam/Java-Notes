@@ -81,7 +81,7 @@ Note : Some questions point out the number of repetitions, in that case, add one
 
 - [Knight Dialer Medium](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/knightDialer)
 
-- Dice Roll Simulation Medium
+- [Dice Roll Simulation Hard](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/rollSimulation)
 
 - Partition Equal Subset Sum Medium
 
