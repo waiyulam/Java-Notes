@@ -1,4 +1,4 @@
-935. Knight Dialer  
+# 935. Knight Dialer  (MEDIUM)
 
 A chess knight can move as indicated in the chess diagram below:        
 ![](https://assets.leetcode.com/uploads/2018/10/12/knight.png)
