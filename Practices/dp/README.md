@@ -77,11 +77,11 @@ Note : Some questions point out the number of repetitions, in that case, add one
 
 - [**Target Sum Medium**](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/targetSum)
 
-- [Combination Sum IV Medium](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/combinationSumIV)
+- [**Combination Sum IV Medium**](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/combinationSumIV)
 
 - [Knight Dialer Medium](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/knightDialer)
 
-- [Dice Roll Simulation Hard](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/rollSimulation)
+- [**Dice Roll Simulation Hard**](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/rollSimulation)
 
 - [Partition Equal Subset Sum Medium](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/partitionSum)
 
