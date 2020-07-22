@@ -1,6 +1,6 @@
 935. Knight Dialer  
 
-A chess knight can move as indicated in the chess diagram below:
+A chess knight can move as indicated in the chess diagram below:        
 ![](https://assets.leetcode.com/uploads/2018/10/12/knight.png)
 
 ![](https://assets.leetcode.com/uploads/2018/10/30/keypad.png)
