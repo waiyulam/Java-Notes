@@ -77,7 +77,7 @@ Note : Some questions point out the number of repetitions, in that case, add one
 
 - [**Target Sum Medium**](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/targetSum)
 
-- Combination Sum IV Medium
+- [Combination Sum IV Medium](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/combinationSumIV)
 
 - Knight Dialer Medium
 
