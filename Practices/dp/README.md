@@ -83,7 +83,7 @@ Note : Some questions point out the number of repetitions, in that case, add one
 
 - [Dice Roll Simulation Hard](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/rollSimulation)
 
-- Partition Equal Subset Sum Medium
+- [Partition Equal Subset Sum Medium](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/partitionSum)
 
 - Soup Servings Medium
 
