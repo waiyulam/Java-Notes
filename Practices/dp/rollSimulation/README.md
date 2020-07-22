@@ -37,3 +37,4 @@ Output: 181
 ![](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/rollSimulation/562837832.jpeg)
 ![](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/rollSimulation/562837833.jpeg)
 ![](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/rollSimulation/562837834.jpeg)
+
