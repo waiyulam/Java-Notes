@@ -85,7 +85,7 @@ Note : Some questions point out the number of repetitions, in that case, add one
 
 - [Partition Equal Subset Sum Medium](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/partitionSum)
 
-- Soup Servings Medium
+- [**Soup Servings Medium**](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/soupserving)
 
 - Domino and Tromino Tiling Medium
 
