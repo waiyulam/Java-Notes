@@ -26,3 +26,5 @@ which are both strictly increasing.
 - A, B are arrays with the same length, and that length will be in the range [1, 1000]
 - A[i], B[i] are integer values in the range [0, 2000]
 
+![](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/minSwap/BF5405771.jpeg)
+![](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/minSwap/BF5405772.jpeg)
