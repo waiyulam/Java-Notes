@@ -43,6 +43,14 @@ Don't Rush. Enjoy the journey. Try to be a natural problem solver not a intervie
 		+ [Backtracking & Branch and Bound](#Backtracking-and-Branch-and-Bound)
 		+ [Big Guy: Dynamic Programming and memoization 😭](#Dynamic-Programming-and-memoization)
 	* [Data Structures](#Data-Structures)
+		+ Arrays
+		+ Stacks 
+		+ Queues 
+		+ Linked List 
+		+ Trees
+		+ Graphs
+		+ Tries (They are effectively trees but it's still good to call them out separately).
+		+ Hash Tables
 	* [Algorithms](#Algorithms)
 	* [Best DSA study Link](#Best-DSA-study-Link)
 - [Run practice problems](#Run-practice-problems)
