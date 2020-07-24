@@ -87,7 +87,7 @@ Note : Some questions point out the number of repetitions, in that case, add one
 
 - [**Soup Servings Medium**](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/soupserving)
 
-- Domino and Tromino Tiling Medium
+- [**Domino and Tromino Tiling Medium**](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/dominoTiling)
 
 - Minimum Swaps To Make Sequences Increasing
 
