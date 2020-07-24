@@ -29,5 +29,8 @@ The five different ways are listed below, different letters indicates different 
 XYZ XXZ XYY XXY XYY
 XYZ YYZ XZZ XYY XXY
 ```
+![](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/dominoTiling/1.jpeg)
+![](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/dominoTiling/2.jpeg)
+![](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/dominoTiling/3.jpeg)
 
 
