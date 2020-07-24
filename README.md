@@ -43,14 +43,14 @@ Don't Rush. Enjoy the journey. Try to be a natural problem solver not a intervie
 		+ [Backtracking & Branch and Bound](#Backtracking-and-Branch-and-Bound)
 		+ [Big Guy: Dynamic Programming and memoization 😭](#Dynamic-Programming-and-memoization)
 	* [Data Structures](#Data-Structures)
-		+ Arrays
-		+ Stacks 
-		+ Queues 
-		+ Linked List 
-		+ Trees
-		+ Graphs
-		+ Tries (They are effectively trees but it's still good to call them out separately).
-		+ Hash Tables
+		+ [Arrays](#Arrays)
+		+ [Linked List](#Linked-Lists)
+		+ [Stacks & Queues](#Stacks-and-Queues)
+		+ [Hash Tables](#Hash-Table)
+		+ [Trees](#Trees)
+		+ [Tries](#Tries)
+		+ [Heaps&Priority Queue](#Heap&PriorityQueue&Binary-Heap)
+		+ [Others](#Others-DS)
 	* [Algorithms](#Algorithms)
 	* [Best DSA study Link](#Best-DSA-study-Link)
 - [Run practice problems](#Run-practice-problems)
@@ -229,29 +229,30 @@ ps:This is one of the best materials to study on data structure topic. William i
   -  [ ] [Intro](https://www.youtube.com/watch?v=njTh_OwMljA&feature=youtu.be) 
   -  [ ] [Linked Lists vs Array](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9)
 
-### Trees
+### Stacks and Queues
 --------------------------------------------------------------------------------------------------------   
-  -  [ ] [Intro](https://www.youtube.com/watch?v=oSWTXtMglKE&feature=youtu.be)
-
-### Heap / Priority Queue / Binary Heap
---------------------------------------------------------------------------------------------------------   
-  -  [ ] [Intro](https://www.youtube.com/watch?v=t0Cq6tVNRBA&feature=youtu.be)
+  -  [ ] [Intro](https://youtu.be/wjI1WNcIntg)
+  -  [ ] [Using Stacks Last-In First-Out ](https://archive.org/details/0102WhatYouShouldKnow/05_01-usingStacksForLast-inFirst-out.mp4)
 
 ### Hash Table
 --------------------------------------------------------------------------------------------------------   
   -  [ ] [Intro](https://www.youtube.com/watch?v=shs0KM3wKv8&feature=youtu.be)
   -  [ ] [Phone Book Problem](https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem)
 
-### Stacks and Queues
+
+### Trees
 --------------------------------------------------------------------------------------------------------   
-  -  [ ] [Intro](https://youtu.be/wjI1WNcIntg)
-  -  [ ] [Using Stacks Last-In First-Out ](https://archive.org/details/0102WhatYouShouldKnow/05_01-usingStacksForLast-inFirst-out.mp4)
+  -  [ ] [Intro](https://www.youtube.com/watch?v=oSWTXtMglKE&feature=youtu.be)
 
 ### Tries
 --------------------------------------------------------------------------------------------------------   
   -  [ ] [Intro](https://www.youtube.com/watch?v=zIjfhVPRZCg)
 
-### Others 
+### Heap&PriorityQueue&Binary Heap
+--------------------------------------------------------------------------------------------------------   
+  -  [ ] [Intro](https://www.youtube.com/watch?v=t0Cq6tVNRBA&feature=youtu.be)
+
+### Others DS
 --------------------------------------------------------------------------------------------------------   
   -  [ ] [Data Structure Intro](https://www.youtube.com/watch?v=bum_19loj9A)
   -  [ ] [Crash Course Computer Science](https://www.youtube.com/watch?v=DuDz6B4cqVc&feature=youtu.be)
