@@ -40,6 +40,7 @@ return dp[target]
 - [Triangle](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/triangle)
 - [Ones and Zeroes](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/zerosones)
 - [**Maximal Square**](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/maxsquare)
+- [**Minimum Swaps To Make Sequences Increasing**](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/minSwap)
 - [**Tiling a Rectangle with the Fewest Squares**](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/tilingrectangle)
 - [**Dungeon Game**](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/Dungeon)
 - [**Minimum Number of Refueling Stops**](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/refuelStop)
@@ -88,8 +89,6 @@ Note : Some questions point out the number of repetitions, in that case, add one
 - [**Soup Servings Medium**](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/soupserving)
 
 - [**Domino and Tromino Tiling Medium**](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/dominoTiling)
-
-- Minimum Swaps To Make Sequences Increasing
 
 - Number of Longest Increasing Subsequence Medium
 
