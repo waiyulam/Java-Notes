@@ -90,7 +90,7 @@ Note : Some questions point out the number of repetitions, in that case, add one
 
 - [**Domino and Tromino Tiling Medium**](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/dominoTiling)
 
-- Number of Longest Increasing Subsequence Medium
+- [**Number of Longest Increasing Subsequence Medium**](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/LIS)
 
 - Unique Paths II Medium
 
