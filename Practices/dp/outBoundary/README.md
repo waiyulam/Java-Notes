@@ -31,5 +31,5 @@ Output: 12
 Explanation:
 ![](https://assets.leetcode.com/uploads/2018/10/12/out_of_boundary_paths_2.png)
 
-
+![](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/outBoundary/boundary.jpg)
 
