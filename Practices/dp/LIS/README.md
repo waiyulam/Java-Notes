@@ -18,3 +18,5 @@ Explanation: The length of longest continuous increasing subsequence is 1, and t
 **Notes**
 - Length of the given array will be not exceed 2000 and the answer is guaranteed to be fit in 32-bit signed int.
 
+![](https://github.com/waiyulam/Interview-Prep-Guide/edit/master/Practices/dp/LIS/818D16111.jpeg)
+![](https://github.com/waiyulam/Interview-Prep-Guide/edit/master/Practices/dp/LIS/818D16112.jpeg)
