@@ -92,7 +92,7 @@ Note : Some questions point out the number of repetitions, in that case, add one
 
 - [**Number of Longest Increasing Subsequence Medium**](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/LIS)
 
-- Unique Paths II Medium
+- [Unique Paths II Medium](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/uniquePath2)
 
 - Out of Boundary Paths Medium
 
