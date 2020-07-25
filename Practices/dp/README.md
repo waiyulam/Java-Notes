@@ -94,7 +94,7 @@ Note : Some questions point out the number of repetitions, in that case, add one
 
 - [Unique Paths II Medium](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/uniquePath2)
 
-- Out of Boundary Paths Medium
+- [Out of Boundary Paths Medium](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/outBoundary)
 
 - Number of Ways to Stay in the Same Place After Some Steps Hard
 
