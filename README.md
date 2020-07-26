@@ -1,6 +1,6 @@
 # Interview-Prep-Guide
-Cracking the interview : Interviewing can be tough because you can feel like you are making no progress. Having this study guide will help you track your progress and give you a better read on how you are doing!    
-Don't Rush. Enjoy the journey. Try to be a natural problem solver not a interview acing problem solver. And you are not alone!  
+Interviewing can be tough because you can feel like you are making no progress. Having this study guide will help you track your progress and give you a better read on how you are doing! Don't Rush. Enjoy the journey. Try to be a natural problem solver not a interview acing problem solver. And you are not alone!  
+
 **Keep moving mate, never ever dare to give up. Hard work is going to pay you off very soon.**
 
 ![](https://media.giphy.com/media/KWQy384u0Rn9bCvwMa/giphy.gif)
@@ -87,6 +87,7 @@ The secret is nothing but **Regular Deliberate Strategic Practice**. We always t
 
 ## Comprehensive gold materials
   -  [Comprehensive Data Structure and Algorithm Study Guide](https://leetcode.com/discuss/general-discussion/494279/comprehensive-data-structure-and-algorithm-study-guide)
+  -  [C++ coding interview study guide by huihut](https://github.com/huihut/interview)
   -  [Coding Interview University by John Washam](https://github.com/jwasham/coding-interview-university)
   -  [Tech interview Handbook by yangshun](https://yangshun.github.io/tech-interview-handbook/algorithms/array)
   -  [Practice Python by John Washam](https://github.com/jwasham/practice-python)
