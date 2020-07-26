@@ -98,7 +98,8 @@ Note : Some questions point out the number of repetitions, in that case, add one
 
 - [Number of Ways to Stay in the Same Place After Some Steps Hard](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/staySame)
 
-- Count Vowels Permutation Hard
+- [Count Vowels Permutation Hard](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/vowelsPermutation)
+
 ### Merging Intervals
 
 ### DP on Strings
