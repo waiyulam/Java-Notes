@@ -3,8 +3,9 @@ Interviewing can be tough because you can feel like you are making no progress. 
 
 **Keep moving mate, never ever dare to give up. Hard work is going to pay you off very soon.**
 
-![](https://media.giphy.com/media/KWQy384u0Rn9bCvwMa/giphy.gif)
-
+<p align="center">
+  <img width="460" height="300" src="https://media.giphy.com/media/KWQy384u0Rn9bCvwMa/giphy.gif">
+</p>
 <b><details><summary>👀 ABOUTS</summary></b>	
 
 🕵 This repository is a summary of the basic knowledge of recruiting job seekers and beginners in the direction of SDE, including programming language, data structure, algorithm, programming paradigm, system, network and other domain knowledge 
