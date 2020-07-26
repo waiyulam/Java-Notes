@@ -47,7 +47,7 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 # 📄 Table of Contents 
 - [**📖 基础知识CS Fundamentals**](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview)
 	<details>
-	<summary><b><a href="mailto:someone@example.com">📊 数据结构Data Structures(TODO)</a></b></summary>
+	<summary><b><a href=" ">📊 数据结构Data Structures</a></b></summary>
 
 	- [Arrays]()
 	- [Linked List]()
@@ -61,21 +61,31 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 
 	</details>
 	
-	* [**⚡️ 算法Algorithms**]()
-		+ [Introduction to Algorithms](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/algorithms)
-			* [Time&Space Complexity]()
-			* [Recursion]()
-		+ [Searching  (TODO)]()
-		+ [Sorting   (TODO)]()
-		+ [Graph Theory   (TODO)]()
-		+ [NP problem   (TODO)](#NP-program)
-		+ [String Manipulation  (TODO)](#String-Manipulation)
-		+ [Bit Manipulation   (TODO)](#Bit-Manipulation)
-	* [**🏠 编程设计范式Programming paradigm**](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/paradigm)
-		+ [Divide and Conquer]()
-		+ [Greedy Algorithms]()
-		+ [Backtracking & Branch and Bound]()
-		+ [Big Guy: Dynamic Programming and memoization 😭]()
+	<details>
+	<summary><b><a href=" ">⚡️ 算法Algorithms</a></b></summary>
+
+	- [Introduction to Algorithms](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/algorithms)
+		- [Time&Space Complexity]()
+		- [Recursion]()
+	- [Searching  (TODO)]()
+	- [Sorting   (TODO)]()
+	- [Graph Theory   (TODO)]()
+	- [NP problem   (TODO)](#NP-program)
+	- [String Manipulation  (TODO)](#String-Manipulation)
+	- [Bit Manipulation   (TODO)](#Bit-Manipulation)
+
+	</details>
+	
+	<details>
+	<summary><b><a href="https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/paradigm">🏠 编程设计范式Programming paradigm</a></b></summary>
+
+	- [Divide and Conquer]()
+	- [Greedy Algorithms]()
+	- [Backtracking & Branch and Bound]()
+	- [Big Guy: Dynamic Programming and memoization 😭]()
+
+	</details>
+	
 - [**🧯 练习Run practice problems**]()
 	* [**Hackerrank**]()
 	* [**Leetcode**]()
