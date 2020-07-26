@@ -49,7 +49,7 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 # 📄 Table of Contents 
 - [**📖 基础知识CS Fundamentals**](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview)
 	<details>
-	<summary><b><a href=" ">📊 数据结构Data Structures</a></b></summary>
+	<summary><b><a href="https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure">📊 数据结构Data Structures</a></b></summary>
 	<br>
 
 	- [Arrays]()
@@ -66,7 +66,7 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 	</details>
 	
 	<details>
-	<summary><b><a href=" ">⚡️ 算法Algorithms</a></b></summary>
+	<summary><b><a href="https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/algorithms">⚡️ 算法Algorithms</a></b></summary>
 	<br>
 
 	- [Introduction to Algorithms](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/algorithms)

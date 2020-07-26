@@ -2,8 +2,8 @@
 
 ## Table of Contents 
   * [Data Structures](datastructure)
-  * [Algorithms](#Algorithms)
-  * [Programming paradigm](#Programming-paradigm)
+  * [Algorithms](algorithms)
+  * [Programming paradigm](paradigm)
   * [Best DSA study Link](#Best-DSA-study-Link)
 
 ## Best DSA study Link
