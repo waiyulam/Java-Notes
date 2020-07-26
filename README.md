@@ -49,15 +49,15 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 	<details>
 	<summary><b><a href=" ">📊 数据结构Data Structures</a></b></summary>
 
-	- [Arrays]()
-	- [Linked List]()
-	- [Stacks & Queues &Double-ended Queue]()
-	- [Hash Tables]()
-	- [Trees]()
-	- [Tries]()
-	- [Heaps&Priority Queue]()
-	- [Graphs]()
-	- [Others]()
+		- [Arrays]()
+		- [Linked List]()
+		- [Stacks & Queues &Double-ended Queue]()
+		- [Hash Tables]()
+		- [Trees]()
+		- [Tries]()
+		- [Heaps&Priority Queue]()
+		- [Graphs]()
+		- [Others]()
 
 	</details>
 	
