@@ -53,14 +53,14 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 	<br>
 
 	- [Arrays]()
-	- [Linked List]()
-	- [Stacks & Queues &Double-ended Queue]()
-	- [Hash Tables]()
-	- [Trees]()
-	- [Tries]()
-	- [Heaps&Priority Queue]()
-	- [Graphs]()
-	- [Others]()
+	- [Linked List（TODO)]()
+	- [Stacks & Queues &Double-ended Queue （TODO)]()
+	- [Hash Tables（TODO)]()
+	- [Trees（TODO)]()
+	- [Tries（TODO)]()
+	- [Heaps&Priority Queue（TODO)]()
+	- [Graphs（TODO)]()
+	- [Others（TODO)]()
 
 
 	</details>
@@ -89,7 +89,7 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 	- [Divide and Conquer]()
 	- [Greedy Algorithms]()
 	- [Backtracking & Branch and Bound]()
-	- [Big Guy: Dynamic Programming and memoization 😭]()
+	- [Big Guy: Dynamic Programming and memoization 😭（TODO)]()
 
 
 	</details>
