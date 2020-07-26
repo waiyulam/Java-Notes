@@ -49,20 +49,23 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 	<details>
 	<summary><b><a href=" ">📊 数据结构Data Structures</a></b></summary>
 
-		- [Arrays]()
-		- [Linked List]()
-		- [Stacks & Queues &Double-ended Queue]()
-		- [Hash Tables]()
-		- [Trees]()
-		- [Tries]()
-		- [Heaps&Priority Queue]()
-		- [Graphs]()
-		- [Others]()
+
+	- [Arrays]()
+	- [Linked List]()
+	- [Stacks & Queues &Double-ended Queue]()
+	- [Hash Tables]()
+	- [Trees]()
+	- [Tries]()
+	- [Heaps&Priority Queue]()
+	- [Graphs]()
+	- [Others]()
+
 
 	</details>
 	
 	<details>
 	<summary><b><a href=" ">⚡️ 算法Algorithms</a></b></summary>
+
 
 	- [Introduction to Algorithms](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/algorithms)
 		- [Time&Space Complexity]()
@@ -74,30 +77,41 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 	- [String Manipulation  (TODO)](#String-Manipulation)
 	- [Bit Manipulation   (TODO)](#Bit-Manipulation)
 
+
 	</details>
 	
 	<details>
 	<summary><b><a href="https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/paradigm">🏠 编程设计范式Programming paradigm</a></b></summary>
+
 
 	- [Divide and Conquer]()
 	- [Greedy Algorithms]()
 	- [Backtracking & Branch and Bound]()
 	- [Big Guy: Dynamic Programming and memoization 😭]()
 
+
 	</details>
+	
 	
 - [**🧯 练习Run practice problems**]()
 	* [**Hackerrank**]()
 	* [**Leetcode**]()
+	
 - [**❓ 面试问题Interview Questions**]()
+
 - [**🏷 语言回顾Programming Language Review**]()
+
 - [**➗ 数学基础Mathmatics**]()
+
 - [**📟 操作系统Operating System**]()
 	+ [concurrency]()
 	+ [cache]()
 - [**💾 数据库Database**]()
+
 - [**📏 面向对象和设计模式 OOP & Design pattern**]()
+
 - [**🍭 总结Conclusion**](#Conclusion)
+
 - [**👍 Sources**](#Comprehensive-gold-materials)
 
 ## Conclusion
