@@ -4,7 +4,7 @@
 - [CS Fundamentals](#CS-Funamentals)
 	* [Data Structures](#Data-Structures)
 	* [Algorithms](#Algorithms)
-    * [Programming paradigm](#Programming-paradigm)
+  * [Programming paradigm](#Programming-paradigm)
 	* [Best DSA study Link](#Best-DSA-study-Link)
 
 ## Best DSA study Link
