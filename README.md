@@ -49,15 +49,15 @@ Interviewing can be tough because you can feel like you are making no progress. 
 	<details>
 	<summary><b>📊 数据结构Data Structures(TODO)</b></summary>
 
-		- [Arrays]()
-		- [Linked List]()
-		- [Stacks & Queues &Double-ended Queue]()
-		- [Hash Tables]()
-		- [Trees]()
-		- [Tries]()
-		- [Heaps&Priority Queue]()
-		- [Graphs]()
-		- [Others]()
+	- [Arrays]()
+	- [Linked List]()
+	- [Stacks & Queues &Double-ended Queue]()
+	- [Hash Tables]()
+	- [Trees]()
+	- [Tries]()
+	- [Heaps&Priority Queue]()
+	- [Graphs]()
+	- [Others]()
 
 	</details>
 	
