@@ -4,30 +4,30 @@
 Due to my limited level, the knowledge points in the warehouse are from my original, reading notes, books, blog posts, etc. Non-original has been marked with the source, if there is any omission, please issue an issue.
 </details>
 
-# Interview-Prep-Guide
+# 🏎 Interview-Prep-Guide
 Interviewing can be tough because you can feel like you are making no progress. Having this study guide will help you track your progress and give you a better read on how you are doing! Don't Rush. Enjoy the journey. Try to be a natural problem solver not a interview acing problem solver. And you are not alone!  
 
 **Keep moving mate, never ever dare to give up. Hard work is going to pay you off very soon.**
 
 ![](https://media.giphy.com/media/KWQy384u0Rn9bCvwMa/giphy.gif)
 
-##  Regular Deliberate Strategic Practice
-### Retaining Computer Science Knowledge
+## 🏁 Deliberate Strategic : Practice (KEY TO SUCCEED)
+- **Retaining Computer Science Knowledge**
 1. Review cs fundamentatals and summarize
 2. Start doing coding interview questions while you're learning data structures and algorithms. 
 3. Review and review 
  
-### Keep Practics
+- **Keep Practics**
 1. Use Leetcode to practices different problems 
 2. Take a break from programming problems for a half hour and go through your flashcards.
 
-## Coding problem practices
+## 💻 Coding problem practices
 - **Gathering requirements** : consider the constraint for the problem and its edge cases 
 - **Problem recognition** : where the right data structures and algorithms fit in
 - **Brain storm** : talking your way through the solution like you will in the interview including performance analysis 
 - **Testing your solutions**
 
-## Daily Plan 
+## 📅 Daily Plan 
 1. CS Foundamentals Prep 
 	- Take one subject from the list below, watch videos about that subject, and write an implementation 
 	- Practices : [Implementation Category of Hackerrank](https://www.hackerrank.com/domains/algorithms?filters%5Bsubdomains%5D%5B%5D=implementation&badge_type=problem-solving)
@@ -38,9 +38,9 @@ Interviewing can be tough because you can feel like you are making no progress. 
 	- Make use of built-in types
 	- Each problems should follow the [strategics](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Leetcode)
 	
-# Table of Contents 
-- [**CS Fundamentals**](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview)
-	* [**Data Structures**(TODO)]()
+# 📄 Table of Contents 
+- [**📖 CS Fundamentals**](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview)
+	* [**📊 Data Structures**(TODO)]()
 		+ [Arrays]()
 		+ [Linked List]()
 		+ [Stacks & Queues &Double-ended Queue]()
@@ -50,7 +50,7 @@ Interviewing can be tough because you can feel like you are making no progress. 
 		+ [Heaps&Priority Queue]()
 		+ [Graphs]()
 		+ [Others]()
-	* [**Algorithms**]()
+	* [**⚡️ Algorithms**]()
 		+ [Introduction to Algorithms](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/algorithms)
 			* [Time&Space Complexity]()
 			* [Recursion]()
@@ -60,25 +60,25 @@ Interviewing can be tough because you can feel like you are making no progress. 
 		+ [NP problem   (TODO)](#NP-program)
 		+ [String Manipulation  (TODO)](#String-Manipulation)
 		+ [Bit Manipulation   (TODO)](#Bit-Manipulation)
-	* [**Programming paradigm**](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/paradigm)
+	* [**🏠 Programming paradigm**](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/paradigm)
 		+ [Divide and Conquer]()
 		+ [Greedy Algorithms]()
 		+ [Backtracking & Branch and Bound]()
 		+ [Big Guy: Dynamic Programming and memoization 😭]()
-- [**Run practice problems**]()
+- [**🧯 Run practice problems**]()
 	* [**Hackerrank**]()
 	* [**Leetcode**]()
-- [**Interview Questions**]()
-- [**Programming Language Review**]()
-- [**System Design**]()
-- [**Mathmatics**]()
-- [**Operating System**]()
+- [**❓ Interview Questions**]()
+- [**🏷 Programming Language Review**]()
+- [**🔓 System Design**]()
+- [**➗ Mathmatics**]()
+- [**📟 Operating System**]()
 	+ [concurrency]()
 	+ [cache]()
-- [**Database**]()
-- [**OOP & Design pattern**]()
-- [**Conclusion**](#Conclusion)
-- [**Others materials**](#Comprehensive-gold-materials)
+- [**💾 Database**]()
+- [**📏 OOP & Design pattern**]()
+- [**🍭 Conclusion**](#Conclusion)
+- [**👍 Sources**](#Comprehensive-gold-materials)
 
 ## Conclusion
 ```java 
