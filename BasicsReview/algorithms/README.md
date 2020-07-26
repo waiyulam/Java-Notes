@@ -4,24 +4,23 @@
 - [Introduction to Algorithms](#Introduction-to-Algorithms)
     + [Time&Space Complexity](#Time-and-Space-Complexity)
     + [Recursion](#Recursion-and-analysis-of-recurrence-relations)
-- [Searching]
-- [Sorting]
-- [Graph Theory](#Graph-Theory)
-- [NP program](#NP-program)
-- [String Manipulation](#String-Manipulation)
-- [Bit Manipulation](#Bit-Manipulation)
+    + [NP program](#NP-program)
+- [Searching](search)
+- [Sorting](sorting)
+- [Graph Theory](graphtheory)
+- [String Manipulation](stringManipulation)
+- [Bit Manipulation](bitManipulation)
 
 ## Introduction to Algorithms 
-### Time and Space Complexity
---------------------------------------------------------------------------------------------------------   
+### Time and Space Complexity   
   -  [x] [Video no. 1-16 Abdul Bari's Algorithm Playlist](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)  
 ps:After watching this 16 videos i can guarantee that you will gain mastery on Time Complexity for sure.)  
 
   -  [ ] [Overall Recall of Algorithm Complexity Analysis](http://discrete.gr/complexity/)
   -  [ ] [Cheat Sheet](http://bigocheatsheet.com/)
   
+--- 
 ### Recursion and analysis of recurrence relations
---------------------------------------------------------------------------------------------------------   
   -  [x] [Recursion Playlist by mycodeschool](https://www.youtube.com/playlist?list=PL2_aWCzGMAwLz3g66WrxFGSXvSsvyfzCO)
   -  [x] [Masters Theorem for the proof of recursion: video no. 18 to no. 29 ](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)    
   
@@ -44,9 +43,9 @@ Recursion is made for solving problems that can be broken down into smaller, rep
 
 Almost everyone knows what recursion is, right? But that is not enough. You have to create some sort of mental model how recursion actually saves states by pushing function code to stack and reaches at the last/smallest problem and then solves it and then backtrack from there by poping function code from stack to top and etc. You have to spend sufficient time to understand recursion through studying and practicing, as recursion is will be the base of everything in this type.
 
-## NP program
+--- 
+### NP program
 NP, NP-Complete and Approximation Algorithms
---------------------------------------------------------------------------------------------------------   
   -  [ ] Know about the most famous classes of NP-complete problems, such as traveling salesman and the knapsack problem, and be able to recognize them when an interviewer asks you them in disguise.
   -  [ ] [video no.23 from MIT OCW Introduction to Algorithm](https://www.youtube.com/watch?v=moPtwq_cVH8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=23)
   -  [ ] [Video no.72 to no.73 from Abdul Bari Algorithm's Playlist](https://www.youtube.com/watch?v=e2cF8a5aAhE&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O&index=72)
