@@ -1,3 +1,9 @@
+<b><details><summary>👀 ABOUTS</summary></b>	
+🕵 This repository is a summary of the basic knowledge of recruiting job seekers and beginners in the direction of SDE, including programming language, data structure, algorithm, programming paradigm, system, network and other domain knowledge 
+
+Due to my limited level, the knowledge points in the warehouse are from my original, reading notes, books, blog posts, etc. Non-original has been marked with the source, if there is any omission, please issue an issue.
+</details>
+
 # Interview-Prep-Guide
 Interviewing can be tough because you can feel like you are making no progress. Having this study guide will help you track your progress and give you a better read on how you are doing! Don't Rush. Enjoy the journey. Try to be a natural problem solver not a interview acing problem solver. And you are not alone!  
 
