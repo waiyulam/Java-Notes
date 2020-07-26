@@ -26,7 +26,6 @@
 - [Others](#Others-DS)
 
 ## Arrays 
---------------------------------------------------------------------------------------------------------   
   - [ ] [Multi-dim Array](https://archive.org/details/0102WhatYouShouldKnow/02_05-multidimensionalArrays.mp4) 
   - [ ] [Dynamic Array](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
   - [ ] [Resizing Array](https://archive.org/details/0102WhatYouShouldKnow/03_01-resizableArrays.mp4)
@@ -49,23 +48,19 @@
 - **Insertion**: Linear array: **n/a**, Dynamic array: **O(n)**
 
 ## Linked Lists
---------------------------------------------------------------------------------------------------------   
   -  [ ] [Intro](https://www.youtube.com/watch?v=njTh_OwMljA&feature=youtu.be) 
   -  [ ] [Linked Lists vs Array](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9)
 
 ## Stacks and Queues
---------------------------------------------------------------------------------------------------------   
   -  [ ] [Intro](https://youtu.be/wjI1WNcIntg)
   -  [ ] [Using Stacks Last-In First-Out ](https://archive.org/details/0102WhatYouShouldKnow/05_01-usingStacksForLast-inFirst-out.mp4)
 
-## Hash Table
---------------------------------------------------------------------------------------------------------   
+## Hash Table   
   -  [ ] [Intro](https://www.youtube.com/watch?v=shs0KM3wKv8&feature=youtu.be)
   -  [ ] [Phone Book Problem](https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem)
 
 
 ## Trees
---------------------------------------------------------------------------------------------------------   
 -  [ ] [Intro](https://www.youtube.com/watch?v=oSWTXtMglKE&feature=youtu.be)
 - Binary Tree
 - Binary Search Tree
@@ -73,19 +68,15 @@
 - Suffix Tree (TODO)
 - Segment Tree (TODO)
 
-## Tries
---------------------------------------------------------------------------------------------------------   
+## Tries   
   -  [ ] [Intro](https://www.youtube.com/watch?v=zIjfhVPRZCg)
 
 ## Heap&PriorityQueue&Binary Heap
---------------------------------------------------------------------------------------------------------   
   -  [ ] [Intro](https://www.youtube.com/watch?v=t0Cq6tVNRBA&feature=youtu.be)
 
-## Graphs
---------------------------------------------------------------------------------------------------------   
+## Graphs   
 
 ## Others DS
---------------------------------------------------------------------------------------------------------   
   -  [ ] [Data Structure Intro](https://www.youtube.com/watch?v=bum_19loj9A)
   -  [ ] [Crash Course Computer Science](https://www.youtube.com/watch?v=DuDz6B4cqVc&feature=youtu.be)
 
