@@ -38,4 +38,5 @@ Output: 8
 
 - 1 <= steps <= 500
 - 1 <= arrLen <= 10^6
-
+![](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/staySame/page1_1.jpg)
+![](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/staySame/page2_1.jpg)
