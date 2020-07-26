@@ -50,7 +50,7 @@ Don't Rush. Enjoy the journey. Try to be a natural problem solver not a intervie
 		+ [Trees]()
 		+ [Tries]()
 		+ [Heaps&Priority Queue]()
-    		+ [Graphs]()
+		+ [Graphs]()
 		+ [Others]()
 	* [Algorithms]()
 	* [Best DSA study Link]()
