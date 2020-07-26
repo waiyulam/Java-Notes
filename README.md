@@ -7,31 +7,30 @@ Don't Rush. Enjoy the journey. Try to be a natural problem solver not a intervie
 
 ##  Regular Deliberate Strategic Practice
 ### Retaining Computer Science Knowledge
-1. Review cs fundamentatals and make [FlashCards](https://github.com/jwasham/computer-science-flash-cards) for main points. Review the flash cards when you have time 
+1. Review cs fundamentatals and summarize
 2. Start doing coding interview questions while you're learning data structures and algorithms. 
-3. Review
+3. Review and review 
  
-### Keep Practics when you get this point 
+### Keep Practics
 1. Use Leetcode to practices different problems 
 2. Take a break from programming problems for a half hour and go through your flashcards.
 
-## Coding problem practice 
-- problem recognition, and where the right data structures and algorithms fit in
-- gathering requirements for the problem
-- talking your way through the problem like you will in the interview
-- coding on a whiteboard or paper, not a computer
-- coming up with time and space complexity for your solutions
-- testing your solutions
+## Coding problem practices
+- **Gathering requirements** : consider the constraint for the problem and its edge cases 
+- **Problem recognition** : where the right data structures and algorithms fit in
+- **Brain storm** : talking your way through the solution like you will in the interview including performance analysis 
+- **Testing your solutions**
+
 ## Daily Plan 
 1. [ ] CS Foundamentals Prep 
 	- Take one subject from the list below, watch videos about that subject, and write an implementation 
-	- [Implementation Category of Hackerrank](https://www.hackerrank.com/domains/algorithms?filters%5Bsubdomains%5D%5B%5D=implementation&badge_type=problem-solving)
+	- Practices : [Implementation Category of Hackerrank](https://www.hackerrank.com/domains/algorithms?filters%5Bsubdomains%5D%5B%5D=implementation&badge_type=problem-solving)
 	- Each subjet should implement in at least 10 questions (Java / Python )
-	- Each problems should follow the [template](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Leetcode)
+	
 2. [ ] Run with practice problems 
 	- Leetcode ( Eash -> **Medium** -> Hard )
 	- Make use of built-in types
-	- Each problems should follow the [template](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Leetcode)
+	- Each problems should follow the [strategics](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Leetcode)
 	
 # Table of Contents 
 - [CS Fundamentals](#CS-Funamentals)
