@@ -33,10 +33,10 @@ Don't Rush. Enjoy the journey. Try to be a natural problem solver not a intervie
 	- Each problems should follow the [strategics](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Leetcode)
 	
 # Table of Contents 
-- [CS Fundamentals]()
-	* [Introduction to Algorithms]()
-		+ [Time&Space Complexity]()
-		+ [Recursion]()
+- [CS Fundamentals](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview)
+	* [Introduction to Algorithms](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/algorithms)
+	  + [Time&Space Complexity]()
+	  + [Recursion]()
   * [Programming paradigm]()
 		+ [Divide and Conquer]()
 		+ [Greedy Algorithms]()
