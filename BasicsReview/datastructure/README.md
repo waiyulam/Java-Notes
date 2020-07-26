@@ -11,68 +11,77 @@
 
 - Data structures are your weapons. Choosing the right weapon for the right battle is the key to victory. Be very familiar about the strengths of each data structure and the time complexities for its various operations.
 
-[hello](#Arrays)
+## Table of Contents 
+	- [Arrays](#Arrays)
+	- [Linked List](#Linked-Lists)
+	- [Stacks & Queues &Double-ended Queue](#Stacks-and-Queues)
+	- [Hash Tables](#Hash-Table)
+	- [Trees](#Trees)
+	- [Tries](#Tries)
+	- [Heaps&Priority Queue](#Heap&PriorityQueue&Binary-Heap)
+	- [Graphs](#Graphs)
+	- [Others](#Others-DS)
 
-### Arrays 
+## Arrays 
 --------------------------------------------------------------------------------------------------------   
   - [ ] [Multi-dim Array](https://archive.org/details/0102WhatYouShouldKnow/02_05-multidimensionalArrays.mp4) 
   - [ ] [Dynamic Array](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
   - [ ] [Resizing Array](https://archive.org/details/0102WhatYouShouldKnow/03_01-resizableArrays.mp4)
 
-#### Definition 
+### Definition 
 - Stores data elements based on an **sequential**, most commonly 0 based, index.
 - Based on tuples from set theory.
 - They are one of the oldest, most commonly used data structures.
 
-#### What you need to know
+### What you need to know
 - **Optimal for indexing**; bad at searching, inserting, and deleting (except at the end).
 - **Linear/static arrays** : static in size, meaning that they are *declared with a fixed size*.
 - **Dynamic arrays**: are like one dimensional arrays, but have **reserved space for additional elements**. If a dynamic array is full, it **copies its contents to a larger array.**
 - **Multi dimensional arrays/nested arrays**:  allow for multiple dimensions such as an array of arrays providing a 2 dimensional spacial representation via x, y coordinates.
 
-#### Time Complexity
+### Time Complexity
 - **Indexing**: Linear array: O(1), Dynamic array: O(1)
 - **Search**: Linear array: O(n), Dynamic array: O(n)
 - **Optimized Search**: Linear array: O(log n), Dynamic array: O(log n)
 - **Insertion**: Linear array: **n/a**, Dynamic array: **O(n)**
 
-### Linked Lists
+## Linked Lists
 --------------------------------------------------------------------------------------------------------   
   -  [ ] [Intro](https://www.youtube.com/watch?v=njTh_OwMljA&feature=youtu.be) 
   -  [ ] [Linked Lists vs Array](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9)
 
-### Stacks and Queues
+## Stacks and Queues
 --------------------------------------------------------------------------------------------------------   
   -  [ ] [Intro](https://youtu.be/wjI1WNcIntg)
   -  [ ] [Using Stacks Last-In First-Out ](https://archive.org/details/0102WhatYouShouldKnow/05_01-usingStacksForLast-inFirst-out.mp4)
 
-### Hash Table
+## Hash Table
 --------------------------------------------------------------------------------------------------------   
   -  [ ] [Intro](https://www.youtube.com/watch?v=shs0KM3wKv8&feature=youtu.be)
   -  [ ] [Phone Book Problem](https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem)
 
 
-### Trees
+## Trees
 --------------------------------------------------------------------------------------------------------   
-  -  [ ] [Intro](https://www.youtube.com/watch?v=oSWTXtMglKE&feature=youtu.be)
+-  [ ] [Intro](https://www.youtube.com/watch?v=oSWTXtMglKE&feature=youtu.be)
 - Binary Tree
 - Binary Search Tree
 - AVL Tree (TODO)
 - Suffix Tree (TODO)
 - Segment Tree (TODO)
 
-### Tries
+## Tries
 --------------------------------------------------------------------------------------------------------   
   -  [ ] [Intro](https://www.youtube.com/watch?v=zIjfhVPRZCg)
 
-### Heap&PriorityQueue&Binary Heap
+## Heap&PriorityQueue&Binary Heap
 --------------------------------------------------------------------------------------------------------   
   -  [ ] [Intro](https://www.youtube.com/watch?v=t0Cq6tVNRBA&feature=youtu.be)
 
-### Graphs 
+## Graphs
 --------------------------------------------------------------------------------------------------------   
 
-### Others DS
+## Others DS
 --------------------------------------------------------------------------------------------------------   
   -  [ ] [Data Structure Intro](https://www.youtube.com/watch?v=bum_19loj9A)
   -  [ ] [Crash Course Computer Science](https://www.youtube.com/watch?v=DuDz6B4cqVc&feature=youtu.be)

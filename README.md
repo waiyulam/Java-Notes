@@ -52,16 +52,15 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 	<summary><b><a href="https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure">📊 数据结构Data Structures</a></b></summary>
 	<br>
 
-	- [Arrays]()
-	- [Linked List（TODO)]()
-	- [Stacks & Queues &Double-ended Queue （TODO)]()
-	- [Hash Tables（TODO)]()
-	- [Trees（TODO)]()
-	- [Tries（TODO)]()
-	- [Heaps&Priority Queue（TODO)]()
-	- [Graphs（TODO)]()
-	- [Others（TODO)]()
-
+	- [Arrays](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Arrays)
+	- [Linked List（TODO)](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Linked-Lists)
+	- [Stacks & Queues &Double-ended Queue （TODO)](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Stacks-and-Queues)
+	- [Hash Tables（TODO)](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Hash-Table)
+	- [Trees（TODO)](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Trees)
+	- [Tries（TODO)](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Tries)
+	- [Heaps&Priority Queue（TODO)](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Heap&PriorityQueue&Binary-Heap)
+	- [Graphs（TODO)](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Graphs)
+	- [Others（TODO)](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Others-DS)
 
 	</details>
 	
