@@ -1,7 +1,7 @@
 # CS Fundamentals
 
 ## Table of Contents 
-  * [Data Structures](#Data-Structures)
+  * [Data Structures](datastructure)
   * [Algorithms](#Algorithms)
   * [Programming paradigm](#Programming-paradigm)
   * [Best DSA study Link](#Best-DSA-study-Link)
