@@ -52,14 +52,14 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 	<summary><b><a href="https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure">📊 数据结构Data Structures</a></b></summary>
 	<br>
 
-	- [Arrays](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Arrays)
-	- [Linked List（TODO)](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Linked-Lists)
-	- [Stacks & Queues &Double-ended Queue （TODO)](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Stacks-and-Queues)
-	- [Hash Tables（TODO)](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Hash-Table)
-	- [Trees（TODO)](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Trees)
-	- [Tries（TODO)](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Tries)
-	- [Heaps&Priority Queue（TODO)](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Heap&PriorityQueue&Binary-Heap)
-	- [Graphs（TODO)](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Graphs)
+	- [数组 Arrays](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Arrays)
+	- [链式结构 Linked List（TODO)](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Linked-Lists)
+	- [栈和队列 Stacks & Queues &Double-ended Queue （TODO)](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Stacks-and-Queues)
+	- [哈希表 Hash Tables（TODO)](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Hash-Table)
+	- [树 Trees（TODO)](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Trees)
+	- [字典/前缀树 Trie（TODO)](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Tries)
+	- [堆/优先队列Heaps&Priority Queue（TODO)](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Heap&PriorityQueue&Binary-Heap)
+	- [图 Graphs（TODO)](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Graphs)
 	- [Others（TODO)](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Others-DS)
 
 	</details>
@@ -68,50 +68,48 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 	<summary><b><a href="https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/algorithms">⚡️ 算法Algorithms</a></b></summary>
 	<br>
 
-	- [Introduction to Algorithms](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/algorithms)
-		- [Time&Space Complexity]()
-		- [Recursion]()
-	- [Searching  (TODO)]()
-	- [Sorting   (TODO)]()
-	- [Graph Theory   (TODO)]()
-	- [NP problem   (TODO)](#NP-program)
-	- [String Manipulation  (TODO)](#String-Manipulation)
-	- [Bit Manipulation   (TODO)](#Bit-Manipulation)
-
+	- [介绍 Introduction to Algorithms](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/algorithms)
+		- [时间空间复杂度 Time&Space Complexity](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/algorithms#Time-and-Space-Complexity)
+		- [递归&迭代 Recursion](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/algorithms#Recursion-and-analysis-of-recurrence-relations)
+		- [NP问题 NP problem (TODO)](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/algorithms#NP-program)
+	- [搜索 Searching  (TODO)](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/algorithms/search)
+	- [排序 Sorting   (TODO)](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/algorithms/sorting)
+	- [图论 Graph Theory   (TODO)](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/algorithms/graphtheory)
+	- [字符串处理 String Manipulation  (TODO)](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/algorithms/stringManipulation)
+	- [二进制处理 Bit Manipulation   (TODO)](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/algorithms/bitManipulation)
 
 	</details>
 	
 	<details>
-	<summary><b><a href="https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/paradigm">🏠 编程设计范式Programming paradigm</a></b></summary>
+	<summary><b><a href="https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/paradigm">🏠 编程演算法Programming paradigm</a></b></summary>
 	<br>
 
-	- [Divide and Conquer]()
-	- [Greedy Algorithms]()
-	- [Backtracking & Branch and Bound]()
-	- [Big Guy: Dynamic Programming and memoization 😭（TODO)]()
-
+	- [分而治之 Divide and Conquer]()
+	- [贪婪演算法 Greedy Algorithms]()
+	- [回溯法&分枝界限法 Backtracking & Branch and Bound]()
+	- [动态规划 Big Guy: Dynamic Programming and memoization 😭（TODO)]()
 
 	</details>
 	
 	
-- [**🧯 练习Run practice problems**]()
+- [**🧯 练习 Run practice problems**]()
 	* [**Hackerrank**]()
 	* [**Leetcode**]()
 	
-- [**❓ 面试问题Interview Questions**]()
+- [**❓ 面试问题 Interview Questions**]()
 
-- [**🏷 语言回顾Programming Language Review**]()
+- [**🏷 语言回顾 Programming Language Review**]()
 
-- [**➗ 数学基础Mathmatics**]()
+- [**➗ 数学基础 Mathmatics**]()
 
-- [**📟 操作系统Operating System**]()
+- [**📟 操作系统 Operating System**]()
 	+ [concurrency]()
 	+ [cache]()
-- [**💾 数据库Database**]()
+- [**💾 数据库 Database**]()
 
 - [**📏 面向对象和设计模式 OOP & Design pattern**]()
 
-- [**🍭 总结Conclusion**](#Conclusion)
+- [**🍭 总结 Conclusion**](#Conclusion)
 
 - [**👍 Sources**](#Comprehensive-gold-materials)
 
