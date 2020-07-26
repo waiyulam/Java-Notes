@@ -27,7 +27,7 @@ Don't Rush. Enjoy the journey. Try to be a natural problem solver not a intervie
 	- Practices : [Implementation Category of Hackerrank](https://www.hackerrank.com/domains/algorithms?filters%5Bsubdomains%5D%5B%5D=implementation&badge_type=problem-solving)
 	- Each subjet should implement in at least 10 questions (Java / Python )
 	
-2. [ ] Run with practice problems 
+2. Run with practice problems 
 	- Leetcode ( Eash -> **Medium** -> Hard )
 	- Make use of built-in types
 	- Each problems should follow the [strategics](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Leetcode)
@@ -35,9 +35,9 @@ Don't Rush. Enjoy the journey. Try to be a natural problem solver not a intervie
 # Table of Contents 
 - [CS Fundamentals](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview)
 	* [Introduction to Algorithms](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/algorithms)
-	  + [Time&Space Complexity]()
-	  + [Recursion]()
-  * [Programming paradigm]()
+  		+ [Time&Space Complexity]()
+  		+ [Recursion]()
+	* [Programming paradigm](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/paradigm)
 		+ [Divide and Conquer]()
 		+ [Greedy Algorithms]()
 		+ [Backtracking & Branch and Bound]()
@@ -50,7 +50,7 @@ Don't Rush. Enjoy the journey. Try to be a natural problem solver not a intervie
 		+ [Trees]()
 		+ [Tries]()
 		+ [Heaps&Priority Queue]()
-    + [Graphs]()
+    		+ [Graphs]()
 		+ [Others]()
 	* [Algorithms]()
 	* [Best DSA study Link]()
@@ -60,8 +60,8 @@ Don't Rush. Enjoy the journey. Try to be a natural problem solver not a intervie
 - [System Design]()
 - [Mathmatics]()
 - [Operating System]()
-  + [concurrency]()
-  + [cache]()
+	+ [concurrency]()
+	+ [cache]()
 - [Database]()
 - [OOP & Design pattern]()
 - [Conclusion](#Conclusion)
