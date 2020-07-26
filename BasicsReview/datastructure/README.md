@@ -26,8 +26,6 @@
 - [Others](#Others-DS)
 
 ## Arrays 
-<pre>
-
 
   - [ ] [Multi-dim Array](https://archive.org/details/0102WhatYouShouldKnow/02_05-multidimensionalArrays.mp4) 
   - [ ] [Dynamic Array](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
@@ -51,7 +49,6 @@
 - **Insertion**: Linear array: **n/a**, Dynamic array: **O(n)**
 
 
-</pre>
 ## Linked Lists
   -  [ ] [Intro](https://www.youtube.com/watch?v=njTh_OwMljA&feature=youtu.be) 
   -  [ ] [Linked Lists vs Array](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9)
