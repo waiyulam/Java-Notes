@@ -47,7 +47,6 @@ Interviewing can be tough because you can feel like you are making no progress. 
 # 📄 Table of Contents 
 - [**📖 基础知识CS Fundamentals**](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview)
 	*[**📊 数据结构Data Structures**(TODO)]() 
-	<details>
 		+ [Arrays]()
 		+ [Linked List]()
 		+ [Stacks & Queues &Double-ended Queue]()
@@ -57,7 +56,6 @@ Interviewing can be tough because you can feel like you are making no progress. 
 		+ [Heaps&Priority Queue]()
 		+ [Graphs]()
 		+ [Others]()
-	</details>
 	* [**⚡️ 算法Algorithms**]()
 		+ [Introduction to Algorithms](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/algorithms)
 			* [Time&Space Complexity]()
