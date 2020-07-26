@@ -11,6 +11,8 @@ Interviewing can be tough because you can feel like you are making no progress. 
 
 ![](https://media.giphy.com/media/KWQy384u0Rn9bCvwMa/giphy.gif)
 
+<b><details><summary>🔑 KEY TO SUCCEED</summary></b>	
+
 ## 🏁 Deliberate Strategic : Practice (KEY TO SUCCEED)
 - **Retaining Computer Science Knowledge**
 1. Review cs fundamentatals and summarize
@@ -27,6 +29,9 @@ Interviewing can be tough because you can feel like you are making no progress. 
 - **Brain storm** : talking your way through the solution like you will in the interview including performance analysis 
 - **Testing your solutions**
 
+</details>
+
+
 ## 📅 Daily Plan 
 1. CS Foundamentals Prep 
 	- Take one subject from the list below, watch videos about that subject, and write an implementation 
@@ -37,7 +42,7 @@ Interviewing can be tough because you can feel like you are making no progress. 
 	- Leetcode ( Eash -> **Medium** -> Hard )
 	- Make use of built-in types
 	- Each problems should follow the [strategics](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Leetcode)
-	
+
 # 📄 Table of Contents 
 - [**📖 基础知识CS Fundamentals**](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview)
 	* [**📊 数据结构Data Structures**(TODO)]()
