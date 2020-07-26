@@ -96,7 +96,7 @@ Note : Some questions point out the number of repetitions, in that case, add one
 
 - [Out of Boundary Paths Medium](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/outBoundary)
 
-- [Number of Ways to Stay in the Same Place After Some Steps Hard]((https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/staySame)
+- [Number of Ways to Stay in the Same Place After Some Steps Hard](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/staySame)
 
 - Count Vowels Permutation Hard
 ### Merging Intervals
