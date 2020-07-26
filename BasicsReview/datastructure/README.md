@@ -15,15 +15,15 @@
 - Data structures are your weapons. Choosing the right weapon for the right battle is the key to victory. Be very familiar about the strengths of each data structure and the time complexities for its various operations.
 
 ## Table of Contents 
-	- [Arrays](#Arrays)
-	- [Linked List](#Linked-Lists)
-	- [Stacks & Queues &Double-ended Queue](#Stacks-and-Queues)
-	- [Hash Tables](#Hash-Table)
-	- [Trees](#Trees)
-	- [Tries](#Tries)
-	- [Heaps&Priority Queue](#Heap&PriorityQueue&Binary-Heap)
-	- [Graphs](#Graphs)
-	- [Others](#Others-DS)
+- [Arrays](#Arrays)
+- [Linked List](#Linked-Lists)
+- [Stacks & Queues &Double-ended Queue](#Stacks-and-Queues)
+- [Hash Tables](#Hash-Table)
+- [Trees](#Trees)
+- [Tries](#Tries)
+- [Heaps&Priority Queue](#Heap&PriorityQueue&Binary-Heap)
+- [Graphs](#Graphs)
+- [Others](#Others-DS)
 
 ## Arrays 
 --------------------------------------------------------------------------------------------------------   
