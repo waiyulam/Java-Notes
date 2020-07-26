@@ -35,3 +35,5 @@ Output: 68
 
 - 1 <= n <= 2 * 10^4
 
+![](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/vowelsPermutation/Dynamic%20Programming%20Practices%20-1.jpg)
+![](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/vowelsPermutation/Dynamic%20Programming%20Practices%20-2.jpg)
