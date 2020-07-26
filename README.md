@@ -50,7 +50,7 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 - [**📖 基础知识CS Fundamentals**](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview)
 	<details>
 	<summary><b><a href=" ">📊 数据结构Data Structures</a></b></summary>
-
+	<br>
 
 	- [Arrays]()
 	- [Linked List]()
@@ -67,7 +67,7 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 	
 	<details>
 	<summary><b><a href=" ">⚡️ 算法Algorithms</a></b></summary>
-
+	<br>
 
 	- [Introduction to Algorithms](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/algorithms)
 		- [Time&Space Complexity]()
@@ -84,7 +84,7 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 	
 	<details>
 	<summary><b><a href="https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/paradigm">🏠 编程设计范式Programming paradigm</a></b></summary>
-
+	<br>
 
 	- [Divide and Conquer]()
 	- [Greedy Algorithms]()
