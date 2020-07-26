@@ -19,12 +19,11 @@ Paradigms |Intuition| Practices
  
 ## Divide and Conquer algorithms
 
-- **Definition** : 
-
 <p align="center">
   <img width="460" height="300" src="https://cdn.kastatic.org/ka-perseus-images/db9d172fc33b90e905c1213b8cce660c228bb99c.png">
 </p>
 
+- **Definition** : 
 > 1. **Divide**: This involves dividing the problem into some sub problem.
 > 2. **Conquer**: Sub problem by calling recursively until sub problem solved. If they are small enough, solve the subproblems as base cases.
 > 3. **Combine**: The Sub problem Solved so that we will get find problem solution.
@@ -50,6 +49,7 @@ DAC(a, i, j):
 Both paradigms (D & C and DP) divide the given problem into subproblems and solve subproblems. How to choose one of them for a given problem? Divide and Conquer should be used when same subproblems are not evaluated many times. Otherwise Dynamic Programming or Memoization should be used. For example, Binary Search is a Divide and Conquer algorithm, we never evaluate the same subproblems again. On the other hand, for calculating nth Fibonacci number, Dynamic Programming should be preferred
 
 - **Notes**   
+
 Because DAC solves subproblems recursively, each subproblem must be smaller than the original problem, and there must be a base case for subproblems
 
 - **Tutorials**: 
@@ -63,12 +63,12 @@ Because DAC solves subproblems recursively, each subproblem must be smaller than
 <summary><b>Examples</b></summary>
 
 - Binary Search:
-```
+```markdown 
 In each step, the algorithm compares the input element x with the value of the middle element in array. If the values match, return the index of the middle. Otherwise, if x is less than the middle element, then the algorithm recurs for left side of middle element, else recurs for the right side of the middle element.
 ```
 
 - Quicksort : 
-```
+```markdown
  The algorithm picks a pivot element, rearranges the array elements in such a way that all elements smaller than the picked pivot element move to left side of pivot, and all greater elements move to right side. Finally, the algorithm recursively sorts the subarrays on left and right of pivot element.
 ```
 
