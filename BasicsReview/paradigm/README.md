@@ -1,11 +1,11 @@
-# Programming paradigm
+# Algorithmic paradigm
 Paradigms |Intuition| Practices
 ---|---|---
 [Divide and Conquer](#Divide-and-Conquer-algorithms)|把一个复杂的问题分成两个或更多的相同或相似的子问题，直到最后子问题可以简单的直接求解，原问题的解即子问题的解的合并 <br> DAC breaks a problem into subproblems that are similar to the original problem, recursively solves the subproblems, and finally combines the solutions to the subproblems to solve the original problem.|<ul><li> [Binary Search](DAC/binary_search.py)</li><li>[Majority Element](DAC/majority_element.py)</li><li>[Max Subarray](DAC/max_subarray.py)</li><li>[Merge sort](DAC/merge_sort.py)</li><li>[Quick sort](DAC/quicksort.py)</li>
 [Greedy Algorithms](#Greedy-Algorithms)|<p>一种在每一步选择中都采取在当前状态下最好或最优（即最有利）的选择，从而希望导致结果是最好或最优的算法 <br>Greedy is an algorithmic paradigm that builds up a solution piece by piece, always choosing the next piece that offers the most obvious and immediate benefit</p> | <ul><li>[Travelling salesman](https://en.wikipedia.org/wiki/Travelling_salesman_problem)</li><li>[huffman coding](https://www.geeksforgeeks.org/huffman-coding-greedy-algo-3/)</li></ul>
 [Backtracking](#Backtracking)|<p>在解决约束满足问题时，我们逐步构造更多的候选解，并且在确定某一部分候选解不可能补全成正确解之后放弃继续搜索这个部分候选解本身及其可以拓展出的子候选解，转而测试其他的部分候选解<br>Backtracking is solving problems recursively by trying to build a solution incrementally, one piece at a time, removing those solutions that fail to satisfy the constraints of the problem at any point of time.</p>|<ul><li>[Hamiltonian Cycle](BRUTEFORCE/backtracking/hamiltonian.py)</li><li>[Graph Coloring](BRUTEFORCE/backtracking/m_coloring.py)</li><li>[Sum of subsets](BRUTEFORCE/backtracking/sum_subset.py)</ul>
-[Branch and Bound](#Branch-and-bound)|<p>对有约束条件的最优化问题的所有可行解（数目有限）空间进行搜索，该算法在具体执行时，把全部可行的解空间不断分割为越来越小的子集（称为分支），并为每个子集内的解的值计算一个下界或上界（称为定界）<br>branch and bound estimate a  bound on best possible solution subtree rooted with every node. If the estimate best solution in subtree is worse than current best, we can simply ignore this node and its subtrees and reach the solution faster.</p>|<ul><li>[0/1 Knapsack](BRUTEFORCE/brand_bound/knapsack.py)</li><li>[Traveling Salesman](BRUTEFORCE/brand_bound/tsp.py)
-[Dynamic Programming](#Dynamic-Programming-and-memoization)|<p>通过把原问题分解为相对简单的子问题的方式求解复杂问题的方法，适用于有重叠子问题和最优子结构性质的问题<br>Dynamic Programming is an algorithmic paradigm that solves a given complex problem by breaking it into subproblems and stores the results of subproblems to avoid computing the same results again</p>|[DP problems](DP)
+[Branch and Bound](#Branch-and-bound)|<p>对有约束条件的最优化问题的所有可行解（数目有限）空间进行搜索，该算法在具体执行时，把全部可行的解空间不断分割为越来越小的子集（称为分支），并为每个子集内的解的值计算一个下界或上界（称为定界）<br>branch and bound estimate a  bound on best possible solution subtree rooted with every node. If the estimate best solution in subtree is worse than current best, we can simply ignore this node and its subtrees and reach the solution faster.</p>|<ul><li>[0/1 Knapsack](BRUTEFORCE/brand_bound/knapsack.py)</li><li>[Traveling Salesman](BRUTEFORCE/brand_bound/tsp.py)</ul>
+[Dynamic Programming](#Dynamic-Programming-and-memoization)|<p>通过把原问题分解为相对简单的子问题的方式求解复杂问题的方法，适用于有重叠子问题和最优子结构性质的问题<br>Dynamic Programming is an algorithmic paradigm that solves a given complex problem by breaking it into subproblems and stores the results of subproblems to avoid computing the same results again</p>|<ul><li>[DP problems](DP)</li></ul>
 
 ## Table of Contents 
 + [Divide and Conquer](#Divide-and-Conquer-algorithms)
@@ -21,24 +21,58 @@ Paradigms |Intuition| Practices
 
 - **Definition** : 
 
-```markdown
-DAC breaks a problem into subproblems that are similar to the original problem, recursively solves the subproblems, and finally combines the solutions to the subproblems to solve the original problem. Because DAC solves subproblems recursively, each subproblem must be smaller than the original problem, and there must be a base case for subproblems.
-```
-
-> * Divide the problem into a number of subproblems that are smaller instances of the same problem.
-> * Conquer the subproblems by solving them recursively. If they are small enough, solve the subproblems as base cases.
-> * Combine the solutions to the subproblems into the solution for the original problem.
-
 <p align="center">
   <img width="460" height="300" src="https://cdn.kastatic.org/ka-perseus-images/db9d172fc33b90e905c1213b8cce660c228bb99c.png">
 </p>
 
+> 1. **Divide**: This involves dividing the problem into some sub problem.
+> 2. **Conquer**: Sub problem by calling recursively until sub problem solved. If they are small enough, solve the subproblems as base cases.
+> 3. **Combine**: The Sub problem Solved so that we will get find problem solution.
+
+```python
+DAC(a, i, j): 
+    if(small(a, i, j))
+      return(Solution(a, i, j))
+    else 
+      m = divide(a, i, j)               // f1(n)
+      b = DAC(a, i, mid)                 // T(n/2)
+      c = DAC(a, mid+1, j)            // T(n/2)
+      d = combine(b, c)                 // f2(n)
+   return(d)
+```
+
+- **Relations**: 
+
+> T(n) =  f1(n) + 2T(n/2) + f2(n) [O(1) if n is small]
+
+- **Divide and Conquer (D & C) vs Dynamic Programming (DP)**:   
+
+Both paradigms (D & C and DP) divide the given problem into subproblems and solve subproblems. How to choose one of them for a given problem? Divide and Conquer should be used when same subproblems are not evaluated many times. Otherwise Dynamic Programming or Memoization should be used. For example, Binary Search is a Divide and Conquer algorithm, we never evaluate the same subproblems again. On the other hand, for calculating nth Fibonacci number, Dynamic Programming should be preferred
+
+- **Notes**   
+Because DAC solves subproblems recursively, each subproblem must be smaller than the original problem, and there must be a base case for subproblems
+
 - **Tutorials**: 
   -  [x] [Video no. 18, 33 to 38 from Abdul Bari Algorithm's Playlist](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)
-  -  [ ] Chapter 4 | Divide and Conquer | Page No.65 from Introduction to Algorithm by CLRS
-  -  [x] Implement DAC algorithms : [major element](https://leetcode.com/problems/majority-element/solution/), maximum subarray sum, merge sort, binary search, quick sort
-  	-  [Geeksforgeeks](https://www.geeksforgeeks.org/divide-and-conquer-algorithm-introduction/)
+  -  [x] Implement DAC algorithms : [major element](https://leetcode.com/problems/majority-element/solution/), [maximum subarray sum](https://www.geeksforgeeks.org/maximum-subarray-sum-using-divide-and-conquer-algorithm/),[merge sort](https://www.geeksforgeeks.org/merge-sort/), [binary search](https://www.geeksforgeeks.org/binary-search/), [quick sort](https://www.geeksforgeeks.org/quick-sort/)
+  -  [Geeksforgeeks: Introduction](https://www.geeksforgeeks.org/divide-and-conquer-algorithm-introduction/)
 	-  [Khan Academy](https://www.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/divide-and-conquer-algorithms)
+  -  Chapter 4 | Divide and Conquer | Page No.65 from Introduction to Algorithm by CLRS
+
+<details>
+<summary><b>Examples</b></summary>
+
+- Binary Search:
+```
+In each step, the algorithm compares the input element x with the value of the middle element in array. If the values match, return the index of the middle. Otherwise, if x is less than the middle element, then the algorithm recurs for left side of middle element, else recurs for the right side of the middle element.
+```
+
+- Quicksort : 
+```
+ The algorithm picks a pivot element, rearranges the array elements in such a way that all elements smaller than the picked pivot element move to left side of pivot, and all greater elements move to right side. Finally, the algorithm recursively sorts the subarrays on left and right of pivot element.
+```
+
+</details>
 
 -------------------------------------------------------------------------------------------------------- 
 

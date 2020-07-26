@@ -81,7 +81,7 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 	</details>
 	
 	<details>
-	<summary><b><a href="https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/paradigm">🏠 编程演算法Programming paradigm</a></b></summary>
+	<summary><b><a href="https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/paradigm">🏠 编程演算法 Algorithmic paradigm</a></b></summary>
 	<br>
 
 	- [分治法 Divide and Conquer]()
