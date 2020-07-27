@@ -84,10 +84,10 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 	<summary><b><a href="https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/paradigm">🏠 编程演算法 Algorithmic paradigm</a></b></summary>
 	<br>
 
-	- [分治法 Divide and Conquer]()
-	- [贪婪演算法 Greedy Algorithms]()
-	- [回溯法&分枝界限法 Backtracking & Branch and Bound]()
-	- [动态规划 Big Guy: Dynamic Programming and memoization 😭（TODO)]()
+	- [分治法 Divide and Conquer](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/paradigm#Divide-and-Conquer-algorithms)
+	- [贪婪演算法 Greedy Algorithms](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/paradigm#Greedy-Algorithms)
+	- [回溯法&分枝界限法 Backtracking & Branch and Bound](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/paradigm#Backtracking)
+	- [动态规划 Big Guy: Dynamic Programming and memoization 😭（TODO)](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/paradigm#Dynamic-Programming-and-memoization)
 
 	</details>
 	

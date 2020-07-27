@@ -174,6 +174,8 @@ we try filling digits one by one. Whenever we find that current digit cannot lea
 
 </details>
 
+------------------------------------------------
+
 ### Branch and bound
 
 - **Skeleton**: 
