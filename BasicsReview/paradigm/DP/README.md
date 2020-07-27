@@ -28,7 +28,10 @@ for (int i = 1; i <= target; ++i) {
 }
 return dp[target]
 ```
-#### Practices 
+
+<details>
+<summary><b>Practices</b></summary>
+
 - [Min Cost Climbing Stairs](min_climbing_stairs)
 - [Minimum Path Sum](mps)
 - [**Coin Change**](coin_change)
@@ -44,6 +47,8 @@ return dp[target]
 - [**Tiling a Rectangle with the Fewest Squares**](tilingrectangle)
 - [**Dungeon Game**](Dungeon)
 - [**Minimum Number of Refueling Stops**](refuelStop)
+
+</details>
 
 ### Distinct Ways
 **Statement** :Given a target find a number of distinct ways to reach the target.
@@ -70,8 +75,9 @@ return dp[target]
 
 - [Number of Dice Rolls With Target Sum Medium](rolldice)
 
+<details>
+<summary><b>Practices</b></summary>
 
-#### Practices 
 Note : Some questions point out the number of repetitions, in that case, add one more loop to simulate every repetition.
 
 - [Knight Probability in Chessboard Medium](knight_chessboard)
@@ -99,6 +105,8 @@ Note : Some questions point out the number of repetitions, in that case, add one
 - [Number of Ways to Stay in the Same Place After Some Steps Hard](staySame)
 
 - [Count Vowels Permutation Hard](vowelsPermutation)
+
+</details>
 
 ### Merging Intervals
 
