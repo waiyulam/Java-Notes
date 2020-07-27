@@ -244,7 +244,8 @@ Example bounds used in below diagram are, A down can give $315, B down can $275,
 ![](https://media.geeksforgeeks.org/wp-content/uploads/knapsack3.jpg)
 
 </details>
-----
+
+----------------------------------------
 
 ## Dynamic Programming and memoization
 
