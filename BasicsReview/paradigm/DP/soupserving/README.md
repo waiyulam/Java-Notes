@@ -31,4 +31,4 @@ If we choose the first two operations, A will become empty first. For the third 
 
 - 0 <= N <= 10^9. 
 - Answers within 10^-6 of the true value will be accepted as correct.
-![](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/soupserving/Dynamic%20Programming%20Practices%20.jpeg)
+![](soup.jpeg)

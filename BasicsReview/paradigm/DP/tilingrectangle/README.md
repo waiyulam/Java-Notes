@@ -1,2 +1,2 @@
-![](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/tilingrectangle/solution1.jpeg)
-![](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/tilingrectangle/solution2.jpeg)
+![](solution1.jpeg)
+![](solution2.jpeg)

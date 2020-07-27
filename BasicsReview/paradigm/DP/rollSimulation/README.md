@@ -9,10 +9,10 @@ distinct sequences that can be obtained with exact n rolls.
 
 Two sequences are considered different if at least one element differs from each
 other. Since the answer may be too large, return it modulo 10^9 + 7.
-![](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/rollSimulation/562837831.jpeg)
-![](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/rollSimulation/562837832.jpeg)
-![](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/rollSimulation/562837833.jpeg)
-![](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/rollSimulation/562837834.jpeg)
+![](562837831.jpeg)
+![](562837832.jpeg)
+![](562837833.jpeg)
+![](562837834.jpeg)
 ## Examples 
 
 ```

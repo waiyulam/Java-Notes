@@ -29,4 +29,4 @@ What if negative numbers are allowed in the given array?
 How does it change the problem? : cyclic problem    
 What limitation we need to add to the question to allow negative numbers?   
 
-![](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/combinationSumIV/sum.jpeg)
+![](sum.jpeg)

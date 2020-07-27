@@ -8,5 +8,5 @@ equal.
 
 - Each of the array element will not exceed 100.
 - The array size will not exceed 200.
-![](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/partitionSum/sum.jpeg)
+![](sum.jpeg)
 

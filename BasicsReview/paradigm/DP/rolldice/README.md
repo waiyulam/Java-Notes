@@ -47,9 +47,9 @@ Explanation:
 The answer must be returned modulo 10^9 + 7.
 ```
 
-![](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/rolldice/D143AD1B1.jpeg)
-![](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/rolldice/D143AD1B2.jpeg)
-![](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/rolldice/emulation.png)
+![](D143AD1B1.jpeg)
+![](D143AD1B2.jpeg)
+![](emulation.png)
 
 ```python
 for (int rep = 1; rep <= d; ++rep) {

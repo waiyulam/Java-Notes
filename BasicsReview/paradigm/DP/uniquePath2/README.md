@@ -35,5 +35,5 @@ There are two ways to reach the bottom-right corner:
 2. Down -> Down -> Right -> Right
 ```
 
-![](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/uniquePath2/page1_1.jpg)
+![](page1_1.jpg)
 

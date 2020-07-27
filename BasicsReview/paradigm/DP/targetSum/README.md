@@ -27,12 +27,12 @@ There are 5 ways to assign symbols to make the sum of nums be target 3.
 - The sum of elements in the given array will not exceed 1000.
 - Your output answer is guaranteed to be fitted in a 32-bit integer.
 
-![](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/targetSum/Dynamic%20Programming%20Practices%20.jpeg)
+![](targetsum.jpeg)
 
 ## Two way for DP solution 
-![](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/targetSum/twoways.png)
+![](twoways.png)
 
 ## [Optimization : 0/1 knapsack](https://www.youtube.com/watch?v=zks6mN06xdQ)
-![](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/targetSum/optimization1.png)
-![](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/targetSum/optimization2.png)
-![](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/targetSum/optimization3.png)
+![](optimization1.png)
+![](optimization2.png)
+![](optimization3.png)
