@@ -19,14 +19,36 @@ Paradigms |Intuition| Practices
  
 ## Divide and Conquer algorithms
 
-<p align="center">
-  <img width="460" height="300" src="https://cdn.kastatic.org/ka-perseus-images/db9d172fc33b90e905c1213b8cce660c228bb99c.png">
+<p align="left">
+  <img width="600" height="500" src="https://cdn.kastatic.org/ka-perseus-images/db9d172fc33b90e905c1213b8cce660c228bb99c.png">
 </p>
 
-- **Definition** : 
-> 1. **Divide**: This involves dividing the problem into some sub problem.
-> 2. **Conquer**: Sub problem by calling recursively until sub problem solved. If they are small enough, solve the subproblems as base cases.
-> 3. **Combine**: The Sub problem Solved so that we will get find problem solution.
+- **Skeleton** : 
+
+```markdown
+1. **Divide**: This involves dividing the problem into some sub problem.
+2. **Conquer**: Sub problem by calling recursively until sub problem solved. If they are small enough, solve the subproblems as base cases.
+3. **Combine**: The Sub problem Solved so that we will get find problem solution.
+```
+
+- **Divide and Conquer (D & C) vs Dynamic Programming (DP)**:   
+
+Both paradigms (D & C and DP) divide the given problem into subproblems and solve subproblems. How to choose one of them for a given problem? Divide and Conquer should be used when same subproblems are not evaluated many times. Otherwise Dynamic Programming or Memoization should be used. For example, Binary Search is a Divide and Conquer algorithm, we never evaluate the same subproblems again. On the other hand, for calculating nth Fibonacci number, Dynamic Programming should be preferred
+
+
+> **Notes**   : Because DAC solves subproblems recursively, each subproblem must be smaller than the original problem, and there must be a base case for subproblems
+
+- **Tutorials**: 
+
+  -  [x] [Video no. 18, 33 to 38 from Abdul Bari Algorithm's Playlist](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)
+  -  [x] Implement DAC algorithms : [major element](https://leetcode.com/problems/majority-element/solution/), [maximum subarray sum](https://www.geeksforgeeks.org/maximum-subarray-sum-using-divide-and-conquer-algorithm/),[merge sort](https://www.geeksforgeeks.org/merge-sort/), [binary search](https://www.geeksforgeeks.org/binary-search/), [quick sort](https://www.geeksforgeeks.org/quick-sort/)
+  -  [Geeksforgeeks: Introduction](https://www.geeksforgeeks.org/divide-and-conquer-algorithm-introduction/)
+  -  [Khan Academy](https://www.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/divide-and-conquer-algorithms)
+  -  Chapter 4 | Divide and Conquer | Page No.65 from Introduction to Algorithm by CLRS
+
+
+<details>
+<summary><b>Pseudocode</b></summary>
 
 ```python
 DAC(a, i, j): 
@@ -40,34 +62,22 @@ DAC(a, i, j):
    return(d)
 ```
 
-- **Relations**: 
-
+**Relations**: 
 > T(n) =  f1(n) + 2T(n/2) + f2(n) [O(1) if n is small]
 
-- **Divide and Conquer (D & C) vs Dynamic Programming (DP)**:   
-
-Both paradigms (D & C and DP) divide the given problem into subproblems and solve subproblems. How to choose one of them for a given problem? Divide and Conquer should be used when same subproblems are not evaluated many times. Otherwise Dynamic Programming or Memoization should be used. For example, Binary Search is a Divide and Conquer algorithm, we never evaluate the same subproblems again. On the other hand, for calculating nth Fibonacci number, Dynamic Programming should be preferred
-
-- **Notes**   
-
-Because DAC solves subproblems recursively, each subproblem must be smaller than the original problem, and there must be a base case for subproblems
-
-- **Tutorials**: 
-  -  [x] [Video no. 18, 33 to 38 from Abdul Bari Algorithm's Playlist](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)
-  -  [x] Implement DAC algorithms : [major element](https://leetcode.com/problems/majority-element/solution/), [maximum subarray sum](https://www.geeksforgeeks.org/maximum-subarray-sum-using-divide-and-conquer-algorithm/),[merge sort](https://www.geeksforgeeks.org/merge-sort/), [binary search](https://www.geeksforgeeks.org/binary-search/), [quick sort](https://www.geeksforgeeks.org/quick-sort/)
-  -  [Geeksforgeeks: Introduction](https://www.geeksforgeeks.org/divide-and-conquer-algorithm-introduction/)
-	-  [Khan Academy](https://www.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/divide-and-conquer-algorithms)
-  -  Chapter 4 | Divide and Conquer | Page No.65 from Introduction to Algorithm by CLRS
+</details>
 
 <details>
 <summary><b>Examples</b></summary>
 
 - Binary Search:
+
 ```markdown 
 In each step, the algorithm compares the input element x with the value of the middle element in array. If the values match, return the index of the middle. Otherwise, if x is less than the middle element, then the algorithm recurs for left side of middle element, else recurs for the right side of the middle element.
 ```
 
 - Quicksort : 
+
 ```markdown
  The algorithm picks a pivot element, rearranges the array elements in such a way that all elements smaller than the picked pivot element move to left side of pivot, and all greater elements move to right side. Finally, the algorithm recursively sorts the subarrays on left and right of pivot element.
 ```
@@ -81,19 +91,24 @@ In each step, the algorithm compares the input element x with the value of the m
 - **Definition**: 
 
 ```markdown
-Greedy is an algorithmic paradigm that builds up a solution piece by piece, always choosing the next piece that offers the most obvious and immediate benefit. It follows the problem-solving heuristic of making the locally optimal choice** at **each stage** with the **intent of finding a global optimum**. In many problems, a greedy strategy does not usually produce an optimal solution, but nonetheless a greedy heuristic may yield locally optimal solutions that approximate a globally optimal solution in a reasonable amount of time. So the problems where choosing locally optimal also leads to global solution are best fit for Greedy.
+Greedy follows the problem-solving heuristic of making the locally optimal choice** at **each stage** with the **intent of finding a global optimum**. In many problems, a greedy strategy does not usually produce an optimal solution, but nonetheless a greedy heuristic may yield locally optimal solutions that approximate a globally optimal solution in a reasonable amount of time. So the problems where choosing locally optimal also leads to global solution are best fit for Greedy.
 ```
 
-- **Examples: travelling salesman**:  
-
-The greedy strategy for the travelling salesman problem (which is of a high computational complexity) is the following heuristic: "At each step of the journey, visit the nearest unvisited city." This **heuristic** does not intend to find a best solution, but it **terminates in a reasonable number of steps**; finding an optimal solution to such a complex problem typically requires unreasonably many steps. 
-
-In mathematical optimization, greedy algorithms optimally solve combinatorial problems having the properties of matroids, and give constant-factor approximations to optimization problems with submodular structure.
+> In mathematical optimization, greedy algorithms optimally solve combinatorial problems having the properties of matroids, and give constant-factor approximations to optimization problems with submodular structure.
  
 - **Tutorials**:
   -  [x] [Video no.39-no.45 from Abdul Bari Algorithm's Playlist](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)   
 Proofing greedy algorithm is quite difficult. Studying known problems like knapsack, job schedule, optimal merge pattern, Huffman coding etc are enough to ace greedy questions.
-  -  [ ] [Geeks: Greedy Algorithms](https://www.geeksforgeeks.org/greedy-algorithms/)
+  -  [Geeks: Greedy Algorithms](https://www.geeksforgeeks.org/greedy-algorithms/)
+
+<details>
+<summary><b>Examples</b></summary>
+
+- **travelling salesman**:  
+
+The greedy strategy for the travelling salesman problem (which is of a high computational complexity) is the following heuristic: "At each step of the journey, visit the nearest unvisited city." This **heuristic** does not intend to find a best solution, but it **terminates in a reasonable number of steps**; finding an optimal solution to such a complex problem typically requires unreasonably many steps. 
+
+</details>
 
 --------------------------------------------------------------------------------------------------------   
 
@@ -103,28 +118,84 @@ BNB and Backtracking are better than naive brute force approach (generating all 
 
 ### Backtracking
 
-- **Definition**: 
 
-```markdown
-**Backtracking** is used when you have **multiple solutions** and you want those solution answers. Backtracking is solving problems recursively by trying to build a solution incrementally, one piece at a time, removing those solutions that fail to satisfy the constraints of the problem at any point of time.  
+
+- **Skeleton**: 
+
+```markdown 
+1.  **Candidates**: partial candidates are represented as the nodes of a tree structure, the potential search tree. Each partial candidate is the parent of the candidates that differ from it by a single extension step; the leaves of the tree are the partial candidates that cannot be extended any further.
+2. **Exploration**: traverses search tree recursively, from the root down, in **depth-first order**. 
+  - At each node c, the algorithm checks whether c can be completed to a valid solution. 
+    + If it cannot, the whole sub-tree rooted at c is skipped (pruned)
+    + Otherwise, the algorithm 
+      (1) checks whether c itself is a valid solution, and if so reports it to the user; and 
+      (2) recursively enumerates all sub-trees of c. 
+    The two tests and the children of each node are defined by user-given procedures.
 ```
 
-> - In the tree representation, we can do DFS of solution tree
-> - If we reach a point where a solution no longer is feasible, there is no need to continue exploring.
+> **Notes**: Backtracking is used when you have **multiple solutions** and you want those solution answers.
+
+-  **Three types of problems in backtracking**    
+
+1. Decision Problem – In this, we search for a feasible solution.  
+2. Optimization Problem – In this, we search for the best solution.  
+3. Enumeration Problem – In this, we find all feasible solutions.
+
+
+
+<details>
+<summary><b>Pseudocode</b></summary>
+
+```python
+findSolutions(n, other params) :
+    if (found a solution) :
+        solutionsFound = solutionsFound + 1
+        displaySolution()
+        if (solutionsFound >= solutionTarget) : 
+            System.exit(0)
+        return
+    for (val = first to last) :
+        if (isValid(val, n)) :
+            applyValue(val, n);
+            findSolutions(n+1, other params);
+            removeValue(val, n);
+``` 
+</details>
+
+<details>
+<summary><b>Examples</b></summary>
+
+- **SudoKo solving Problem**:  
+
+we try filling digits one by one. Whenever we find that current digit cannot lead to a solution, we remove it (backtrack) and try next digit. This is better than naive approach (generating all possible combinations of digits and then trying every combination one by one) as it drops a set of permutations whenever it backtracks       
+
+![](https://media.geeksforgeeks.org/wp-content/uploads/sudoku.jpg)
+
+</details>
 
 ### Branch and bound
 
-- **Definition** 
+- **Skeleton**: 
 
 ```markdown
-**Branch and bound** is an algorithm design paradigm which is generally used for solving combinatorial **optimization** problems. These problems typically exponential in terms of time complexity and may require exploring all possible permutations in worst case. The backtracking based solution works better than brute force by **ignoring infeasible solutions**. But BnB can do better (than backtracking) if we can estimate a **bound on best possible solution subtree rooted with every node**. 
-```
-> - Estimate a **bound on best possible solution subtree rooted with every node**
-> - If the estimate best solution in subtree is worse than current best, we can simply ignore this node and its subtrees and reach the solution faster.
+Generic branch and bound algorithm for minimizing an arbitrary objective function f. To obtain an actual algorithm from this, one requires a bounding function g, that computes lower bounds of f on nodes of the search tree, as well as a problem-specific branching rule. 
+
+1. Estimate a **bound on best possible solution subtree rooted with every node**: Using a heuristic, find a solution xh to the optimization problem. Store its value, B = f(xh). (If no heuristic is available, set B to infinity.) B will denote the best solution found so far, and will be used as an upper bound on candidate solutions
+2. Initialize a queue to hold a partial solution with none of the variables of the problem assigned
+3. If the estimate best solution in subtree is worse than current best, we can simply ignore this node and its subtrees and reach the solution faster.
+4. Loop until the queue is empty: Take a node N off the queue.
+  - If N represents a single candidate solution x and f(x)< B, then x is the best solution so far. Record it and set B ← f(x).
+  - Else, branch on N to produce new nodes Ni. For each of these:
+      - If bound(Ni) > B, do nothing; since the lower bound on this node is greater than the upper bound of the problem, it will never lead to the optimal solution, and can be discarded.
+      - Else, store Ni on the queue.
+
+``` 
+
+> **Notes**:<br>Branch and bound is an algorithm design paradigm which is generally used for solving combinatorial **optimization** problems.The backtracking based solution works better than brute force by **ignoring infeasible solutions**. But BnB can do better (than backtracking) if we can estimate a **bound on best possible solution subtree rooted with every node**. 
 
 - **Ways to implement**: 
 
-There are also three ways to implement branch and bound approach which are **stack, queue, and leastcost**. For leastcost approach, instead of generating entire tree, we always pcik up the node that is least cost and explore that one. It turns out that it is easier to reach the minimization solution quickly compared to other two. (Depends on problems) Branch and bound is very useful technique for searching a solution but in worst case, we need to fully calculate the entire tree. At best, we only need to fully calculate one path through the tree and prune the rest of it.
+Several different queue data structures can be used. There are also three ways to implement branch and bound approach which are **stack, queue, and leastcost**. This FIFO queue-based implementation yields a breadth-first search. A stack (LIFO queue) will yield a depth-first algorithm. A best-first branch and bound algorithm can be obtained by using a priority queue that sorts nodes on their lower bound.Examples of best-first search algorithms with this premise are Dijkstra's algorithm and its descendant A* search. The depth-first variant is recommended when no good heuristic is available for producing an initial solution, because it quickly produces full solutions, and therefore upper bounds. For leastcost approach, instead of generating entire tree, we always pcik up the node that is least cost and explore that one. It turns out that it is easier to reach the minimization solution quickly compared to other two. (Depends on problems) Branch and bound is very useful technique for searching a solution but in worst case, we need to fully calculate the entire tree. At best, we only need to fully calculate one path through the tree and prune the rest of it.
 
 ### BNB v.s. Backtracking 
 
@@ -141,9 +212,39 @@ Both follow Brute force approach and both generate state space tree but in diffe
     - [Video](https://www.youtube.com/watch?v=slayHO7gKEQ)
   - [Traveling Salesman using BnB](https://www.techiedelight.com/travelling-salesman-problem-using-branch-and-bound/)
 
-- **[Practices](BRUTEFORCE)**
+<details>
+<summary><b>Pseudocode</b></summary>
 
---------------------------------------------------------------------------------------------------------   
+```c++ 
+  begin
+    activeset :={∅};
+    bestval:=NULL;
+    currentbest:=NULL;
+    while activeset is not empty do
+      choose a branching node, node k ∈ activeset;
+      remove node k from activeset;
+      generate the children of node k, child i, i=1,. . . ,nk, and corresponding optimistic bounds obi;
+      for i=1 to nk do
+        if obi worse than bestval then kill child i;
+        else if child is a complete solution then 
+            bestval:=obi , currentbest:=child i;
+        else add child i to activeset
+      end for
+    end while
+  end
+```
+</details>
+
+<details>
+<summary><b>Examples</b></summary>
+
+The Backtracking Solution can be optimized if we know a bound on best possible solution subtree rooted with every node. If the best in subtree is worse than current best, we can simply ignore this node and its subtrees. So we compute bound (best solution) for every node and compare the bound with current best solution before exploring the node.  
+Example bounds used in below diagram are, A down can give $315, B down can $275, C down can $225, D down can $125 and E down can $30.
+
+![](https://media.geeksforgeeks.org/wp-content/uploads/knapsack3.jpg)
+
+</details>
+----
 
 ## Dynamic Programming and memoization
 
