@@ -29,21 +29,21 @@ for (int i = 1; i <= target; ++i) {
 return dp[target]
 ```
 #### Practices 
-- [Min Cost Climbing Stairs](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/min_climbing_stairs)
-- [Minimum Path Sum](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/mps)
-- [**Coin Change**](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/coin_change)
-- [Minimum Falling Path Sum](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/falling_path)
-- [Minimum Cost For Tickets](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/cost_tickets)
-- [2 Keys Keyboard](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/keyboard)
-- [Perfect Squares](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/perfect_square)
-- [**Last Stone Weight II**](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/stone2)
-- [Triangle](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/triangle)
-- [Ones and Zeroes](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/zerosones)
-- [**Maximal Square**](https://github.com/waiyulam/Interview-Prep-Guide/blob/master/Practices/dp/maxsquare)
-- [**Minimum Swaps To Make Sequences Increasing**](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/minSwap)
-- [**Tiling a Rectangle with the Fewest Squares**](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/tilingrectangle)
-- [**Dungeon Game**](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/Dungeon)
-- [**Minimum Number of Refueling Stops**](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/refuelStop)
+- [Min Cost Climbing Stairs](min_climbing_stairs)
+- [Minimum Path Sum](mps)
+- [**Coin Change**](coin_change)
+- [Minimum Falling Path Sum](falling_path)
+- [Minimum Cost For Tickets](cost_tickets)
+- [2 Keys Keyboard](keyboard)
+- [Perfect Squares](perfect_square)
+- [**Last Stone Weight II**](stone2)
+- [Triangle](triangle)
+- [Ones and Zeroes](zerosones)
+- [**Maximal Square**](maxsquare)
+- [**Minimum Swaps To Make Sequences Increasing**](minSwap)
+- [**Tiling a Rectangle with the Fewest Squares**](tilingrectangle)
+- [**Dungeon Game**](Dungeon)
+- [**Minimum Number of Refueling Stops**](refuelStop)
 
 ### Distinct Ways
 **Statement** :Given a target find a number of distinct ways to reach the target.
@@ -64,41 +64,41 @@ for (int i = 1; i <= target; ++i) {
 return dp[target]
 ```
 #### Examples 
-- [Climbing Stairs easy](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/climing_stairs)
+- [Climbing Stairs easy](climing_stairs)
 
-- [Unique Paths Medium](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/uniquePaths)
+- [Unique Paths Medium](uniquePaths)
 
-- [Number of Dice Rolls With Target Sum Medium](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/rolldice)
+- [Number of Dice Rolls With Target Sum Medium](rolldice)
 
 
 #### Practices 
 Note : Some questions point out the number of repetitions, in that case, add one more loop to simulate every repetition.
 
-- [Knight Probability in Chessboard Medium](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/knight_chessboard)
+- [Knight Probability in Chessboard Medium](knight_chessboard)
 
-- [**Target Sum Medium**](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/targetSum)
+- [**Target Sum Medium**](targetSum)
 
-- [**Combination Sum IV Medium**](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/combinationSumIV)
+- [**Combination Sum IV Medium**](combinationSumIV)
 
-- [Knight Dialer Medium](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/knightDialer)
+- [Knight Dialer Medium](knightDialer)
 
-- [**Dice Roll Simulation Hard**](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/rollSimulation)
+- [**Dice Roll Simulation Hard**](rollSimulation)
 
-- [Partition Equal Subset Sum Medium](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/partitionSum)
+- [Partition Equal Subset Sum Medium](partitionSum)
 
-- [**Soup Servings Medium**](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/soupserving)
+- [**Soup Servings Medium**](soupserving)
 
-- [**Domino and Tromino Tiling Medium**](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/dominoTiling)
+- [**Domino and Tromino Tiling Medium**](dominoTiling)
 
-- [**Number of Longest Increasing Subsequence Medium**](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/LIS)
+- [**Number of Longest Increasing Subsequence Medium**](LIS)
 
-- [Unique Paths II Medium](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/uniquePath2)
+- [Unique Paths II Medium](uniquePath2)
 
-- [Out of Boundary Paths Medium](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/outBoundary)
+- [Out of Boundary Paths Medium](outBoundary)
 
-- [Number of Ways to Stay in the Same Place After Some Steps Hard](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/staySame)
+- [Number of Ways to Stay in the Same Place After Some Steps Hard](staySame)
 
-- [Count Vowels Permutation Hard](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Practices/dp/vowelsPermutation)
+- [Count Vowels Permutation Hard](vowelsPermutation)
 
 ### Merging Intervals
 
