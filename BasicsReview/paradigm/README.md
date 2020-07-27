@@ -34,13 +34,13 @@ Both paradigms (D & C and DP) divide the given problem into subproblems and solv
 
 > **Notes**   : Because DAC solves subproblems recursively, each subproblem must be smaller than the original problem, and there must be a base case for subproblems
 
-- **Tutorials**: 
+### Tutorials
 
-  -  [x] [Video no. 18, 33 to 38 from Abdul Bari Algorithm's Playlist](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)
-  -  [x] Implement DAC algorithms : [major element](https://leetcode.com/problems/majority-element/solution/), [maximum subarray sum](https://www.geeksforgeeks.org/maximum-subarray-sum-using-divide-and-conquer-algorithm/),[merge sort](https://www.geeksforgeeks.org/merge-sort/), [binary search](https://www.geeksforgeeks.org/binary-search/), [quick sort](https://www.geeksforgeeks.org/quick-sort/)
-  -  [Geeksforgeeks: Introduction](https://www.geeksforgeeks.org/divide-and-conquer-algorithm-introduction/)
-  -  [Khan Academy](https://www.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/divide-and-conquer-algorithms)
-  -  Chapter 4 | Divide and Conquer | Page No.65 from Introduction to Algorithm by CLRS
+-  [x] [Video no. 18, 33 to 38 from Abdul Bari Algorithm's Playlist](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)
+-  [x] Implement DAC algorithms : [major element](https://leetcode.com/problems/majority-element/solution/), [maximum subarray sum](https://www.geeksforgeeks.org/maximum-subarray-sum-using-divide-and-conquer-algorithm/),[merge sort](https://www.geeksforgeeks.org/merge-sort/), [binary search](https://www.geeksforgeeks.org/binary-search/), [quick sort](https://www.geeksforgeeks.org/quick-sort/)
+-  [Geeksforgeeks: Introduction](https://www.geeksforgeeks.org/divide-and-conquer-algorithm-introduction/)
+-  [Khan Academy](https://www.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/divide-and-conquer-algorithms)
+-  Chapter 4 | Divide and Conquer | Page No.65 from Introduction to Algorithm by CLRS
 
 
 <details>
@@ -96,10 +96,11 @@ Greedy follows the problem-solving heuristic of making the locally optimal choic
 
 > In mathematical optimization, greedy algorithms optimally solve combinatorial problems having the properties of matroids, and give constant-factor approximations to optimization problems with submodular structure.
  
-- **Tutorials**:
-  -  [x] [Video no.39-no.45 from Abdul Bari Algorithm's Playlist](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)   
+### Tutorials
+
+-  [x] [Video no.39-no.45 from Abdul Bari Algorithm's Playlist](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)   
 Proofing greedy algorithm is quite difficult. Studying known problems like knapsack, job schedule, optimal merge pattern, Huffman coding etc are enough to ace greedy questions.
-  -  [Geeks: Greedy Algorithms](https://www.geeksforgeeks.org/greedy-algorithms/)
+-  [Geeks: Greedy Algorithms](https://www.geeksforgeeks.org/greedy-algorithms/)
 
 <details>
 <summary><b>Examples</b></summary>
@@ -201,16 +202,17 @@ Several different queue data structures can be used. There are also three ways t
 
 Both follow Brute force approach and both generate state space tree but in different ways. Backtraking is implemented in **depth-wise(DFS)** and Branch & Bound is implemented in **level-wise(BFS)**. While branch and bound has similar approachs as backtracking in some sense, brand and bound is more useful to find the optimal solution ( e.g. minimization problems ). 
 
-- **Tutorials**: 
-  -  [x] [Video no.63 to no.71 from Abdul Bari Algorithm's Playlist](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O). 
-  -  [x] Practices the following problem 
-  - [Hamiltonian Cycle Problem using backtracking](https://www.geeksforgeeks.org/hamiltonian-cycle-backtracking-6/)
-  - [Graph Coloring Problem using backtracking](https://www.geeksforgeeks.org/m-coloring-problem-backtracking-5/)
-  - [Sum of subsets Problem using backtracking](https://www.geeksforgeeks.org/subset-sum-backtracking-4/)
-  - [0/1 Knapsack Problem using BnB](https://www.geeksforgeeks.org/0-1-knapsack-using-branch-and-bound/)
-    - [Implementation](https://www.geeksforgeeks.org/implementation-of-0-1-knapsack-using-branch-and-bound/)
-    - [Video](https://www.youtube.com/watch?v=slayHO7gKEQ)
-  - [Traveling Salesman using BnB](https://www.techiedelight.com/travelling-salesman-problem-using-branch-and-bound/)
+### Tutorials
+
+-  [x] [Video no.63 to no.71 from Abdul Bari Algorithm's Playlist](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O). 
+-  [x] Practices the following problem 
+- [Hamiltonian Cycle Problem using backtracking](https://www.geeksforgeeks.org/hamiltonian-cycle-backtracking-6/)
+- [Graph Coloring Problem using backtracking](https://www.geeksforgeeks.org/m-coloring-problem-backtracking-5/)
+- [Sum of subsets Problem using backtracking](https://www.geeksforgeeks.org/subset-sum-backtracking-4/)
+- [0/1 Knapsack Problem using BnB](https://www.geeksforgeeks.org/0-1-knapsack-using-branch-and-bound/)
+  - [Implementation](https://www.geeksforgeeks.org/implementation-of-0-1-knapsack-using-branch-and-bound/)
+  - [Video](https://www.youtube.com/watch?v=slayHO7gKEQ)
+- [Traveling Salesman using BnB](https://www.techiedelight.com/travelling-salesman-problem-using-branch-and-bound/)
 
 <details>
 <summary><b>Pseudocode</b></summary>
