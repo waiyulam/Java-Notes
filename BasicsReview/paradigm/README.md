@@ -19,10 +19,6 @@ Paradigms |Intuition| Practices
  
 ## Divide and Conquer algorithms
 
-<p align="left">
-  <img width="600" height="500" src="https://cdn.kastatic.org/ka-perseus-images/db9d172fc33b90e905c1213b8cce660c228bb99c.png">
-</p>
-
 - **Skeleton** : 
 
 ```markdown
@@ -82,6 +78,10 @@ In each step, the algorithm compares the input element x with the value of the m
  The algorithm picks a pivot element, rearranges the array elements in such a way that all elements smaller than the picked pivot element move to left side of pivot, and all greater elements move to right side. Finally, the algorithm recursively sorts the subarrays on left and right of pivot element.
 ```
 
+<p align="left">
+  <img width="600" height="500" src="https://cdn.kastatic.org/ka-perseus-images/db9d172fc33b90e905c1213b8cce660c228bb99c.png">
+</p>
+
 </details>
 
 -------------------------------------------------------------------------------------------------------- 
@@ -90,7 +90,7 @@ In each step, the algorithm compares the input element x with the value of the m
 
 - **Definition**: 
 
-```markdown
+```
 Greedy follows the problem-solving heuristic of making the locally optimal choice** at **each stage** with the **intent of finding a global optimum**. In many problems, a greedy strategy does not usually produce an optimal solution, but nonetheless a greedy heuristic may yield locally optimal solutions that approximate a globally optimal solution in a reasonable amount of time. So the problems where choosing locally optimal also leads to global solution are best fit for Greedy.
 ```
 
@@ -122,8 +122,8 @@ BNB and Backtracking are better than naive brute force approach (generating all 
 
 - **Skeleton**: 
 
-```markdown 
-1.  **Candidates**: partial candidates are represented as the nodes of a tree structure, the potential search tree. Each partial candidate is the parent of the candidates that differ from it by a single extension step; the leaves of the tree are the partial candidates that cannot be extended any further.
+``` 
+1. **Candidates**: partial candidates are represented as the nodes of a tree structure, the potential search tree. Each partial candidate is the parent of the candidates that differ from it by a single extension step; the leaves of the tree are the partial candidates that cannot be extended any further.
 2. **Exploration**: traverses search tree recursively, from the root down, in **depth-first order**. 
   - At each node c, the algorithm checks whether c can be completed to a valid solution. 
     + If it cannot, the whole sub-tree rooted at c is skipped (pruned)
