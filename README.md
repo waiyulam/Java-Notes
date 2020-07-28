@@ -65,7 +65,7 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 	</details>
 	
 	<details>
-	<summary><b><a href="https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/algorithms">⚡️ 算法Algorithms</a></b></summary>
+	<summary><b><a href="https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/algorithms">✏️  算法Algorithms</a></b></summary>
 	<br>
 
 	- [介绍 Introduction to Algorithms](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/algorithms)
