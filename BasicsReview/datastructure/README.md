@@ -39,8 +39,6 @@ The difference between stacks and queues is in removing. In a stack we remove th
 [Stack](#Stack)|<ul><li>Stores items in a last-in, first-out (LIFO) order</li></ul>|<ul><li><b>Push</b>: O(1)</li><li><b>Pop</b>: O(1) </li><li><b>Peek</b>: O(1)</li>|
 
 
-
-
 ## [Static Arrays](https://www.interviewcake.com/concept/python/array?)
 
 ### Definition 
@@ -111,7 +109,8 @@ gas_prices.append(354)
 ### Notes 
 
 #### Size v.s Capacity 
-![](https://www.interviewcake.com/images/svgs/dynamic_arrays__capacity_size_end_index.svg?bust=206)
+![](https://www.interviewcake.com/images/svgs/dynamic_arrays__capacity_size_end_index.svg?bust=206)     
+
 We'd say this dynamic array's size is 4 and its capacity is 10. The dynamic array stores an end_index to keep track of where the dynamic array ends and the extra capacity begins.
 
 #### Doubling Space 
@@ -282,7 +281,7 @@ Deletion|O(n)
 - Picture a queue like the line outside a busy restaurant. First come, first served.
 
 <p align="center">
-<img width='400' height = "150" src="https://miro.medium.com/max/1400/0*TRbfsq86lqDoqW6b.png">
+<img width='400' height = "150" src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/gq/2014/02/Queue.png">
 </p>
 
 ### Strengths
@@ -469,7 +468,7 @@ Peek|O(1)
 - Picture a pile of dirty plates in your sink. As you add more plates, you bury the old ones further down. When you take a plate off the top to wash it, you're taking the last plate you put in. "Last in, first out."
 
 <p align="center">
-<img width="100" height="300" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Data_stack.svg/440px-Data_stack.svg.png">
+<img width="100" height="300" src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/gq/2013/03/stack.png">
 </p>
 
 
