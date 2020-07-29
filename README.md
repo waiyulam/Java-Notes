@@ -99,6 +99,28 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 - [**❓ 面试问题 Interview Questions**]()
 
 - [**🏷 语言回顾 Programming Language Review**]()
+	<details>
+	<summary><b> ☕️ Java </b><summary>
+		
+	- 语言基础 Basics
+	- 集合框架/容器 Collections
+	- 并发编程 Concurrency
+	- I/O
+	- 虚拟机 JVM
+	- 设计模式 Design Pattern
+	- Web开发技术 Web programming
+	
+	</summary>
+	
+	<details>
+	<summary><b>🐍 Python </b></summary>
+	
+	- 语言基础 Basics
+	- 爬虫框架 Scrapy
+	- Flask
+	- Django
+	
+	</details>
 
 - [**➗ 数学基础 Mathmatics**]()
 
