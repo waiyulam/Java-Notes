@@ -100,7 +100,7 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 
 - [**🏷 语言回顾 Programming Language Review**]()
 	<details>
-	<summary><b> ☕️ Java </b><summary>
+	<summary><b> ☕️ Java </b></summary>
 		
 	- 语言基础 Basics
 	- 集合框架/容器 Collections
