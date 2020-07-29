@@ -281,7 +281,6 @@ The secret is nothing but **Regular Deliberate Strategic Practice**. We always t
 -  [**Java面试+Java后端技术学习指南**](https://github.com/OUYANGSIHAI/JavaInterview)
 -  [About Java开源项目之自学编程之路](https://github.com/hansonwang99/JavaCollection)
 -  [Coding Interview University by John Washam](https://github.com/jwasham/coding-interview-university)
--  [Tech interview Handbook by yangshun](https://yangshun.github.io/tech-interview-handbook/algorithms/array)
 -  [Tech Interview Cheat Sheet by TSiege](https://github.com/TSiege/Tech-Interview-Cheat-Sheet)
 -  [Interview guide for android developer by jeanboydev](https://github.com/jeanboydev/Android-ReadTheFuckingSourceCode)
 
