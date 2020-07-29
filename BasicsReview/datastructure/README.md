@@ -25,6 +25,12 @@
 - [Graphs](#Graphs)
 - [Others](#Others-DS)
 
+DS | Def | Time Complexity | Others 
+---|---|---|---|
+[Static/Linear Array](#Arrays)| <ul><li>Stores data elements based on **sequential**</li><li>Most commonly 0 based index</li><li>Static in size/declared with a fixed size</li></ul>|<ul><li><b>Indexing</b>: O(1)</li><li><b>Insert/Delete</b>: n/a</li><li><b>Searching</b>: O(n) </li><li><b>Optiomal Search</b>: O(log(n)) </li>|  Bad at searching, inserting, and deleting
+[Dynamic Array](#Arrays)| <ul><li>like one dimensional arrays but have **researved** space for additional elements</li><li> If a dynamic array is full, it **copies its contents to a larger array.**</li></ul>|<ul><li><b>Indexing</b>: O(1)</li><li><b>Insertion</b>: O(n)</li><li><b>Searching</b>: O(n) </li><li><b>Optiomal Search</b>: O(log(n)) </li>| 
+
+
 ## Arrays 
 
   - [ ] [Multi-dim Array](https://archive.org/details/0102WhatYouShouldKnow/02_05-multidimensionalArrays.mp4) 
