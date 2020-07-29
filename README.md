@@ -110,7 +110,7 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 	- 设计模式 Design Pattern
 	- Web开发技术 Web programming
 	
-	</summary>
+	</details>
 	
 	<details>
 	<summary><b>🐍 Python </b></summary>
