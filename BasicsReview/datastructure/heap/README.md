@@ -16,6 +16,15 @@
 
 
 - [Priority Queue](#PriorityQueue)
+  + [Definition](#Definition)
+  + [Uses](#Uses)
+  + [Implementation](#Implementations)
+    - [Binary Heaps](#Binary-Heaps)
+    - [Sorted list](#Sorted-list)
+    - [A Sorted Linked List](#A-Sorted-Linked-List)
+  + [Strengths](#Strengths)
+  + [Weakness](#Weakness)
+  + [Time Complexity](#Time-Complexitys)
 
 # Binary Heap
 
@@ -298,7 +307,7 @@ A priority queue is a special queue where:
   * A* search (a graph traversal algorithm like BFS)
   * Huffman codes (an encoding for data compression)
 
-## Implementation
+## Implementations
 
 ### Binary Heaps
 Priority queues are often implemented using binary heaps. Notice how the highest priority is right at the top of the heap, ready to be grabbed in O(1) time.
@@ -329,14 +338,14 @@ Priority queues are often implemented using binary heaps. Notice how the highest
 
 Binary heaps are just one kind of heap. Other kinds of heaps (e.g.: Fibonacci heaps or binomial heaps) can offer faster average performance for some priority queue operations. But, they're much more complex than binary heaps and less commonly used in practice.
 
-## Strenths 
+## Strengths  
 - **Quickly access the highest-priority item** Priority queues allow you to peek at the top item in O(1) while keeping other operations relatively cheap (O(lg(n)).
 
 ## Weakness
 -  **Slow enqueues and dequeues** Both operations take O(lg(n)) time with priority queues. With normal first-in, first-out queues, these operations are O(1) time.
 
 
-## Time Complexity
+## Time Complexitys
 
 Ops|Worst Case 
 ---|---|
