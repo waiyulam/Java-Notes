@@ -53,7 +53,11 @@ DS | Def | Time Complexity | Others
 #### <li>[Tree](trees)</li>
 
 DS | Def | Time Complexity | Others 
----------------------|----------------------------------------------------------------------|---------------------------------|---------------------------------|
+-----|-------|--------|--------|
+[Binary_Search_Tree](trees/binary)|<ul><li>A binary search tree is a binary tree where the nodes are ordered in a specific way.</li><li>The nodes to the left are smaller than the current node.</li><li>The nodes to the right are larger than the current node.</li>|<ul><li><b>Insert</b>:O(lg(n))/O(n)</li><li><b>Lookup</b>:O(lg(n))/O(n) </li><li><b>Delete</b>:O(lg(n))/O(n)</li>|<ul><li>Compared to a sorted array, lookups take the same amount of time ( O(lg(n))), but inserts and deletes are faster (O(lg(n)) for BSTs, O(n) for arrays).</li><li>Poor performance if unbalanced</li><li>BSTs aren't the fastest for anything. On average, a list or a dictionary will be faster.</li></ul>
+
+
+
 
 
 ## Trees

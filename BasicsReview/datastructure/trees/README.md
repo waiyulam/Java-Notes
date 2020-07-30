@@ -143,8 +143,9 @@ Let's call the total number of nodes in the tree n, and the height of the tree h
 
 <p align="center">
 
-- n = 2^0 + 2^1 + 2^2 +..... = 2^h - 1
-- h = log_2(n+1)
+ n = 2^0 + 2^1 + 2^2 +..... = 2^h - 1
+
+ h = log_2(n+1)
 
 </p>
 
