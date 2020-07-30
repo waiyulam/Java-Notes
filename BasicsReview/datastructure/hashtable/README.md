@@ -124,20 +124,18 @@ Remarkably we can achieve this in O(1) time using a **hash function as a way to 
 **Definition**: Hash Collisions happens while two keys hash to the same index in the "array". The situation where a newly inserted key maps to an already occupied slot in the hash table is called a collision. 
 
 <p>
-<img width="300" height="300" src="https://www.interviewcake.com/images/svgs/cs_for_hackers__hash_tables_lies_and_foes_addition.svg?bust=206">
+<img width="300" height="200" src="https://www.interviewcake.com/images/svgs/cs_for_hackers__hash_tables_lies_and_foes_addition.svg?bust=206">
 </p>
 
 ## Separate Chaining
 
 <p>
-<img width="300" height="100" src="https://www.interviewcake.com/images/svgs/cs_for_hackers__hash_tables_hash_collision_key_val.svg?bust=206">
+<img width="300" height="200" src="https://www.interviewcake.com/images/svgs/cs_for_hackers__hash_tables_hash_collision_key_val.svg?bust=206">
 </p>
 
 The idea is to make each cell of hash table point to a linked list of records that have the same hash function value. Chaining is simple but requires additional memory outside the table.
 
-```
 Instead of storing the actual values in our array, let's have each array slot hold a pointer to a linked list holding the values for all the keys that hash to that index:
-```
 
 > Notice that we **included the keys as well as the values** in each linked list node. Otherwise, we wouldn't know which key was for which value!
 
@@ -173,7 +171,7 @@ Ans : Apply the same procedure as doing a lookup for a key but instead of returi
 ## Open Addressing
 
 <p>
-<img width="300" height="100" src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/gq/2015/08/openAddressing1.png">
+<img width="300" height="300" src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/gq/2015/08/openAddressing1.png">
 </p>
 
 Open addressing techniques deals with hash collisions by finding another place within the hash table for the object to go by **offsetting it from the position to which it hashed to**. The key-value pairs are stored in the table(array) itself as opposed to a data structure like in separate chaining    
@@ -215,8 +213,6 @@ When we want to insert a (k,v) into the hash table,
 # H(k) is the hash for the key k 
 # P(k,x) is the probing function 
 ```
-
-- **Other Operations**
 
 #### Key searching 
 
