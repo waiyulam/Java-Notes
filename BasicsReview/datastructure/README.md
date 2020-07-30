@@ -44,7 +44,7 @@ DS | Def | Time Complexity | Others
 DS | Def | Time Complexity | Others 
 ---------------------|----------------------------------------------------------------------|---------------------------------|---------------------------------|
 [Binary Heap](heap#Binary-Heap)|<ul><li>A binary heap is a **binary tree** where the **smallest/largest value** is always at the **top**</li><li>Heaps are implemented as **complete binary trees**.</li><li>Heaps are built on lists</li></ul>|<ul><li><b>Get min/max</b>: O(1)</li><li><b>Remove min</b>: O(1og(n))</li><li><b>Insert</b>: O(1og(n))</li><li><b>Heapify</b>: O(n)</li><li><b>Random access</b>: O(n)</li>|<ul><li>Quickly access the smallest item</li><li>Binary heaps are usually implemented with **lists**, saving the overhead cost of storing pointers to child nodes.</li><li>Binary heaps only provide easy access to the smallest item. Finding other items in the heap takes O(n) time</li>
-[Priority Queue](heap#PriorityQueue)|<ul><li>Every item in the queue has a priority</li><li>Higher-priority items are dequeued before lower-priority items.</li>|<ul><li><ul><li><b>Enqueue</b>: O(lg(n))</li><li><b>Dequeue</b>: O(lg(n)) </li><li><b>Peek</b>: O(1)</li>|<ul><li>Priority queues allow you to peek at the top item in O(1) while keeping other operations relatively cheap (O(lg(n)).</li></ul>
+[Priority Queue](heap#PriorityQueue)|<ul><li>Every item in the queue has a priority</li><li>Higher-priority items are dequeued before lower-priority items.</li>|<ul><li><b>Enqueue</b>: O(lg(n))</li><li><b>Dequeue</b>: O(lg(n)) </li><li><b>Peek</b>: O(1)</li>|<ul><li>Priority queues allow you to peek at the top item in O(1) while keeping other operations relatively cheap (O(lg(n)).</li></ul>
 
 
 
