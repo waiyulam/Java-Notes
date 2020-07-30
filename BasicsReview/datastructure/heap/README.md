@@ -7,8 +7,8 @@
   + [Implementation](#Implementation)
     * [Complete Trees](#Heaps-are-implemented-as-complete-binary-trees)
     * [Heaps are built on lists](#Heaps-are-built-on-lists)
-    * [Insertion](#Insertion-:-O(log(n))
-    * [Removal](#Removing-the-smallest-item-:-O(log(n))
+    * [Insertion](#Insertion)
+    * [Removal](#Removing-the-smallest-item)
   + [Heapify](#Heapify)
   + [Strengths](#Strengths)
   + [Weaknesses](#Weaknesses)
@@ -76,7 +76,7 @@ With a bit of clever indexing
 <img weight="300" height="200" src="https://www.interviewcake.com/images/svgs/heap__binary_tree_with_comparing_node_2_and_lower_level.svg?bust=206">
 </p>
 
-### Insertion : O(log(n))
+### Insertion
 
 1. Add the item to the bottom of the tree 
 <p align="center">
@@ -95,7 +95,7 @@ With a bit of clever indexing
 
 - Because our heap is built on a complete binary tree, we know it's also **balanced**. Which means the height of the tree is log(n). So we'll do at most log(n) of these swaps, giving us a total time cost of O(log(n)).
 
-### Removing the smallest item : O(log(n))
+### Removing the smallest item
 
 1. Remove the root 
 <p align="left">
