@@ -117,7 +117,7 @@ If it's larger than **either** child, swap the item with the smaller of the two 
 
 4. Continue comparing and swapping, allowing the item to **"bubble down"** until it's smaller than its children.
 <p align="center">
-<img weight="600" height="400" src="https://www.interviewcake.com/images/svgs/heap_concept_page_diagrams__implementation_overview__1_4b.svg?bust=206">
+<img weight="900" height="600" src="https://www.interviewcake.com/images/svgs/heap_concept_page_diagrams__implementation_overview__1_4b.svg?bust=206">
 </p>
 
 - As with inserting (above), we'll do at most log(n) of these swaps, giving us a total time cost of O(log(n))
