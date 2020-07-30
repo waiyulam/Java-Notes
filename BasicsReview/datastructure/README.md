@@ -54,19 +54,16 @@ DS | Def | Time Complexity | Others
 
 DS | Def | Time Complexity | Others 
 -----|-------|--------|--------|
-[Binary_Search_Tree](trees/binary)|<ul><li>A binary search tree is a binary tree where the nodes are ordered in a specific way.</li><li>The nodes to the left are smaller than the current node.</li><li>The nodes to the right are larger than the current node.</li>|<ul><li><b>Insert</b>:O(lg(n))/O(n)</li><li><b>Lookup</b>:O(lg(n))/O(n) </li><li><b>Delete</b>:O(lg(n))/O(n)</li>|<ul><li>Compared to a sorted array, lookups take the same amount of time ( O(lg(n))), but inserts and deletes are faster (O(lg(n)) for BSTs, O(n) for arrays).</li><li>Poor performance if unbalanced</li><li>BSTs aren't the fastest for anything. On average, a list or a dictionary will be faster.</li></ul>
+[Binary Search Tree](trees/binary)|<ul><li>A binary search tree is a binary tree where the nodes are ordered in a specific way.</li><li>The nodes to the left are smaller than the current node.</li><li>The nodes to the right are larger than the current node.</li>|<ul><li><b>Insert</b>:O(lg(n))/O(n)</li><li><b>Lookup</b>:O(lg(n))/O(n) </li><li><b>Delete</b>:O(lg(n))/O(n)</li>|<ul><li>Compared to a sorted array, lookups take the same amount of time ( O(lg(n))), but inserts and deletes are faster (O(lg(n)) for BSTs, O(n) for arrays).</li><li>Poor performance if unbalanced</li><li>BSTs aren't the fastest for anything. On average, a list or a dictionary will be faster.</li></ul>
+[AVL tree](tree/avl)|<ul><li>AVL tree is a **self-balancing Binary Search Tree** (BST) where the difference between heights of left and right subtrees cannot be more than one for all nodes.</li><li>AVL tree allow for logarithmic insertion, deletion and search operations </li>|<ul><li><b>Insert</b>:O(lg(n))</li><li><b>Lookup</b>:O(lg(n)) </li><li><b>Delete</b>:O(lg(n))</li></ul>|<ul><li>The invariant in the AVL which forces it to remain balanced is the requirement that the balanced factor is always either -1, 0 or +1 </li><li>The AVL trees are more balanced compared to Red-Black Trees, but they may cause more rotations during insertion and deletion.</li></ul>
 
 
 
-
-
-## Trees
--  [ ] [Intro](https://www.youtube.com/watch?v=oSWTXtMglKE&feature=youtu.be)
-- Binary Tree
-- Binary Search Tree
-- AVL Tree (TODO)
+- B Tree (TODO)
 - Suffix Tree (TODO)
 - Segment Tree (TODO)
+
+
 
 ## Tries   
   -  [ ] [Intro](https://www.youtube.com/watch?v=zIjfhVPRZCg)
