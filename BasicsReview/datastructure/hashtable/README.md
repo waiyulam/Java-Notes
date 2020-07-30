@@ -35,16 +35,16 @@
 - Key-value pairs can be of any type not just strings and numbers but also objects. But keys needs to be **hashable** 
 
 <p>
-<img width="100" height="300" src="https://www.interviewcake.com/images/svgs/hash_table__preview.svg?bust=206">
+<img width="200" height="300" src="https://www.interviewcake.com/images/svgs/hash_table__preview.svg?bust=206">
 </p>
 
 ## Uses
 
-- Frequencies: Hash tables are often used to track item frequencies. For example, countign the number of times a word appears in a given text. 
+- Frequencies: Hash tables are often used to track item frequencies. For example, counting the number of times a word appears in a given text. 
 
 ## Hash table mapping (key->value)
 
-- **Hash table are built on arrays**
+- **Hash table is built on arrays**
 
 Arrays are pretty similar to hash maps already. Arrays let you quickly look up the value for a given "key" . . . except the **keys are called "indices,"** and we don't get to pick them—they're always sequential integers (0, 1, 2, 3, etc). **Think of a hash map as a "hack" on top of an array** to let us use flexible keys instead of being stuck with sequential integer "indices."
 
@@ -59,7 +59,7 @@ A hash function maps a key 'x' to a whole number in a fixed range
 A function to **convert a key into an array index (an integer)**. To look up the value for a given key, we just run the key through our hashing function to get the index to go to in our underlying array to grab the value.
 
 <p>
-<img width="100" height="300" src="https://www.interviewcake.com/images/svgs/cs_for_hackers__hash_tables_lies_key_labeled.svg?bust=206">
+<img width="200" height="300" src="https://www.interviewcake.com/images/svgs/cs_for_hackers__hash_tables_lies_key_labeled.svg?bust=206">
 </p>
 
 ## Hashing function exmaples
@@ -84,7 +84,7 @@ The result is 429. But what if we only have 30 slots in our array? We'll use a c
 
 > 429%30 = 9
 
-### Hash function for interger key: Modular
+### Hash function for integer key: Modular
 For example, H(X) = (x^2 - 6x +9) mod 10 maps all integer keys to the range [0,9]
 ```
 H(4) = (16 - 24 +9) mod 10 = 1 
@@ -110,16 +110,18 @@ H(-7) = (49 + 42 + 9 ) mod 10 = 0
 1) Efficiently computable.
 2) Should uniformly distribute the keys (Each table position equally likely for each key)
 
-> A key of type T is **hashable**   
-To enforce deterministic hash function, we demand that the keys used in hash table are **immutable** data types. If a key of type T is immutable and we have a hash function H(k) defined for all keys k of type T then we say a key of type T is hashable
+> A key of type T is **hashable**  
+ 
+To enforce a deterministic hash function, we demand that the keys used in the hash table are **immutable** data types. If a key of type T is immutable and we have a hash function H(k) defined for all keys k of type T then we say a key of type T is hashable
 
-> Ideally we would like to ahve a very fast lookup and other operations for the data we are placing within hash table     
-Remarkably we can achieve this in O(1) time using a **hash function as a way to index into a hash table**. The constatnt time behaviour attributed to hash tables is only true if you have a good **uniform hash function**
+> Ideally we would like to have a very fast lookup and other operations for the data we are placing within the hash table    
+ 
+Remarkably we can achieve this in O(1) time using a **hash function as a way to index into a hash table**. The constant time behavior attributed to hash tables is only true if you have a good **uniform hash function**
 
 
 # Collisions Handling
 
-**Definition**: Hash Collisions happens while two keys hash to the same index in the "array". The situation where a newly inserted key maps to an already occupied slot in hash table is called collision. 
+**Definition**: Hash Collisions happens while two keys hash to the same index in the "array". The situation where a newly inserted key maps to an already occupied slot in the hash table is called a collision. 
 
 <p>
 <img width="300" height="300" src="https://www.interviewcake.com/images/svgs/cs_for_hackers__hash_tables_lies_and_foes_addition.svg?bust=206">
@@ -131,13 +133,13 @@ Remarkably we can achieve this in O(1) time using a **hash function as a way to 
 <img width="300" height="100" src="https://www.interviewcake.com/images/svgs/cs_for_hackers__hash_tables_hash_collision_key_val.svg?bust=206">
 </p>
 
-The idea is to make each cell of hash table point to a linked list of records that have same hash function value. Chaining is simple, but requires additional memory outside the table.
+The idea is to make each cell of hash table point to a linked list of records that have the same hash function value. Chaining is simple but requires additional memory outside the table.
 
 ```
 Instead of storing the actual values in our array, let's have each array slot hold a pointer to a linked list holding the values for all the keys that hash to that index:
 ```
 
-> Notice that we **included the keys as well as the values** in each linked list node. Otherwise we wouldn't know which key was for which value!
+> Notice that we **included the keys as well as the values** in each linked list node. Otherwise, we wouldn't know which key was for which value!
 
 ### Chaining Implementation
 1) To find the key, we first hash the key x to obtain the hash value (index) h(x)
