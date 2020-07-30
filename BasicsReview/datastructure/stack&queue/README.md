@@ -1,5 +1,5 @@
 
-# Queues 
+# Queues
 
 ## Definitions 
 - A queue stores items in a first-in, first-out (FIFO) order 
