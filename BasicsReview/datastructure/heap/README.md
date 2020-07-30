@@ -51,7 +51,7 @@
 
 - Complete trees and heaps are often stored as lists, one node after the other, like this:
 <p align="center">
-<img weight="300" height="200" src="https://www.interviewcake.com/images/svgs/heap_concept_page_diagrams__complete_trees.svg?bust=206">
+<img weight="400" height="300" src="https://www.interviewcake.com/images/svgs/heap_concept_page_diagrams__complete_trees.svg?bust=206">
 </p>
 
 - Using a list to store a complete binary tree is very efficient because there no need to spend extra space for pointer. Since there are no gaps in complete tree (Each level is filled up before another level is added and bottom tier is filled in **from left to right**. ), there are no unused bucket/slots in the list/array. 
@@ -85,12 +85,12 @@ With a bit of clever indexing
 
 2. Compare the item with its parent. If the new item is smaller, swap the two.
 <p align="center">
-<img weight="300" height="200" src="https://www.interviewcake.com/images/svgs/heap_concept_page_diagrams__implementation_overview__2_2b.svg?bust=206">
+<img weight="600" height="400" src="https://www.interviewcake.com/images/svgs/heap_concept_page_diagrams__implementation_overview__2_2b.svg?bust=206">
 </p>
 
 3. Continue comparing and swapping, allowing the new item to **"bubble up"** until the it's larger than its parent.
-<p align="left">
-<img weight="300" height="200" src="https://www.interviewcake.com/images/svgs/heap_concept_page_diagrams__implementation_overview__2_3b.svg?bust=206">
+<p align="center">
+<img weight="600" height="400" src="https://www.interviewcake.com/images/svgs/heap_concept_page_diagrams__implementation_overview__2_3b.svg?bust=206">
 </p>
 
 - Because our heap is built on a complete binary tree, we know it's also **balanced**. Which means the height of the tree is log(n). So we'll do at most log(n) of these swaps, giving us a total time cost of O(log(n)).
@@ -98,7 +98,7 @@ With a bit of clever indexing
 ### Removing the smallest item
 
 1. Remove the root 
-<p align="left">
+<p align="center">
 <img weight="300" height="200" src="https://www.interviewcake.com/images/svgs/heap_concept_page_diagrams__implementation_overview__2_a.svg?bust=206">
 </p>
 
@@ -111,13 +111,13 @@ With a bit of clever indexing
 3. Compare the item with its children: 
 
 If it's larger than **either** child, swap the item with the smaller of the two children.
-<p align="left">
-<img weight="300" height="200" src="https://www.interviewcake.com/images/svgs/heap_concept_page_diagrams__implementation_overview__1_4a.svg?bust=206">
+<p align="center">
+<img weight="600" height="400" src="https://www.interviewcake.com/images/svgs/heap_concept_page_diagrams__implementation_overview__1_4a.svg?bust=206">
 </p>
 
 4. Continue comparing and swapping, allowing the item to **"bubble down"** until it's smaller than its children.
-<p align="left">
-<img weight="300" height="200" src="https://www.interviewcake.com/images/svgs/heap_concept_page_diagrams__implementation_overview__1_4b.svg?bust=206">
+<p align="center">
+<img weight="600" height="400" src="https://www.interviewcake.com/images/svgs/heap_concept_page_diagrams__implementation_overview__1_4b.svg?bust=206">
 </p>
 
 - As with inserting (above), we'll do at most log(n) of these swaps, giving us a total time cost of O(log(n))
@@ -221,8 +221,7 @@ To transform the tree into a valid heap, we'll compare each node to its children
 
 2) Let's look at the nodes in the next level:
 
-<p align="left">
-<img weight="300" height="200" src="https://www.interviewcake.com/images/svgs/heapsort__binary_tree_with_highlighted_two_levels.svg?bust=206">
+<p align="center">
 <img weight="300" height="200" src="https://www.interviewcake.com/images/svgs/heapsort__binary_subtree_nodes_3_7_9.svg?bust=206">
 </p>
 
@@ -230,8 +229,8 @@ Since 3 is smaller than both 7 and 9, it's already in the right spot.
 
 But, looking at the right node (2) and its children, since 1 is smaller than 2, we'll swap them.
 
-<p align="left">
-<img weight="300" height="200" src="https://www.interviewcake.com/images/svgs/heap__binary_tree_with_swapped_nodes_1_and_2.svg?bust=206">
+<p align="center">
+<img weight="600" height="400" src="https://www.interviewcake.com/images/svgs/heap__binary_tree_with_swapped_nodes_1_and_2.svg?bust=206">
 </p>
 
 3) Moving up, we've got an 8 at the root.
@@ -239,8 +238,8 @@ But, looking at the right node (2) and its children, since 1 is smaller than 2, 
 Since 8 is larger than 1, 8 bubbles down, swapping places with the smaller child: 1.
 
 <p align="left">
-<img weight="300" height="200" src="https://www.interviewcake.com/images/svgs/heap__binary_tree_with_swapped_nodes_8_and_1.svg?bust=206">
-<img weight="300" height="200" src="https://www.interviewcake.com/images/svgs/heap__binary_tree_with_swapped_nodes_8_and_2.svg?bust=206">
+<img weight="600" height="400" src="https://www.interviewcake.com/images/svgs/heap__binary_tree_with_swapped_nodes_8_and_1.svg?bust=206">
+<img weight="600" height="400" src="https://www.interviewcake.com/images/svgs/heap__binary_tree_with_swapped_nodes_8_and_2.svg?bust=206">
 </p>
 
 
