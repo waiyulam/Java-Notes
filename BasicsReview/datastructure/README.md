@@ -59,8 +59,6 @@ DS | Def | Time Complexity | Others
 [Red Black Tree](trees/rb)|<ul><li>Every node has a **color either red or black**</li><li> Root property : **Root of tree is always black**</li><li>Red property: There are no two adjacent red nodes **(A red node cannot have a red parent or red child).**</li><li>Depth property: Every path from a node (including root) to any of its **descendant NULL node** has **the same number of black nodes**.</li><li>External property: Every leaf (NULL) is counted as black.</li>|<ul><li><b>Insert</b>:O(lg(n))</li><li><b>Lookup</b>:O(lg(n)) </li><li><b>Delete</b>:O(lg(n))</li></ul>|<ul><li>B tree are less height than Red Black Tree (i.e the height of RB tree > the height of B tree normally)</li></ul>
 [B Tree](trees/b)|<ul><li>All the leaf nodes of the B-tree must be at the same level.</li><li>Above the leaf nodes of the B-tree, there should be no empty sub-trees.</li><li>B- tree’s height should lie as low as possible.</li>|<ul><li><b>Insert</b>:O(lg(n))</li><li><b>Lookup</b>:O(lg(n)) </li><li><b>Delete</b>:O(lg(n))</li></ul>|<ul><li> The main idea of using B-Trees is to **reduce the number of disk accesses.** </li><li>B+ tree only have data pointers in its leaf nodes while B tree have data pointers in its internal node</li><li>B+ Tree's Leaf nodes are stored as structural linked list.</li>
 
-
-- B Tree (TODO)
 - Suffix Tree (TODO)
 - Segment Tree (TODO)
 
