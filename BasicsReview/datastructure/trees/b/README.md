@@ -84,27 +84,27 @@ minimum degree t as 3 and insrt a sequence of integers 10, 20, 30, 40, 50, 60, 7
 
 1) Initially root is NULL. Let us first insert 10.
 <p align="center">
-<img width = "100" height="100" src="https://www.geeksforgeeks.org/wp-content/uploads/Btree1.png">
+<img width = "300" height="100" src="https://www.geeksforgeeks.org/wp-content/uploads/Btree1.png">
 </p>
 
 2) Let us now insert 20, 30, 40 and 50. They all will be inserted in root because the maximum number of keys a node can accommodate is 2*t – 1 which is 5.
 <p align="center">
-<img width = "100" height="100" src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/BTree2Ins.png">
+<img width = "500" height="100" src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/BTree2Ins.png">
 </p>
 
 3) Let us now insert 60. Since root node is full, it will first split into two, then 60 will be inserted into the appropriate child.
 <p align="center">
-<img width = "100" height="100" src="https://www.geeksforgeeks.org/wp-content/uploads/BTreeIns3.png">
+<img width = "500" height="100" src="https://www.geeksforgeeks.org/wp-content/uploads/BTreeIns3.png">
 </p>
 
 4) Let us now insert 70 and 80. These new keys will be inserted into the appropriate leaf without any split.
 <p align="center">
-<img width = "100" height="100" src="https://www.geeksforgeeks.org/wp-content/uploads/BTreeIns4.png">
+<img width = "500" height="100" src="https://www.geeksforgeeks.org/wp-content/uploads/BTreeIns4.png">
 </p>
 
 5) Let us now insert 90. This insertion will cause a split. The middle key will go up to the parent.
 <p align="center">
-<img width = "100" height="100" src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/BTreeIns6.png">
+<img width = "500" height="100" src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/BTreeIns6.png">
 </p>
 
 ### Delete 
@@ -129,11 +129,11 @@ Deletion from a B-tree is more complicated than insertion, because we can delete
     - If x.c(i) and both of x.c(i)’s immediate siblings have t-1 keys, merge x.c(i) with one sibling, which involves moving a key from x down into the new merged node to become the median key for that node.
 
 <p align="center">
-<img width = "300" height="600" src="https://media.geeksforgeeks.org/wp-content/uploads/bplustree.png">
+<img width = "500" height="600" src="https://media.geeksforgeeks.org/wp-content/uploads/bplustree.png">
 </p>
 
 <p align="center">
-<img width = "300" height="200" src="https://media.geeksforgeeks.org/wp-content/uploads/bplustr.png">
+<img width = "500" height="200" src="https://media.geeksforgeeks.org/wp-content/uploads/bplustr.png">
 </p>
 
 ## Introduction of B+ Tree
@@ -251,12 +251,12 @@ Delete|O(log(n))|O(log(n))
 - The minimum height of the B-Tree that can exist with n number of nodes and m is the maximum number of children of a node can have is:
 
 <p align="center">
-<img width = "400" height="100" src="https://www.geeksforgeeks.org/wp-content/ql-cache/quicklatex.com-b2583191e91c4ae6b918589495ad9302_l3.png">
+<img width = "200" height="100" src="https://www.geeksforgeeks.org/wp-content/ql-cache/quicklatex.com-b2583191e91c4ae6b918589495ad9302_l3.png">
 </p>
 
 - The maximum height of the B-Tree that can exist with n number of nodes and d is the minimum number of children that a non-root node can have is:
 
 <p align="center">
-<img width = "400" height="100" src="https://www.geeksforgeeks.org/wp-content/ql-cache/quicklatex.com-91e6517dbf84093666399a4a6baf3bb6_l3.png">
+<img width = "200" height="100" src="https://www.geeksforgeeks.org/wp-content/ql-cache/quicklatex.com-91e6517dbf84093666399a4a6baf3bb6_l3.png">
 </p>
 
