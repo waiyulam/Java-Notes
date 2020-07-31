@@ -279,6 +279,7 @@ The secret is nothing but **Regular Deliberate Strategic Practice**. We always t
 -  [**Cyc study guide**](https://github.com/CyC2018/CS-Notes)
 -  [**Java 技术体系面试指南**](https://github.com/553899811/NewBie-Plan)
 -  [**Java面试+Java后端技术学习指南**](https://github.com/OUYANGSIHAI/JavaInterview)
+-  [**后端架构师技术图谱**](https://github.com/xingshaocheng/architect-awesome)
 -  [About Java开源项目之自学编程之路](https://github.com/hansonwang99/JavaCollection)
 -  [Coding Interview University by John Washam](https://github.com/jwasham/coding-interview-university)
 -  [Tech Interview Cheat Sheet by TSiege](https://github.com/TSiege/Tech-Interview-Cheat-Sheet)
