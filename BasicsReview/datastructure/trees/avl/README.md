@@ -230,7 +230,7 @@ The AVL tree and other self-balancing search trees like Red Black are useful to 
 ## Time Complexity 
 The rotation operations (left and right rotate) take constant time as only a few pointers are being changed there. Updating the height and getting the balance factor also takes constant time. So the time complexity of AVL insert remains same as BST insert which is O(h) where h is the height of the tree. Since AVL tree is balanced, the height is O(Logn). So time complexity of AVL insert is O(Logn).
 
-Ops|Balanced|Unbalanced(Worst case )
+Ops|Balanced|Worst case
 -----|-----|------|
 Space|O(n)|O(n)
 Insert|O(log(n))|O(log(n))
