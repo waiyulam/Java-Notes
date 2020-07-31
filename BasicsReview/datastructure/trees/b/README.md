@@ -94,17 +94,17 @@ minimum degree t as 3 and insrt a sequence of integers 10, 20, 30, 40, 50, 60, 7
 
 3) Let us now insert 60. Since root node is full, it will first split into two, then 60 will be inserted into the appropriate child.
 <p align="center">
-<img width = "500" height="100" src="https://www.geeksforgeeks.org/wp-content/uploads/BTreeIns3.png">
+<img width = "500" height="300" src="https://www.geeksforgeeks.org/wp-content/uploads/BTreeIns3.png">
 </p>
 
 4) Let us now insert 70 and 80. These new keys will be inserted into the appropriate leaf without any split.
 <p align="center">
-<img width = "500" height="100" src="https://www.geeksforgeeks.org/wp-content/uploads/BTreeIns4.png">
+<img width = "500" height="200" src="https://www.geeksforgeeks.org/wp-content/uploads/BTreeIns4.png">
 </p>
 
 5) Let us now insert 90. This insertion will cause a split. The middle key will go up to the parent.
 <p align="center">
-<img width = "500" height="100" src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/BTreeIns6.png">
+<img width = "500" height="200" src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/BTreeIns6.png">
 </p>
 
 ### Delete 
@@ -133,7 +133,7 @@ Deletion from a B-tree is more complicated than insertion, because we can delete
 </p>
 
 <p align="center">
-<img width = "500" height="200" src="https://media.geeksforgeeks.org/wp-content/uploads/bplustr.png">
+<img width = "500" height="400" src="https://media.geeksforgeeks.org/wp-content/uploads/bplustr.png">
 </p>
 
 ## Introduction of B+ Tree
