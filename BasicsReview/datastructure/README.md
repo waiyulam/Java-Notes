@@ -62,12 +62,9 @@ DS | Def | Time Complexity | Others
 - Suffix Tree (TODO)
 - Segment Tree (TODO)
 
+#### <li>[Tries](https://www.interviewcake.com/concept/python/trie?)</li>
 
-
-## Tries   
-  -  [ ] [Intro](https://www.youtube.com/watch?v=zIjfhVPRZCg)
-
-## Graphs   
+#### <li>[Graphs](https://www.interviewcake.com/concept/python/graph?)</li>   
 
 ## Others DS
   -  [ ] [Data Structure Intro](https://www.youtube.com/watch?v=bum_19loj9A)
