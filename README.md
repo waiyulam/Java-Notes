@@ -53,14 +53,14 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 	<br>
 
 	- [数组 Arrays](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Arrays)
-	- [链式结构 Linked List（TODO)](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Linked-Lists)
-	- [栈和队列 Stacks & Queues &Double-ended Queue （TODO)](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Stacks-and-Queues)
-	- [哈希表 Hash Tables（TODO)](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Hash-Table)
+	- [链式结构 Linked List](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Linked-Lists)
+	- [栈和队列 Stacks & Queues &Double-ended Queue](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Linked-Lists)
+	- [哈希表 Hash Tables](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Hash-table)
 	- [树 Trees（TODO)](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Trees)
-	- [字典/前缀树 Trie（TODO)](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Tries)
-	- [堆/优先队列Heaps&Priority Queue（TODO)](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Heap&PriorityQueue&Binary-Heap)
-	- [图 Graphs（TODO)](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Graphs)
-	- [Others（TODO)](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Others-DS)
+	- [字典/前缀树 Trie](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Tries)
+	- [堆/优先队列Heaps&Priority Queue](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Heaps)
+	- [图 Graphs](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Graphs)
+	- [Others](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Others-DS)
 
 	</details>
 	
