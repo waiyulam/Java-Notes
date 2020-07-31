@@ -53,8 +53,8 @@ DS | Def | Time Complexity | Others
 
 ### Non-linear data strucutres 
 
-|[树/森林 Tree](trees)|[Trie](https://www.interviewcake.com/concept/python/trie?)|[Graphs](https://www.interviewcake.com/concept/python/graph?)|
-|-------|-------|-------|
+|[树/森林 Tree](trees)|[Trie](https://www.interviewcake.com/concept/python/trie?)|[Graphs](https://www.interviewcake.com/concept/python/graph?)|[LRU Cache](https://www.interviewcake.com/concept/python/lru-cache?)
+|-------|-------|-------|-------|
 
 #### Trees
 
@@ -71,6 +71,9 @@ DS | Def | Time Complexity | Others
 #### Tries
 
 #### Graphs
+
+#### LRU Cache 
+
 
 ## Others DS
   -  [ ] [Data Structure Intro](https://www.youtube.com/watch?v=bum_19loj9A)
