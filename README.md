@@ -73,7 +73,7 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 		- [递归&迭代 Recursion](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/algorithms#Recursion-and-analysis-of-recurrence-relations)
 		- [NP问题 NP problem (TODO)](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/algorithms#NP-program)
 	- [搜索 Searching  (TODO)](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/algorithms/search)
-	- [排序 Sorting   (TODO)](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/algorithms/sorting)
+	- [排序 Sorting](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/algorithms/sorting)
 	- [图论 Graph Theory   (TODO)](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/algorithms/graphtheory)
 	- [字符串处理 String Manipulation  (TODO)](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/algorithms/stringManipulation)
 	- [二进制处理 Bit Manipulation   (TODO)](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/algorithms/bitManipulation)
