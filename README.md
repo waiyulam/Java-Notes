@@ -100,7 +100,8 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 
 </details>
 	
-	
+<br>
+
 ## ❓编码实践 Run practice problems
 <br>
 
@@ -108,6 +109,8 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 * [**🧯 Leetcode**]()
 * [**🧯 剑指OFFER**]()
 * [**🧯 CN笔试面试题库**](https://www.nowcoder.com/contestRoom?from=cyc_github)
+
+<br>
 
 ## 💾 数据库 Database
 
@@ -147,6 +150,8 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 
 </details>
 
+<br>
+
 ## 🏷 语言回顾 Programming Language Review
 
 <br>
@@ -174,6 +179,8 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 
 </details>
 
+<br>
+
 ## 🔨 操作系统 Operating System
 
 <br>
@@ -197,6 +204,8 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 - 常用命令使用 Commands
 
 </details>
+
+<br>
 
 ## 💡 系统设计 System Design
 
@@ -232,6 +241,7 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 
 </details>
 
+<br>
 
 ## 🎨 面向对象 OOP Design
 
@@ -252,6 +262,8 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 - 行为型
 - 结构型
 </details>
+
+<br>
 
 ## ☁️ 计算机网络 Networks
 <br>
@@ -280,8 +292,10 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 - [RESTful API](https://github.com/frank-lam/fullstack-tutorial/blob/master/notes/RESTful%20API.md)
 - [Web网络安全](https://github.com/frank-lam/fullstack-tutorial/blob/master/notes/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8.md)
 </details>
-	
+<br>
+
 ### ➗ 数学基础 Mathmatics
+<br>
 <br>
 
 ### [**🍭 总结 Conclusion**](#Conclusion)
