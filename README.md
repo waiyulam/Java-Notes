@@ -143,39 +143,38 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 
 	</details>
 
-- [**💾 数据库 Database**]()
+- [**💾 数据库 Database**](Database)
 	<details>
-	<summary><b>🔨 数据库系统原理  </b></summary>
+	<summary><b><a href = 'https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Database'> 🔨 数据库系统原理 </a>  </b></summary>
 
-	- 事务 Transaction 
-	- 并发一致性 Consistency 
-	- 封锁 Locking 
-	- 隔离级别
-	- 并发控制 Concurrency control 
-	- 关系数据库 Relational Database 
+	- [事务 Transaction](Database#Transaction)
+	- [并发一致性 Consistency](Database#Anomalies-with-Interleaved-Execution)
+	- [封锁 Locking](Database#Concurrency-Control)
+	- [隔离级别](Database#隔离级别)
+	- [并发控制 Concurrency control ](Database#MVCC)
+	- [关系数据库 Relational Database](Database#Relational-model)
 
 	</details>
 
 	<details>
-	<summary><b>🔨 <a href='https://github.com/CyC2018/CS-Notes/blob/master/notes/SQL.md'> SQL </a>  </b></summary>
+	<summary><b>🔨<a href = 'https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Database/mysql'> MySQL </a>  </b></summary>
+
+	- 一、索引
+	- 二、查询性能优化
+	- 三、存储引擎
+	- 四、数据类型
+	- 五、切分
+	- 六、复制
 
 	</details>
 
 	<details>
-	<summary><b>🔨<a href = 'https://github.com/CyC2018/CS-Notes/blob/master/notes/MySQL.md'> MySQL </a>  </b></summary>
-
-	- MySQL阶段性学习
-	- MySQL索引原理
-	- MySQL索引失效及优化策略
-	- Leetcode-Database 题解
+	<summary><b>🔨 <a href='https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Database/sql'> SQL </a>  </b></summary>
 
 	</details>
 
 	<details>
-	<summary><b>🔨<a href = 'https://github.com/CyC2018/CS-Notes/blob/master/notes/Redis.md'> Redis </a></b></summary>
-
-	- Redis命令
-	- Redis分布式锁原理
+	<summary><b>🔨<a href = 'https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Database/redis'> Redis </a></b></summary>
 
 	</details>
 
