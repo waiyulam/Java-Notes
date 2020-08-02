@@ -48,12 +48,14 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 
 ## 📄 Table of Contents 
 
-| &nbsp;算法&nbsp; | 操作系统 | &nbsp;网络&nbsp;|面向对象| &nbsp;&nbsp;数据库&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Java&nbsp;&nbsp;&nbsp;|         系统设计| &nbsp;&nbsp;&nbsp;工具&nbsp;&nbsp;&nbsp; |编码实践| &nbsp;&nbsp;&nbsp;后记&nbsp;&nbsp;&nbsp; |
+| 算法| 编码实践 |数据库|Java&Python|操作系统| 系统设计|面向对象|网络| 数学基础|
 | :---: | :----: | :---: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
-| [:pencil2:](#pencil2-算法) | [:computer:](#computer-操作系统) | [:cloud:](#cloud-网络) | [:art:](#art-面向对象) | [:floppy_disk:](#floppy_disk-数据库) |[:coffee:](#coffee-java)| [:bulb:](#bulb-系统设计) |[:wrench:](#wrench-工具)| [:watermelon:](#watermelon-编码实践) |[:memo:](#memo-后记)|
+| [:pencil2:](#📖-基础知识CS-Fundamentals) |[❓](#❓编码实践-Run-practice-problems)|[:floppy_disk:](#💾-数据库-Database)|[🏷](#🏷-语言回顾-Programming-Language-Review)|[🔨](#🔨-操作系统-Operating-System)|[💡](#💡-系统设计-System-Design)|[🎨](#🎨-面向对象-OOP-Design)|[☁️](☁️-计算机网络-Networks)|[➗](➗-数学基础-Mathmatics)
 
 
-## [**📖 基础知识CS Fundamentals**](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview)
+## 📖 基础知识CS Fundamentals
+
+<br>
 
 <details>
 <summary><b><a href="https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure">📊 数据结构Data Structures</a></b></summary>
@@ -99,14 +101,17 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 </details>
 	
 	
-### [**❓ 练习 Run practice problems**]()
+## ❓编码实践 Run practice problems
+<br>
 
 * [**🧯 Hackerrank**]()
 * [**🧯 Leetcode**]()
 * [**🧯 剑指OFFER**]()
 * [**🧯 CN笔试面试题库**](https://www.nowcoder.com/contestRoom?from=cyc_github)
 
-### [**💾 数据库 Database**](Database)
+## 💾 数据库 Database
+
+<br>
 
 <details>
 <summary><b><a href = 'https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Database'> 🔨 数据库系统原理 </a>  </b></summary>
@@ -142,7 +147,9 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 
 </details>
 
-### [**🏷 语言回顾 Programming Language Review**]()
+## 🏷 语言回顾 Programming Language Review
+
+<br>
 
 <details>
 <summary><b> ☕️ Java </b></summary>
@@ -167,7 +174,9 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 
 </details>
 
-### [**🔨 操作系统 Operating System**]()
+## 🔨 操作系统 Operating System
+
+<br>
 
 <details>
 <summary><b>🔨 计算机操作系统 OS </b></summary>
@@ -189,7 +198,9 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 
 </details>
 
-### [**💡 系统设计 System Design**]()
+## 💡 系统设计 System Design
+
+<br>
 
 <details>
 <summary><b>🔨 <a href='https://github.com/CyC2018/CS-Notes/blob/master/notes/%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1%E5%9F%BA%E7%A1%80.md'> 系统设计基础 </a>  </b></summary>
@@ -222,7 +233,9 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 </details>
 
 
-### [**🎨 面向对象 OOP Design**]()
+## 🎨 面向对象 OOP Design
+
+<br>
 
 <details>
 <summary><b>📏 面向对象 OOP </b></summary>
@@ -240,7 +253,8 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 - 结构型
 </details>
 
-## [**☁️ 计算机网络 Networks**]()
+## ☁️ 计算机网络 Networks
+<br>
 
 <details>
 <summary><b>计算机网络 Networks </b></summary>
@@ -267,7 +281,8 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 - [Web网络安全](https://github.com/frank-lam/fullstack-tutorial/blob/master/notes/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8.md)
 </details>
 	
-### [**➗ 数学基础 Mathmatics**]()
+### ➗ 数学基础 Mathmatics
+<br>
 
 ### [**🍭 总结 Conclusion**](#Conclusion)
 ```java 
