@@ -98,51 +98,6 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 	* [**🧯 剑指OFFER**]()
 	* [**🧯 CN笔试面试题库**](https://www.nowcoder.com/contestRoom?from=cyc_github)
 
-- [**🏷 语言回顾 Programming Language Review**]()
-	<details>
-	<summary><b> ☕️ Java </b></summary>
-		
-	- 语言基础 Basics
-	- 集合框架/容器 Collections
-	- 并发编程 Concurrency
-	- I/O
-	- 虚拟机 JVM
-	- 设计模式 Design Pattern
-	- Web开发技术 Web programming
-	
-	</details>
-	
-	<details>
-	<summary><b>🐍 Python </b></summary>
-	
-	- 语言基础 Basics
-	- 爬虫框架 Scrapy
-	- Flask
-	- Django
-	
-	</details>
-
-- [**🔨 操作系统 Operating System**]()
-	<details>
-	<summary><b>🔨 计算机操作系统 OS </b></summary>
-
-	- 概述 Introduction
-	- 进程管理 Process&Concurrency
-	- 死锁 Deadlock 
-	- 内存管理 Memory
-	- 设备管理 Disks&Devices
-	- 链接 Links
-
-	</details>
-
-	<details>
-	<summary><b> 📟 Linux </b></summary>
-
-	- 基础核心概念 Basics
-	- 常用命令使用 Commands
-
-	</details>
-
 - [**💾 数据库 Database**](Database)
 	<details>
 	<summary><b><a href = 'https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Database'> 🔨 数据库系统原理 </a>  </b></summary>
@@ -178,6 +133,50 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 
 	</details>
 
+- [**🏷 语言回顾 Programming Language Review**]()
+	<details>
+	<summary><b> ☕️ Java </b></summary>
+		
+	- 语言基础 Basics
+	- 集合框架/容器 Collections
+	- 并发编程 Concurrency
+	- I/O
+	- 虚拟机 JVM
+	- 设计模式 Design Pattern
+	- Web开发技术 Web programming
+	
+	</details>
+	
+	<details>
+	<summary><b>🐍 Python </b></summary>
+	
+	- 语言基础 Basics
+	- 爬虫框架 Scrapy
+	- Flask
+	- Django
+	
+	</details>
+	
+- [**🔨 操作系统 Operating System**]()
+	<details>
+	<summary><b>🔨 计算机操作系统 OS </b></summary>
+
+	- 概述 Introduction
+	- 进程管理 Process&Concurrency
+	- 死锁 Deadlock 
+	- 内存管理 Memory
+	- 设备管理 Disks&Devices
+	- 链接 Links
+
+	</details>
+
+	<details>
+	<summary><b> 📟 Linux </b></summary>
+
+	- 基础核心概念 Basics
+	- 常用命令使用 Commands
+
+	</details>
 
 - [**💡 系统设计 System Design**]()
 	<details>
