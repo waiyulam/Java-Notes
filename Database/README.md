@@ -557,7 +557,9 @@ SELECT ... FOR UPDATE;
 
 - 在该隔离级别下事务都是串行顺序执行的，MySQL 数据库的 InnoDB 引擎会给读操作隐式加一把读共享锁，从而避免了脏读、不可重读复读和幻读问题。
 
-该隔离级别需要加锁实现，因为要使用加锁机制保证同一时间只有一个事务执行，也就是保证事务串行执行。
+该隔离级别需要加锁实现，因为要使用加锁机制保证同一时间只有一个事务执行，也就是保证事务串行执行。 串行化是4种事务隔离级别中隔离效果最好的，解决了脏读、可重复读、幻读的问题，但是效果最差，它将事务的执行变为顺序执行，与其他三个隔离级别相比，它就相当于单线程，后一个事务的执行必须等待前一个事务结束。
+
+
 
 <p align="center">
 <img width="500" height="400" src="https://camo.githubusercontent.com/68344d74dd0563e4c38dfed11c713f84f71a00cc/68747470733a2f2f63732d6e6f7465732d313235363130393739362e636f732e61702d6775616e677a686f752e6d7971636c6f75642e636f6d2f696d6167652d32303139313230373232333430303738372e706e67">
@@ -865,4 +867,5 @@ Entity-Relationship，有三个组成部分：实体、属性、联系。
 - [MySQL locking for the busy web developer](https://www.brightbox.com/blog/2013/10/31/on-mysql-locks/)
 - [浅入浅出 MySQL 和 InnoDB](https://draveness.me/mysql-innodb)
 - [Innodb 中的事务隔离级别和锁的关系](https://tech.meituan.com/2014/08/20/innodb-lock.html)
+- [知乎]（https://zhuanlan.zhihu.com/p/117476959）
 
