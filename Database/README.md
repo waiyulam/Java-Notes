@@ -20,6 +20,7 @@
   * [封锁类型 Lock types](#Locks-Types)
   * [封锁协议 Concurrency Control Protocal](#Concurrency-Control-Protocal)
   * [MySQL 隐式与显示锁定](#MySQL-隐式与显示锁定)
+  * [死锁 Deadlock](#Deadlock)
 
 5. [隔离级别 Transaction Isolation](#隔离级别)
   * [未提交读（READ UNCOMMITTED](#READ-UNCOMMITTED)
@@ -511,7 +512,7 @@ In addition to the lock being 2-Phase all Exclusive(X) Locks held by the transac
 
 Hence it gives us freedom from Cascading Abort which was still there in Basic 2-PL and moreover guarantee Strict Schedules **but still Deadlocks are possible!**
 
-### MySQL 隐式与显示锁定
+## MySQL 隐式与显示锁定
 
 MySQL 的 InnoDB 存储引擎采用两段锁协议，会根据隔离级别在需要的时候自动加锁，并且所有的锁都是在同一时刻被释放，这被称为隐式锁定。
 
@@ -521,6 +522,46 @@ InnoDB 也可以使用特定的语句进行显示锁定：
 SELECT ... LOCK In SHARE MODE;
 SELECT ... FOR UPDATE;
 ```
+
+## Deadlock 
+
+死锁（Deadlock） 所谓死锁：是指两个或两个以上的进程在执行过程中，因争夺资源而造成的一种互相等待的现象，若无外力作用，它们都将无法推进下去。此时称系统处于死锁状态或系统产生了死锁，这些永远在互相等待的进程称为死锁进程。由于资源占用是互斥的，当某个进程提出申请资源后，使得有关进程在无外力协助下，永远分配不到必需的资源而无法继续运行，这就产生了一种特殊现象死锁。
+
+### Deadlock prevention 
+1. 查询是否锁表
+```sql
+show OPEN TABLES where In_use > 0;
+```
+2. 查询进程（如果您有SUPER权限，您可以看到所有线程。否则，您只能看到您自己的线程）
+```sql
+show processlist
+```
+3. 杀死进程id（就是上面命令的id列）
+```sql
+kill id
+```
+如果系统资源充足，进程的资源请求都能够得到满足，死锁出现的可能性就很低，否则就会因争夺有限的资源而陷入死锁。其次，进程运行推进顺序与速度不同，也可能产生死锁。 产生死锁的四个必要条件：
+
+- 互斥条件：一个资源每次只能被一个进程使用。
+
+- 请求与保持条件：一个进程因请求资源而阻塞时，对已获得的资源保持不放。
+
+- 不剥夺条件：进程已获得的资源，在末使用完之前，不能强行剥夺。
+
+- 循环等待条件：若干进程之间形成一种头尾相接的循环等待资源关系。
+虽然不能完全避免死锁，但可以使死锁的数量减至最少。将死锁减至最少可以增加事务的吞吐量并减少系统开销，因为只有很少的事务回滚，而回滚会取消事务执行的所有工作。由于死锁时回滚而由应用程序重新提交。
+
+**下列方法有助于最大限度地降低死锁：**
+
+按同一顺序访问对象
+
+避免事务中的用户交互
+
+保持事务简短并在一个批处理中
+
+使用低隔离级别
+
+使用绑定连接
 
 # 隔离级别
 
