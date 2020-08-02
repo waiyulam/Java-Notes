@@ -1,20 +1,20 @@
 
 # Database 
 
-1. [基本概念 Basics ](#Basics)
+- 一、 [基本概念 Basics ](#Basics)
 
-2. [事务 Transaction](#Transaction)
+- 二、 [事务 Transaction](#Transaction)
   * [概念 Definitions](#Definitions)
   * [ACID](#ACID)
   * [AUTOCOMMIT](#AUTOCOMMIT)
 
-3. [并发一致问题 Concurrency&Consistency](#Anomalies-with-Interleaved-Execution)
+- 三、 [并发一致问题 Concurrency&Consistency](#Anomalies-with-Interleaved-Execution)
   * [丢失修改](#Overwriting-Uncommited-Data)
   * [读脏数据](#Dirty-Read)
   * [不可重复读](#Unrepeatable-Reads)
   * [幻影读](#幻影读)
 
-4. [封锁 Concurrency Control](#Concurrency-Control)
+- 四、 [封锁 Concurrency Control](#Concurrency-Control)
   * [可串行化调度 Serializability](#Conflict-Serializablity)
   * [封锁粒度 Granularity](#Granularity)
   * [封锁类型 Lock types](#Locks-Types)
@@ -22,30 +22,30 @@
   * [MySQL 隐式与显示锁定](#MySQL-隐式与显示锁定)
   * [死锁 Deadlock](#Deadlock)
 
-5. [隔离级别 Transaction Isolation](#隔离级别)
+- 五、 [隔离级别 Transaction Isolation](#隔离级别)
   * [未提交读（READ UNCOMMITTED](#READ-UNCOMMITTED)
   * [提交读（READ COMMITTED）](#READ-COMMITTED)
   * [可重复读（REPEATABLE READ）](#REPEATABLE-READ)
   * [可串行化（SERIALIZABLE）](#SERIALIZABLE)
 
-- 五、[多版本并发控制 Multi-Version Concurrency Control](#MVCC)
+- 六、[多版本并发控制 Multi-Version Concurrency Control](#MVCC)
   * [基本思想](#基本思想)
   * [版本号](#版本号)
   * [Undo 日志](#Undo-日志)
   * [ReadView](#ReadView)
   * [快照读与当前读](#快照读与当前读)
 
-- 六、[Next-Key Locks](#Next-Key-Locks)
+- 七、[Next-Key Locks](#Next-Key-Locks)
   * [Record Locks](#Record-Locks)
   * [Gap Locks](#Gap-Locks)
   * [Next-Key Locks](#Next-Key-Locks)
 
-- 七、[关系数据库设计理论 Relational model](#Relational-model)
+- 八、[关系数据库设计理论 Relational model](#Relational-model)
   * [函数依赖](#函数依赖)
   * [异常](#异常)
   * [范式](#范式)
 
-- 八、ER 图
+- 九、ER 图
   * 实体的三种联系
   * 表示出现多次的关系
   * 联系的多向性
