@@ -47,219 +47,229 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 	- Each problems should follow the [strategics](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Leetcode)
 
 # 📄 Table of Contents 
-- [**📖 基础知识CS Fundamentals**](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview)
-	<details>
-	<summary><b><a href="https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure">📊 数据结构Data Structures</a></b></summary>
-	<br>
 
-	- [数组 Arrays](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Arrays)
-	- [链式结构 Linked List](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Linked-Lists)
-	- [栈和队列 Stacks & Queues &Double-ended Queue](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Linked-Lists)
-	- [哈希表 Hash Tables](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Hash-table)
-	- [树 Trees](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Trees)
-	- [字典/前缀树 Trie](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Tries)
-	- [堆/优先队列Heaps&Priority Queue](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Heaps)
-	- [图 Graphs](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Graphs)
-	- [Others](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Others-DS)
+## [**📖 基础知识CS Fundamentals**](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview)
 
-	</details>
+<details>
+<summary><b><a href="https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure">📊 数据结构Data Structures</a></b></summary>
+<br>
+
+- [数组 Arrays](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Arrays)
+- [链式结构 Linked List](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Linked-Lists)
+- [栈和队列 Stacks & Queues &Double-ended Queue](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Linked-Lists)
+- [哈希表 Hash Tables](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Hash-table)
+- [树 Trees](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Trees)
+- [字典/前缀树 Trie](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Tries)
+- [堆/优先队列Heaps&Priority Queue](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Heaps)
+- [图 Graphs](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Graphs)
+- [Others](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Others-DS)
+
+</details>
 	
-	<details>
-	<summary><b><a href="https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/algorithms">✏️  算法Algorithms</a></b></summary>
-	<br>
+<details>
+<summary><b><a href="https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/algorithms">✏️  算法Algorithms</a></b></summary>
+<br>
 
-	- [介绍 Introduction to Algorithms](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/algorithms)
-		- [时间空间复杂度 Time&Space Complexity](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/algorithms#Time-and-Space-Complexity)
-		- [递归&迭代 Recursion](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/algorithms#Recursion-and-analysis-of-recurrence-relations)
-		- [NP问题 NP problem (TODO)](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/algorithms#NP-program)
-	- [搜索 Searching  (TODO)](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/algorithms/search)
-	- [排序 Sorting](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/algorithms/sorting)
-	- [图论 Graph Theory   (TODO)](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/algorithms/graphtheory)
-	- [字符串处理 String Manipulation  (TODO)](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/algorithms/stringManipulation)
-	- [二进制处理 Bit Manipulation   (TODO)](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/algorithms/bitManipulation)
+- [介绍 Introduction to Algorithms](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/algorithms)
+	- [时间空间复杂度 Time&Space Complexity](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/algorithms#Time-and-Space-Complexity)
+	- [递归&迭代 Recursion](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/algorithms#Recursion-and-analysis-of-recurrence-relations)
+	- [NP问题 NP problem (TODO)](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/algorithms#NP-program)
+- [搜索 Searching  (TODO)](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/algorithms/search)
+- [排序 Sorting](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/algorithms/sorting)
+- [图论 Graph Theory   (TODO)](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/algorithms/graphtheory)
+- [字符串处理 String Manipulation  (TODO)](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/algorithms/stringManipulation)
+- [二进制处理 Bit Manipulation   (TODO)](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/algorithms/bitManipulation)
 
-	</details>
+</details>
 	
-	<details>
-	<summary><b><a href="https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/paradigm">🏠 编程演算法 Algorithmic paradigm</a></b></summary>
-	<br>
+<details>
+<summary><b><a href="https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/paradigm">🏠 编程演算法 Algorithmic paradigm</a></b></summary>
+<br>
 
-	- [分治法 Divide and Conquer](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/paradigm#Divide-and-Conquer-algorithms)
-	- [贪婪演算法 Greedy Algorithms](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/paradigm#Greedy-Algorithms)
-	- [回溯法&分枝界限法 Backtracking & Branch and Bound](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/paradigm#Backtracking)
-	- [动态规划 Big Guy: Dynamic Programming and memoization 😭（TODO)](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/paradigm#Dynamic-Programming-and-memoization)
+- [分治法 Divide and Conquer](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/paradigm#Divide-and-Conquer-algorithms)
+- [贪婪演算法 Greedy Algorithms](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/paradigm#Greedy-Algorithms)
+- [回溯法&分枝界限法 Backtracking & Branch and Bound](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/paradigm#Backtracking)
+- [动态规划 Big Guy: Dynamic Programming and memoization 😭（TODO)](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/paradigm#Dynamic-Programming-and-memoization)
 
-	</details>
+</details>
 	
 	
-- [**❓ 练习 Run practice problems**]()
-	* [**🧯 Hackerrank**]()
-	* [**🧯 Leetcode**]()
-	* [**🧯 剑指OFFER**]()
-	* [**🧯 CN笔试面试题库**](https://www.nowcoder.com/contestRoom?from=cyc_github)
+## [**❓ 练习 Run practice problems**]()
 
-- [**💾 数据库 Database**](Database)
-	<details>
-	<summary><b><a href = 'https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Database'> 🔨 数据库系统原理 </a>  </b></summary>
+* [**🧯 Hackerrank**]()
+* [**🧯 Leetcode**]()
+* [**🧯 剑指OFFER**]()
+* [**🧯 CN笔试面试题库**](https://www.nowcoder.com/contestRoom?from=cyc_github)
 
-	- [事务 Transaction](Database#Transaction)
-	- [并发一致性 Consistency](Database#Anomalies-with-Interleaved-Execution)
-	- [封锁 Locking](Database#Concurrency-Control)
-	- [隔离级别](Database#隔离级别)
-	- [并发控制 Concurrency control ](Database#MVCC)
-	- [关系数据库 Relational Database](Database#Relational-model)
+## [**💾 数据库 Database**](Database)
 
-	</details>
+<details>
+<summary><b><a href = 'https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Database'> 🔨 数据库系统原理 </a>  </b></summary>
 
-	<details>
-	<summary><b>🔨<a href = 'https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Database/mysql'> MySQL </a>  </b></summary>
+- [事务 Transaction](Database#Transaction)
+- [并发一致性 Consistency](Database#Anomalies-with-Interleaved-Execution)
+- [封锁 Locking](Database#Concurrency-Control)
+- [隔离级别](Database#隔离级别)
+- [并发控制 Concurrency control ](Database#MVCC)
+- [关系数据库 Relational Database](Database#Relational-model)
 
-	- 一、索引
-	- 二、查询性能优化
-	- 三、存储引擎
-	- 四、数据类型
-	- 五、切分
-	- 六、复制
+</details>
 
-	</details>
+<details>
+<summary><b>🔨<a href = 'https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Database/mysql'> MySQL </a>  </b></summary>
 
-	<details>
-	<summary><b>🔨 <a href='https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Database/sql'> SQL </a>  </b></summary>
+- 一、索引
+- 二、查询性能优化
+- 三、存储引擎
+- 四、数据类型
+- 五、切分
+- 六、复制
 
-	</details>
+</details>
 
-	<details>
-	<summary><b>🔨<a href = 'https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Database/redis'> Redis </a></b></summary>
+<details>
+<summary><b>🔨 <a href='https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Database/sql'> SQL </a>  </b></summary>
 
-	</details>
+</details>
 
-- [**🏷 语言回顾 Programming Language Review**]()
-	<details>
-	<summary><b> ☕️ Java </b></summary>
-		
-	- 语言基础 Basics
-	- 集合框架/容器 Collections
-	- 并发编程 Concurrency
-	- I/O
-	- 虚拟机 JVM
-	- 设计模式 Design Pattern
-	- Web开发技术 Web programming
+<details>
+<summary><b>🔨<a href = 'https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Database/redis'> Redis </a></b></summary>
+
+</details>
+
+## [**🏷 语言回顾 Programming Language Review**]()
+
+<details>
+<summary><b> ☕️ Java </b></summary>
 	
-	</details>
+- 语言基础 Basics
+- 集合框架/容器 Collections
+- 并发编程 Concurrency
+- I/O
+- 虚拟机 JVM
+- 设计模式 Design Pattern
+- Web开发技术 Web programming
+
+</details>
+
+<details>
+<summary><b>🐍 Python </b></summary>
+
+- 语言基础 Basics
+- 爬虫框架 Scrapy
+- Flask
+- Django
+
+</details>
+
+## [**🔨 操作系统 Operating System**]()
+
+<details>
+<summary><b>🔨 计算机操作系统 OS </b></summary>
+
+- 概述 Introduction
+- 进程管理 Process&Concurrency
+- 死锁 Deadlock 
+- 内存管理 Memory
+- 设备管理 Disks&Devices
+- 链接 Links
+
+</details>
+
+<details>
+<summary><b> 📟 Linux </b></summary>
+
+- 基础核心概念 Basics
+- 常用命令使用 Commands
+
+</details>
+
+## [**💡 系统设计 System Design**]()
+
+<details>
+<summary><b>🔨 <a href='https://github.com/CyC2018/CS-Notes/blob/master/notes/%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1%E5%9F%BA%E7%A1%80.md'> 系统设计基础 </a>  </b></summary>
+
+</details>
+
+<details>
+<summary><b>🔨 <a href='https://github.com/CyC2018/CS-Notes/blob/master/notes/%E5%88%86%E5%B8%83%E5%BC%8F.md'> 分布式 </a>  </b></summary>
+
+</details>
+
+<details>
+<summary><b>🔨 <a href='https://github.com/CyC2018/CS-Notes/blob/master/notes/%E9%9B%86%E7%BE%A4.md'> 集群 </a>  </b></summary>
+
+</details>
+
+<details>
+<summary><b>🔨 <a href='https://github.com/CyC2018/CS-Notes/blob/master/notes/%E6%94%BB%E5%87%BB%E6%8A%80%E6%9C%AF.md'> 攻击技术 </a>  </b></summary>
+
+</details>
+
+<details>
+<summary><b>🔨 <a href='https://github.com/CyC2018/CS-Notes/blob/master/notes/%E7%BC%93%E5%AD%98.md'> 缓存 </a>  </b></summary>
+
+</details>
+
+<details>
+<summary><b>🔨 <a href='https://github.com/CyC2018/CS-Notes/blob/master/notes/%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97.md'> 消息队列 </a>  </b></summary>
+
+</details>
+
+
+## [**🎨 面向对象 OOP Design**]()
+
+<details>
+<summary><b>📏 面向对象 OOP </b></summary>
+
+- 三大特性： 封装 继承 多态
+- 类图
+- 设计原则
+</details>
+
+<details>
+<summary><b>🎨 设计模式 Design Pattern </b></summary>
+
+- 创建型
+- 行为型
+- 结构型
+</details>
+
+## [**☁️ 计算机网络 Networks**]()
+
+<details>
+<summary><b>计算机网络 Networks </b></summary>
+
+- 概述&体系结构
+- 物理层
+- 链路层
+- 网络层
+- 传输层
+- 应用层 HTTP
+
+</details>
+
+<details>
+<summary><b><a href = "https://github.com/CyC2018/CS-Notes/blob/master/notes/HTTP.md"> HTTP </a></b></summary>
+
+</details>
+
+<details>
+<summary><b><a href = ""> 网络编程 </a></b></summary>
+
+- [网络编程 Socket](https://github.com/CyC2018/CS-Notes/blob/master/notes/Socket.md)
+- [RESTful API](https://github.com/frank-lam/fullstack-tutorial/blob/master/notes/RESTful%20API.md)
+- [Web网络安全](https://github.com/frank-lam/fullstack-tutorial/blob/master/notes/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8.md)
+</details>
 	
-	<details>
-	<summary><b>🐍 Python </b></summary>
-	
-	- 语言基础 Basics
-	- 爬虫框架 Scrapy
-	- Flask
-	- Django
-	
-	</details>
-	
-- [**🔨 操作系统 Operating System**]()
-	<details>
-	<summary><b>🔨 计算机操作系统 OS </b></summary>
+## [**➗ 数学基础 Mathmatics**]()
 
-	- 概述 Introduction
-	- 进程管理 Process&Concurrency
-	- 死锁 Deadlock 
-	- 内存管理 Memory
-	- 设备管理 Disks&Devices
-	- 链接 Links
+## [**🍭 总结 Conclusion**](#Conclusion)
 
-	</details>
-
-	<details>
-	<summary><b> 📟 Linux </b></summary>
-
-	- 基础核心概念 Basics
-	- 常用命令使用 Commands
-
-	</details>
-
-- [**💡 系统设计 System Design**]()
-	<details>
-	<summary><b>🔨 <a href='https://github.com/CyC2018/CS-Notes/blob/master/notes/%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1%E5%9F%BA%E7%A1%80.md'> 系统设计基础 </a>  </b></summary>
-
-	</details>
-
-	<details>
-	<summary><b>🔨 <a href='https://github.com/CyC2018/CS-Notes/blob/master/notes/%E5%88%86%E5%B8%83%E5%BC%8F.md'> 分布式 </a>  </b></summary>
-
-	</details>
-
-	<details>
-	<summary><b>🔨 <a href='https://github.com/CyC2018/CS-Notes/blob/master/notes/%E9%9B%86%E7%BE%A4.md'> 集群 </a>  </b></summary>
-
-	</details>
-
-	<details>
-	<summary><b>🔨 <a href='https://github.com/CyC2018/CS-Notes/blob/master/notes/%E6%94%BB%E5%87%BB%E6%8A%80%E6%9C%AF.md'> 攻击技术 </a>  </b></summary>
-
-	</details>
-
-	<details>
-	<summary><b>🔨 <a href='https://github.com/CyC2018/CS-Notes/blob/master/notes/%E7%BC%93%E5%AD%98.md'> 缓存 </a>  </b></summary>
-
-	</details>
-
-	<details>
-	<summary><b>🔨 <a href='https://github.com/CyC2018/CS-Notes/blob/master/notes/%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97.md'> 消息队列 </a>  </b></summary>
-
-	</details>
+## [**👍 Sources**](#Comprehensive-gold-materials)
 
 
-- [**🎨 面向对象 OOP Design**]()
-	<details>
-	<summary><b>📏 面向对象 OOP </b></summary>
-
-	- 三大特性： 封装 继承 多态
-	- 类图
-	- 设计原则
-	</details>
-
-	<details>
-	<summary><b>🎨 设计模式 Design Pattern </b></summary>
-
-	- 创建型
-	- 行为型
-	- 结构型
-	</details>
-
-- [**☁️ 计算机网络 Networks**]()
-	<details>
-	<summary><b>计算机网络 Networks </b></summary>
-
-	- 概述&体系结构
-	- 物理层
-	- 链路层
-	- 网络层
-	- 传输层
-	- 应用层 HTTP
-
-	</details>
-
-	<details>
-	<summary><b><a href = "https://github.com/CyC2018/CS-Notes/blob/master/notes/HTTP.md"> HTTP </a></b></summary>
-
-	</details>
-
-	<details>
-	<summary><b><a href = ""> 网络编程 </a></b></summary>
-	
-	- [网络编程 Socket](https://github.com/CyC2018/CS-Notes/blob/master/notes/Socket.md)
-	- [RESTful API](https://github.com/frank-lam/fullstack-tutorial/blob/master/notes/RESTful%20API.md)
-	- [Web网络安全](https://github.com/frank-lam/fullstack-tutorial/blob/master/notes/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8.md)
-	</details>
-	
-- [**➗ 数学基础 Mathmatics**]()
-
-- [**🍭 总结 Conclusion**](#Conclusion)
-
-- [**👍 Sources**](#Comprehensive-gold-materials)
-
-## Conclusion
+# Conclusion
 ```java 
 While 1:
 	print("Deliberate Strategic Practice")
@@ -270,7 +280,7 @@ The secret is nothing but **Regular Deliberate Strategic Practice**. We always t
 
 ""I wanted the reward and not the struggle. I wanted the result and not the process. I was in love not with the fight but only the victory. And life doesn't work that way.""
 
-## Interview study guide sourses: 
+# Interview study guide sourses: 
 
 -  [**C++ coding interview study guide by huihut**](https://github.com/huihut/interview)
 -  [**fullstack-tutorial by frank lam**](https://github.com/frank-lam/fullstack-tutorial)
@@ -283,7 +293,7 @@ The secret is nothing but **Regular Deliberate Strategic Practice**. We always t
 -  [Tech Interview Cheat Sheet by TSiege](https://github.com/TSiege/Tech-Interview-Cheat-Sheet)
 -  [Interview guide for android developer by jeanboydev](https://github.com/jeanboydev/Android-ReadTheFuckingSourceCode)
 
-## Comprehensive gold materials
+# Comprehensive gold materials
   -  [Comprehensive Data Structure and Algorithm Study Guide](https://leetcode.com/discuss/general-discussion/494279/comprehensive-data-structure-and-algorithm-study-guide)
   -  [Practice Python by John Washam](https://github.com/jwasham/practice-python)
   -  [CP and CI Study materials by Jasmine Chen(Google SWE)](https://github.com/lnishan/awesome-competitive-programming) : this one is gold
