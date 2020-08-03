@@ -53,7 +53,8 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 | [:pencil2:](#📖-基础知识CS-Fundamentals) |[❓](#❓编码实践-Run-practice-problems)|[:floppy_disk:](#💾-数据库-Database)|[🏷](#🏷-语言回顾-Programming-Language-Review)|[🔨](#🔨-操作系统-Operating-System)|[💡](#💡-系统设计-System-Design)|[🎨](#🎨-面向对象-OOP-Design)|[☁️](☁️-计算机网络-Networks)|[➗](➗-数学基础-Mathmatics)
 
 
-## 📖 基础知识CS Fundamentals
+--------------------------------------------------------------------
+### 📖 基础知识CS Fundamentals
 
 <br>
 
@@ -100,8 +101,10 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 
 </details>
 	
-	
-## ❓编码实践 Run practice problems
+<br>
+
+----------------------------------------------------------------
+### ❓编码实践 Run practice problems
 <br>
 
 * [**🧯 Hackerrank**]()
@@ -109,7 +112,10 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 * [**🧯 剑指OFFER**]()
 * [**🧯 CN笔试面试题库**](https://www.nowcoder.com/contestRoom?from=cyc_github)
 
-## 💾 数据库 Database
+<br>
+
+----------------------------------------------------------------
+### 💾 数据库 Database
 
 <br>
 
@@ -147,7 +153,10 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 
 </details>
 
-## 🏷 语言回顾 Programming Language Review
+<br>
+
+----------------------------------------------------------------
+### 🏷 语言回顾 Programming Language Review
 
 <br>
 
@@ -174,7 +183,10 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 
 </details>
 
-## 🔨 操作系统 Operating System
+<br>
+
+----------------------------------------------------------------
+### 🔨 操作系统 Operating System
 
 <br>
 
@@ -198,7 +210,10 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 
 </details>
 
-## 💡 系统设计 System Design
+<br>
+
+--------------------------------------------------------------------
+### 💡 系统设计 System Design
 
 <br>
 
@@ -232,8 +247,10 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 
 </details>
 
+<br>
 
-## 🎨 面向对象 OOP Design
+--------------------------------------------------------
+### 🎨 面向对象 OOP Design
 
 <br>
 
@@ -253,7 +270,10 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 - 结构型
 </details>
 
-## ☁️ 计算机网络 Networks
+<br>
+
+----------------------------------------------------
+### ☁️ 计算机网络 Networks
 <br>
 
 <details>
@@ -280,11 +300,14 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 - [RESTful API](https://github.com/frank-lam/fullstack-tutorial/blob/master/notes/RESTful%20API.md)
 - [Web网络安全](https://github.com/frank-lam/fullstack-tutorial/blob/master/notes/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8.md)
 </details>
-	
-### ➗ 数学基础 Mathmatics
 <br>
 
-### [**🍭 总结 Conclusion**](#Conclusion)
+--------------------------------------------------------
+### ➗ 数学基础 Mathmatics
+<br>
+<br>
+
+## 🍭 总结 Conclusion**
 ```java 
 While 1:
 	print("Deliberate Strategic Practice")
@@ -295,7 +318,7 @@ The secret is nothing but **Regular Deliberate Strategic Practice**. We always t
 
 ""I wanted the reward and not the struggle. I wanted the result and not the process. I was in love not with the fight but only the victory. And life doesn't work that way.""
 
-### [**👍 Sources**](#Comprehensive-gold-materials)
+## 👍 Sources
 
 -  [**C++ coding interview study guide by huihut**](https://github.com/huihut/interview)
 -  [**fullstack-tutorial by frank lam**](https://github.com/frank-lam/fullstack-tutorial)
@@ -308,7 +331,7 @@ The secret is nothing but **Regular Deliberate Strategic Practice**. We always t
 -  [Tech Interview Cheat Sheet by TSiege](https://github.com/TSiege/Tech-Interview-Cheat-Sheet)
 -  [Interview guide for android developer by jeanboydev](https://github.com/jeanboydev/Android-ReadTheFuckingSourceCode)
 
-# Comprehensive gold materials
+## Comprehensive gold materials
   -  [Comprehensive Data Structure and Algorithm Study Guide](https://leetcode.com/discuss/general-discussion/494279/comprehensive-data-structure-and-algorithm-study-guide)
   -  [Practice Python by John Washam](https://github.com/jwasham/practice-python)
   -  [CP and CI Study materials by Jasmine Chen(Google SWE)](https://github.com/lnishan/awesome-competitive-programming) : this one is gold
