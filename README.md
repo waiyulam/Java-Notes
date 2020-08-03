@@ -154,7 +154,7 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 <details>
 <summary><b> ☕️ Java </b></summary>
 	
-- 语言基础 Basics
+- [语言基础 Basics](Java)
 - 集合框架/容器 Collections
 - 并发编程 Concurrency
 - I/O
