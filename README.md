@@ -103,16 +103,6 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 	
 <br>
 
-----------------------------------------------------------------
-### ❓编码实践 Run practice problems
-<br>
-
-* [**🧯 Hackerrank**]()
-* [**🧯 Leetcode**]()
-* [**🧯 剑指OFFER**]()
-* [**🧯 CN笔试面试题库**](https://www.nowcoder.com/contestRoom?from=cyc_github)
-
-<br>
 
 ----------------------------------------------------------------
 ### 💾 数据库 Database
@@ -122,34 +112,34 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 <details>
 <summary><b><a href = 'https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Database'> 🔨 数据库系统原理 </a>  </b></summary>
 
-- [事务 Transaction](Database#Transaction)
-- [并发一致性 Consistency](Database#Anomalies-with-Interleaved-Execution)
-- [封锁 Locking](Database#Concurrency-Control)
-- [隔离级别](Database#隔离级别)
-- [并发控制 Concurrency control ](Database#MVCC)
-- [关系数据库 Relational Database](Database#Relational-model)
+- 一、[事务 Transaction](Database#Transaction)
+- 二、[并发一致性 Consistency](Database#Anomalies-with-Interleaved-Execution)
+- 三、[封锁 Locking](Database#Concurrency-Control)
+- 四、[隔离级别](Database#隔离级别)
+- 五、[并发控制 Concurrency control ](Database#MVCC)
+- 六、[关系数据库 Relational Database](Database#Relational-model)
 
 </details>
 
 <details>
 <summary><b>🔨<a href = 'https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Database/mysql'> MySQL </a>  </b></summary>
 
-- 一、索引
-- 二、查询性能优化
-- 三、存储引擎
-- 四、数据类型
-- 五、切分
-- 六、复制
+- 一、[索引](Database/mysql#一索引)
+- 二、[查询性能优化](Database/mysql#二查询性能优化)
+- 三、[存储引擎](Database/mysql#三存储引擎)
+- 四、[数据类型](Database/mysql#四数据类型)
+- 五、[切分](Database/mysql#五切分)
+- 六、[复制](Database/mysql#六复制)
 
 </details>
 
 <details>
-<summary><b>🔨 <a href='https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Database/sql'> SQL </a>  </b></summary>
+<summary><b>🔨 SQL </b></summary>
 
 </details>
 
 <details>
-<summary><b>🔨<a href = 'https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Database/redis'> Redis </a></b></summary>
+<summary><b>🔨 Redis  </b></summary>
 
 </details>
 
@@ -161,11 +151,11 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 <br>
 
 <details>
-<summary><b> ☕️ Java </b></summary>
+<summary><b> <a href= 'https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Database/Java'> ☕️ Java </a></b></summary>
 	
 - [语言基础 Basics](Java)
-- 集合框架/容器 Collections
-- 并发编程 Concurrency
+- [集合框架/容器 Collections](Java/Collections)
+- [并发编程 Concurrency](Java/Concurrency)
 - I/O
 - 虚拟机 JVM
 - 设计模式 Design Pattern
@@ -180,33 +170,6 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 - 爬虫框架 Scrapy
 - Flask
 - Django
-
-</details>
-
-<br>
-
-----------------------------------------------------------------
-### 🔨 操作系统 Operating System
-
-<br>
-
-<details>
-<summary><b>🔨 计算机操作系统 OS </b></summary>
-
-- 概述 Introduction
-- 进程管理 Process&Concurrency
-- 死锁 Deadlock 
-- 内存管理 Memory
-- 设备管理 Disks&Devices
-- 链接 Links
-
-</details>
-
-<details>
-<summary><b> 📟 Linux </b></summary>
-
-- 基础核心概念 Basics
-- 常用命令使用 Commands
 
 </details>
 
@@ -248,6 +211,34 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 </details>
 
 <br>
+
+----------------------------------------------------------------
+### 🔨 操作系统 Operating System
+
+<br>
+
+<details>
+<summary><b>🔨 计算机操作系统 OS </b></summary>
+
+- 概述 Introduction
+- 进程管理 Process&Concurrency
+- 死锁 Deadlock 
+- 内存管理 Memory
+- 设备管理 Disks&Devices
+- 链接 Links
+
+</details>
+
+<details>
+<summary><b> 📟 Linux </b></summary>
+
+- 基础核心概念 Basics
+- 常用命令使用 Commands
+
+</details>
+
+<br>
+
 
 --------------------------------------------------------
 ### 🎨 面向对象 OOP Design
@@ -305,6 +296,17 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 --------------------------------------------------------
 ### ➗ 数学基础 Mathmatics
 <br>
+<br>
+
+----------------------------------------------------------------
+### ❓编码实践 Run practice problems
+<br>
+
+* [**🧯 Hackerrank**]()
+* [**🧯 Leetcode**]()
+* [**🧯 剑指OFFER**]()
+* [**🧯 CN笔试面试题库**](https://www.nowcoder.com/contestRoom?from=cyc_github)
+
 <br>
 
 ## 🍭 总结 Conclusion**
