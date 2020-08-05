@@ -180,11 +180,11 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 <br>
 
 <details>
-<summary><b>🔨 计算机操作系统 OS </b></summary>
+<summary><b><a href= 'https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Database/OS'> 🔨 计算机操作系统 OS </a></b></summary>
 
 - [概述 Introduction](OS)
-- 进程管理 Process
-- 死锁 Deadlock 
+- [进程管理 Process](OS/Process)
+- [死锁 Deadlock](OS/Deadlock)
 - 内存管理 Memory
 - 设备管理 Disks&Devices
 - 链接 Links
@@ -207,32 +207,41 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 <br>
 
 <details>
-<summary><b>🔨 <a href='https://github.com/CyC2018/CS-Notes/blob/master/notes/%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1%E5%9F%BA%E7%A1%80.md'> 系统设计基础 </a>  </b></summary>
+<summary><b><a href= 'https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Database/System/Cache'>🔨 缓存  </a></b></summary>
+
+* [一、缓存特征](System/Cache#一缓存特征)
+* [二、缓存位置](System/Cache##二缓存位置)
+* [三、CDN](System/Cache##三cdn)
+* [四、缓存问题](System/Cache##四缓存问题)
+* [五、数据分布](System/Cache##五数据分布)
+* [六、一致性哈希](System/Cache##六一致性哈希)
+* [七、LRU](System/Cache##七lru)
+* [参考资料](System/Cache##参考资料)
 
 </details>
 
 <details>
-<summary><b>🔨 <a href='https://github.com/CyC2018/CS-Notes/blob/master/notes/%E5%88%86%E5%B8%83%E5%BC%8F.md'> 分布式 </a>  </b></summary>
+<summary><b>🔨 消息队列 </b></summary>
 
 </details>
 
 <details>
-<summary><b>🔨 <a href='https://github.com/CyC2018/CS-Notes/blob/master/notes/%E9%9B%86%E7%BE%A4.md'> 集群 </a>  </b></summary>
+<summary><b>🔨 系统设计基础 </b></summary>
 
 </details>
 
 <details>
-<summary><b>🔨 <a href='https://github.com/CyC2018/CS-Notes/blob/master/notes/%E6%94%BB%E5%87%BB%E6%8A%80%E6%9C%AF.md'> 攻击技术 </a>  </b></summary>
+<summary><b>🔨  分布式 </b></summary>
 
 </details>
 
 <details>
-<summary><b>🔨 <a href='https://github.com/CyC2018/CS-Notes/blob/master/notes/%E7%BC%93%E5%AD%98.md'> 缓存 </a>  </b></summary>
+<summary><b>🔨  集群   </b></summary>
 
 </details>
 
 <details>
-<summary><b>🔨 <a href='https://github.com/CyC2018/CS-Notes/blob/master/notes/%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97.md'> 消息队列 </a>  </b></summary>
+<summary><b>🔨攻击技术 </b></summary>
 
 </details>
 
