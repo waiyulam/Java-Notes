@@ -134,15 +134,14 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 </details>
 
 <details>
-<summary><b>🔨 SQL </b></summary>
-
-</details>
-
-<details>
 <summary><b>🔨 Redis  </b></summary>
 
 </details>
 
+<details>
+<summary><b>🔨 SQL </b></summary>
+
+</details>
 <br>
 
 ----------------------------------------------------------------
@@ -156,9 +155,9 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 - [语言基础 Basics](Java)
 - [集合框架/容器 Collections](Java/Collections)
 - [并发编程 Concurrency](Java/Concurrency)
+- [虚拟机 JVM](Java/jvm)
+- [设计模式 Design Pattern](Java/designPattern)
 - I/O
-- 虚拟机 JVM
-- 设计模式 Design Pattern
 - Web开发技术 Web programming
 
 </details>
@@ -170,6 +169,33 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 - 爬虫框架 Scrapy
 - Flask
 - Django
+
+</details>
+
+<br>
+
+----------------------------------------------------------------
+### 🔨 操作系统 Operating System
+
+<br>
+
+<details>
+<summary><b>🔨 计算机操作系统 OS </b></summary>
+
+- [概述 Introduction](OS)
+- 进程管理 Process
+- 死锁 Deadlock 
+- 内存管理 Memory
+- 设备管理 Disks&Devices
+- 链接 Links
+
+</details>
+
+<details>
+<summary><b> 📟 Linux </b></summary>
+
+- 基础核心概念 Basics
+- 常用命令使用 Commands
 
 </details>
 
@@ -207,33 +233,6 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 
 <details>
 <summary><b>🔨 <a href='https://github.com/CyC2018/CS-Notes/blob/master/notes/%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97.md'> 消息队列 </a>  </b></summary>
-
-</details>
-
-<br>
-
-----------------------------------------------------------------
-### 🔨 操作系统 Operating System
-
-<br>
-
-<details>
-<summary><b>🔨 计算机操作系统 OS </b></summary>
-
-- 概述 Introduction
-- 进程管理 Process&Concurrency
-- 死锁 Deadlock 
-- 内存管理 Memory
-- 设备管理 Disks&Devices
-- 链接 Links
-
-</details>
-
-<details>
-<summary><b> 📟 Linux </b></summary>
-
-- 基础核心概念 Basics
-- 常用命令使用 Commands
 
 </details>
 
