@@ -74,9 +74,15 @@ Integer x = 2;     // 装箱 调用了 Integer.valueOf(2)
 int y = x;         // 拆箱 调用了 X.intValue()
 ```
 
+自动装箱和拆箱
+基本数据类型和它对应的封装类型之间可以相互转换。自动拆装箱是 jdk5.0 提供的新特特性，它可以自动实现类型的转换
+- 装箱：从基本数据类型到封装类型叫做装箱
+- 拆箱：从封装类型到基本数据类型叫拆箱
+
 - [Autoboxing and Unboxing](https://docs.oracle.com/javase/tutorial/java/data/autoboxing.html)
 
 ## 缓存池
+Java为了优化基本数据类型的包装对象，为他们提供了缓冲池
 
 new Integer(123) 与 Integer.valueOf(123) 的区别在于：
 
