@@ -7,7 +7,7 @@ Interviewing can be tough because you can feel like you are making no progress. 
   <img width="460" height="300" src="https://media.giphy.com/media/KWQy384u0Rn9bCvwMa/giphy.gif">
 </p>
 
-[Java后端技能图谱:(已更新：08/19/2020)]("https://www.processon.com/view/link/5f3bfbabe0b34d0711785dd3")
+[Java后端技能图谱:(已更新：08/19/2020)](https://www.processon.com/view/link/5f3bfbabe0b34d0711785dd3)
 
 <b><details><summary>👀 ABOUTS</summary></b>	
 
