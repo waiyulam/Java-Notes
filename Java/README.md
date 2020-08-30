@@ -218,12 +218,46 @@ String 不可变性天生具备线程安全，可以在多个线程中安全地�
 
 [Program Creek : Why String is immutable in Java?](https://www.programcreek.com/2013/04/why-string-is-immutable-in-java/)
 
+## StringBuffer （JDK1.0）
+
+StringBuffer：字符串变量
+
+- Synchronized，即线程安全
+- 如果要**频繁对字符串内容进行修改**，出于效率考虑最好使用StringBuffer，如果想转成String类型，可以调用StringBuffer的**toString()**方法。
+
+## StringBuilder（JDK5.0）
+
+StringBuilder：字符串变量（非线程安全）。在内部，StringBuilder对象被当作是一个包含字符序列的变长数组。
+
+- 此类提供一个与 StringBuffer 兼容的 API，但不保证同步。该类被设计用作 StringBuffer 的一个简易替换，用在字符串缓冲区被单个线程使用的时候
+
+在大部分情况下，StringBuilder > StringBuffer。这主要是由于前者不需要考虑线程安全。
+
 ## String, StringBuffer and StringBuilder
 
 **1. 可变性**  
-
 - String 不可变
+String 类型和StringBuffer的主要性能区别：String是不可变的对象, 因此在**每次对String 类型进行改变的时候，都会生成一个新的 String 对象**，然后将指针指向新的 String 对象，所以经常改变内容的字符串最好不要用 String ，**因为每次生成对象都会对系统性能产生影响，特别当内存中无引用对象多了以后， JVM 的 GC 就会开始工作，性能就会降低**。
+
 - StringBuffer 和 StringBuilder 可变
+使用 StringBuffer 类时，每次都会对 StringBuffer 对象本身进行操作，而不是生成新的对象并改变对象引用。所以多数情况下推荐使用 StringBuffer ，特别是**字符串对象经常改变的情况**下。
+
+> NOTE: 在某些特别情况下， String 对象的**字符串拼接**其实是被 Java Compiler 编译成了 StringBuffer 对象的拼接，所以这些时候 String 对象的速度并不会比 StringBuffer 对象慢，例如：
+
+```java
+String s1 = “This is only a” + “ simple” + “ test”; 
+// Java Compiler直接把上述第一条语句编译为：String s1 = “This is only a simple test”;
+StringBuffer Sb = new StringBuilder(“This is only a”).append(“ simple”).append(“ test”);
+// 所以速度很快。但要注意的是，如果拼接的字符串来自另外的String对象的话，Java Compiler就不会自动转换了，速度也就没那么快了，例如：
+String s2 = “This is only a”;
+String s3 = “ simple”;
+String s4 = “ test”;
+String s1 = s2 + s3 + s4;
+/*
+这时候，Java Compiler会规规矩矩的按照原来的方式去做，String的concatenation（即+）操作利用了StringBuilder（或StringBuffer）的append方法实现，此时，对于上述情况，若s2，s3，s4采用String定义，拼接时需要额外创建一个StringBuffer（或StringBuilder），之后将StringBuffer转换为String；若采用StringBuffer（或StringBuilder），则不需额外创建StringBuffer。
+*/
+```
+
 
 **2. 线程安全**  
 
@@ -235,17 +269,35 @@ String is immutable, if you try to alter their values, another object gets creat
 
 The difference between StringBuffer and StringBuilder is that StringBuffer is thread-safe. So when the application needs to be run only in a single thread then it is better to use StringBuilder. StringBuilder is more efficient than StringBuffer.
 
-## 3. **Situation/uses**
+## 3. 使用策略
 
-- If your string is not going to change use a String class because a String object is immutable.
-- If your string can change (example: lots of logic and operations in the construction of the string) and will only be accessed from a single thread, using a StringBuilder is good enough.
-- If your string can change, and will be accessed from multiple threads, use a StringBuffer because StringBuffer is synchronous so you have thread-safety.
+（1）基本原则：如果要操作少量的数据，用String ；单线程操作大量数据，用StringBuilder ；多线程操作大量数据，用StringBuffer。
+（2）不要使用String类的"+"来进行频繁的拼接，因为那样的性能极差的，应该使用StringBuffer或StringBuilder类，这在Java的优化上是一条比较重要的原则。例如：
+```java
+String result = "";
+for (String s : hugeArray) {
+    result = result + s;
+}
+ 
+// 使用StringBuilder
+StringBuilder sb = new StringBuilder();
+for (String s : hugeArray) {
+    sb.append(s);
+}
+String result = sb.toString();
+```
+
+当出现上面的情况时，显然我们要采用第二种方法，因为第一种方法，每次循环都会创建一个String result用于保存结果，除此之外二者基本相同（对于jdk1.5及之后版本）。
+（3）为了获得更好的性能，在构造 StringBuffer 或 StringBuilder 时应尽可能指定它们的容量。当然，如果你操作的字符串长度（length）不超过 16 个字符就不用了，当不指定容量（capacity）时默认构造一个容量为16的对象。不指定容量会显著降低性能。
+（4）StringBuilder一般使用在方法内部来完成类似"+"功能，因为是线程不安全的，所以用完以后可以丢弃。StringBuffer主要用在全局变量中。
+（5）相同情况下使用 StringBuilder 相比使用 StringBuffer 仅能获得 10%~15% 左右的性能提升，但却要冒多线程不安全的风险。而在现实的模块化编程中，负责某一模块的程序员不一定能清晰地判断该模块是否会放入多线程的环境中运行，因此：除非确定系统的瓶颈是在 StringBuffer 上，并且确定你的模块不会运行在多线程模式下，才可以采用StringBuilder；否则还是用StringBuffer。
 
 [StackOverflow : String, StringBuffer, and StringBuilder](https://stackoverflow.com/questions/2971315/string-stringbuffer-and-stringbuilder)
+[Java：String、StringBuffer和StringBuilder的区别](https://blog.csdn.net/kingzone_2008/article/details/9220691)
 
 ## String Pool
 
-字符串常量池（String Pool）保存着所有字符串字面量（literal strings），这些字面量在编译时期就确定。不仅如此，还可以使用 String 的 intern() 方法在运行过程将字符串添加到 String Pool 中。
+**字符串常量池**（String Pool）保存着所有字符串字面量（literal strings），这些字面量在编译时期就确定。不仅如此，还可以使用 String 的 intern() 方法在运行过程将字符串添加到 String Pool 中。
 
 当一个字符串调用 intern() 方法时，如果 String Pool 中已经存在一个字符串和该字符串值相等（使用 equals() 方法进行确定），那么就会返回 String Pool 中字符串的引用；否则，就会在 String Pool 中添加一个新的字符串，并返回这个新字符串的引用。
 
@@ -333,7 +385,7 @@ public String(String original) {
 
 Java 的参数是以值传递的形式传入方法中，而不是引用传递。
 
-以下代码中 Dog dog 的 dog 是一个指针，存储的是对象的地址。在将一个参数传入一个方法时，本质上是将对象的地址以值的方式传递到形参中。
+以下代码中 Dog dog 的 dog 是一个指针，存储的是对象的地址。在将一个参数传入一个方法时，本质上是**将对象的地址以值的方式传递到形参中**。
 
 ```java
 public class Dog {
@@ -358,7 +410,7 @@ public class Dog {
 }
 ```
 
-在方法中改变对象的字段值会改变原对象该字段值，因为引用的是同一个对象。
+**在方法中改变对象的字段值会改变原对象该字段值，因为引用的是同一个对象。**
 
 ```java
 class PassByValueExample {
@@ -403,7 +455,7 @@ aDog.getName() in main would return "B" after the call to func.
 
 ## float 与 double
 
-Java 不能隐式执行向下转型，因为这会使得精度降低。
+Java **不能隐式执行向下转型，因为这会使得精度降低。**
 
 1.1 字面量属于 double 类型，不能直接将 1.1 直接赋值给 float 变量，因为这是向下转型。
 
@@ -1151,8 +1203,8 @@ Hello Google
 ```
 使用 Lambda 表达式需要注意以下两点：
 
-- Lambda 表达式主要用来定义行内执行的方法类型接口，例如，一个简单方法接口。在上面例子中，我们使用各种类型的 Lambda 表达式来定义 MathOperation 接口的方法。然后我们定义了 sayMessage 的执行。
-- Lambda 表达式免去了使用匿名方法的麻烦，并且给予 Java 简单但是强大的函数化的编程能力。
+- Lambda 表达式主要用来**定义行内执行的方法类型接口**，例如，一个**简单方法接口**。在上面例子中，我们使用各种类型的 Lambda 表达式来**定义 MathOperation 接口的方法**。然后我们定义了 sayMessage 的执行。
+- Lambda 表达式**免去了使用匿名方法的麻烦**，并且给予 Java 简单但是强大的函数化的编程能力。
 
 ### 变量作用域
 
@@ -1517,8 +1569,9 @@ SuperExtendExample.func()
 ## 重写与重载
 
 **1. 重写（Override）**  
+重写是子类对父类的允许访问的方法的实现过程进行重新编写, 返回值和形参都不能改变。即外壳不变，核心重写！
 
-存在于继承体系中，指子类实现了一个与父类在方法声明上完全相同的一个方法。
+存在于继承体系中，指**子类实现了一个与父类在方法声明上完全相同的一个方法**。
 
 为了满足里式替换原则，重写有以下三个限制：
 
@@ -1621,10 +1674,52 @@ public static void main(String[] args) {
 ```
 
 **2. 重载（Overload）**  
+重载(overloading) 是在一个类里面，方法名字相同，而参数不同。返回类型可以相同也可以不同。每个重载的方法（或者构造函数）都必须有一个独一无二的参数类型列表。
 
-存在于同一个类中，指一个方法与已经存在的方法名称上相同，但是参数类型、个数、顺序至少有一个不同。
+存在于同一个类中，指**一个方法与已经存在的方法名称上相同，但是参数类型、个数、顺序至少有一个不同**。
 
 > NOTE: 应该注意的是，返回值不同，其它都相同不算是重载。
+
+<p>
+<img width="500" src="https://user-gold-cdn.xitu.io/2019/6/1/16b10fe9671627da?imageView2/0/w/1280/h/960/format/webp/ignore-error/1">
+</p>
+
+## 调用原理
+1. 重载（overload）方法:  对重载方法的调用主要看**静态类型**，静态类型是什么类型，就**调用什么类型的参数方法**。
+
+2. 重写（override）方法 : 对重写方法的调用主要看**实际类型**。**实际类型如果实现了该方法则直接调用该方法**，如果没有实现，则**在继承关系中从低到高搜索有无实现**。
+
+## 基本概念
+```java
+Human man = new Man();
+man.foo();
+```
+上面这条语句中，man的静态类型为Human，实际类型为Man。所谓方法接收者，就是指将要执行foo()方法的所有者（在多态中，有可能是父类Human的对象，也可能是子类Man的对象）。
+
+### 重载overload
+上面说的静态类型和动态类型都是可以变化的。静态类型发生变化（强制类型转换）时，对于编译器是可知的，即编译器知道对象的最终静态类型。而实际类型变化（对象指向了其他对象）时，编译器是不可知的，只有在运行时才可知。
+```java
+//静态类型变化
+sr.sayHello((Man) man);
+sr.sayHello((Woman) man);
+//实际类型变化
+Human man = new Man();
+man = new Woman();
+```
+重载只涉及静态类型的选择。当静态类型发生变化时，会调用相应类型的方法。
+
+- **虚拟机（准确说是编译器）在重载时是通过参数的静态类型而不是实际类型作为判定依据的**
+
+### 重写override
+
+因为，在编译阶段，编译器只知道对象的静态类型，而不知道实际类型，所以在class文件中只能确定要调用父类的方法。但是在执行时却会判断对象的实际类型。如果实际类型实现这个方法，则直接调用，如果没有实现，则按照继承关系从下往上一次检索，只要检索到就调用，如果始终没有检索到，则抛异常
+
+## 总结
+在 Java 中重载是由静态类型确定的，在类加载的时候即可确定，属于静态分派；而重写是由动态类型确定，是在运行时确定的，属于动态分派，动态分派是由虚方法表实现的，虚方法表中存在着各个方法的实际入口地址，如若父类中某个方法子类没有重写，则父类与子类的方法表中的方法地址相同，如若重写了，则子类方法表的地址指向重写后的地址；
+
+一般重写针对于子类继承父类，重写父类的方法，通过动态绑定实现的；而重载时同一个方法名，但是参数类型或者个数不同，重载可以理解为是一个类中的多态。
+
+若子类中的方法与父类的某一方法具有相同的方法名、返回类型和参数表，则新方法将覆盖原有的方法，如需使用父类中原有的方法，可以使用 super 关键字，该关键字引用了当前类的父类。子类函数的访问修饰权限不能少于父类的。
 
 
 # 十、反射
@@ -1727,11 +1822,11 @@ Class 和 java.lang.reflect 一起对反射提供了支持，java.lang.reflect �
 -   **Constructor**  ：可以用 Constructor 的 newInstance() 创建新的对象。
 
 ### 应用场景
-　　反射是什么呢？当我们的程序在运行时，需要动态的加载一些类这些类可能之前用不到所以不用加载到 JVM，而是在运行时根据需要才加载，这样的好处对于服务器来说不言而喻。
+**反射是什么呢？当我们的程序在运行时，需要动态的加载一些类这些类可能之前用不到所以不用加载到 JVM，而是在运行时根据需要才加载，这样的好处对于服务器来说不言而喻**。
 
-　　举个例子我们的项目底层有时是用 mysql，有时用 oracle，需要动态地根据实际情况加载驱动类，这个时候反射就有用了，假设 com.java.dbtest.myqlConnection，com.java.dbtest.oracleConnection 这两个类我们要用，这时候我们的程序就写得比较动态化，通过 Class tc = Class.forName("com.java.dbtest.TestConnection"); 通过类的全类名让 JVM 在服务器中找到并加载这个类，而如果是 Oracle 则传入的参数就变成另一个了。这时候就可以看到反射的好处了，这个动态性就体现出 Java 的特性了！
+举个例子我们的项目底层有时是用 mysql，有时用 oracle，需要动态地根据实际情况加载驱动类，这个时候反射就有用了，假设 com.java.dbtest.myqlConnection，com.java.dbtest.oracleConnection 这两个类我们要用，这时候我们的程序就写得比较动态化，通过 Class tc = Class.forName("com.java.dbtest.TestConnection"); 通过类的全类名让 JVM 在服务器中找到并加载这个类，而如果是 Oracle 则传入的参数就变成另一个了。这时候就可以看到反射的好处了，这个动态性就体现出 Java 的特性了！
 
-　　反射的核心是 JVM 在运行时才动态加载类或调用方法/访问属性，它不需要事先（写代码的时候或编译期）知道运行对象是谁。
+反射的核心是 **JVM 在运行时才动态加载类或调用方法/访问属性，它不需要事先（写代码的时候或编译期）知道运行对象是谁**
 
 - **反射最重要的用途就是开发各种通用框架**： 当我们在使用 IDE （如Eclipse，IDEA）时，当我们输入一个对象或类并想调用它的属性或方法时，一按点号，编译器就会自动列出它的属性或方法，这里就会用到反射。
 
