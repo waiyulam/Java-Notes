@@ -10,8 +10,6 @@
 <!--<span id="busuanzi_container_site_pv">Site View : <span id="busuanzi_value_site_pv">-->
 
 [GitHub](<https://github.com/waiyulam/Interview-Prep-Guide>)
-[开始阅读](README.md)
+[开始阅读](#前言)
 
-<!-- 背景色 -->
 
-![color](#28313B)

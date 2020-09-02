@@ -1,12 +1,10 @@
-# CS Fundamentals
+- 目录
+  * [基础数据结构](datastructure/README.md)
+  * [核心算法](algorithms/README.md)
+  * [算法思维](paradigm/README.md)
+  * [干货](#Best-DSA-study-Link)
 
-## Table of Contents 
-  * [Data Structures](datastructure)
-  * [Algorithms](algorithms)
-  * [Programming paradigm](paradigm)
-  * [Best DSA study Link](#Best-DSA-study-Link)
-
-## Best DSA study Link
+- 数据结构与算法的干货
   -  [TopCoder Competitive Programming Tutorials](https://www.topcoder.com/community/competitive-programming/tutorials/)
   -  [Technical interview Guide by Yangshun](https://yangshun.github.io/tech-interview-handbook/introduction/)
   -  [HackerEarth CodeMonk(step by step Guide)](https://www.hackerearth.com/practice/codemonk/)
