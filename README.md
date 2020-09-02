@@ -33,7 +33,7 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 </p>
 
 <div align="center">
-    <a href="https://cyc2018.github.io/CS-Notes"> <img src="https://badgen.net/badge/JavaNotes/在线阅读?icon=sourcegraph&color=fff700"></a>
+    <a href="https://waiyulam.github.io/Java-Notes/"> <img src="https://badgen.net/badge/JavaNotes/在线阅读?icon=sourcegraph&color=fff700"></a>
 </div>
 <br>
 
