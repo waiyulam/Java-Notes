@@ -74,87 +74,48 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 <br>
 
 <details>
-<summary><b><a href="https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure">📊 数据结构Data Structures</a></b></summary>
+<summary><b><a href="https://github.com/waiyulam/Java-Notes/tree/master/notes/Algorithms/datastructure">📊 数据结构Data Structures</a></b></summary>
 <br>
 
-- [数组 Arrays](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Arrays)
-- [链式结构 Linked List](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Linked-Lists)
-- [栈和队列 Stacks & Queues &Double-ended Queue](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Linked-Lists)
-- [哈希表 Hash Tables](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Hash-table)
-- [树 Trees](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Trees)
-- [字典/前缀树 Trie](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Tries)
-- [堆/优先队列Heaps&Priority Queue](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Heaps)
-- [图 Graphs](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Graphs)
-- [Others](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/datastructure#Others-DS)
+- [数组 Arrays](notes/Algorithms/datastructure#Arrays)
+- [链式结构 Linked List](notes/Algorithms/datastructure#Linked-Lists)
+- [栈和队列 Stacks & Queues &Double-ended Queue](notes/Algorithms/datastructure#Linked-Lists)
+- [哈希表 Hash Tables](notes/Algorithms/datastructure#Hash-table)
+- [树 Trees](notes/Algorithms/datastructure#Trees)
+- [字典/前缀树 Trie](notes/Algorithms/datastructure#Tries)
+- [堆/优先队列Heaps&Priority Queue](notes/Algorithms/datastructure#Heaps)
+- [图 Graphs](notes/Algorithms/datastructure#Graphs)
+- [Others](notes/Algorithms/datastructure#Others-DS)
 
 </details>
 	
 <details>
-<summary><b><a href="https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/algorithms">✏️  算法Algorithms</a></b></summary>
+<summary><b><a href="https://github.com/waiyulam/Java-Notes/tree/master/notes/Algorithms/algorithms">✏️  算法Algorithms</a></b></summary>
 <br>
 
-- [介绍 Introduction to Algorithms](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/algorithms)
-	- [时间空间复杂度 Time&Space Complexity](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/algorithms#Time-and-Space-Complexity)
-	- [递归&迭代 Recursion](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/algorithms#Recursion-and-analysis-of-recurrence-relations)
-	- [NP问题 NP problem (TODO)](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/algorithms#NP-program)
-- [搜索 Searching  (TODO)](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/algorithms/search)
-- [排序 Sorting](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/algorithms/sorting)
-- [图论 Graph Theory   (TODO)](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/algorithms/graphtheory)
-- [字符串处理 String Manipulation  (TODO)](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/algorithms/stringManipulation)
-- [二进制处理 Bit Manipulation   (TODO)](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/algorithms/bitManipulation)
+- [介绍 Introduction to Algorithms](notes/Algorithms/algorithms)
+	- [时间空间复杂度 Time&Space Complexity](notes/Algorithms/algorithms#Time-and-Space-Complexity)
+	- [递归&迭代 Recursion](notes/Algorithms/algorithms#Recursion-and-analysis-of-recurrence-relations)
+	- [NP问题 NP problem (TODO)](notes/Algorithms/algorithms#NP-program)
+- [搜索 Searching  (TODO)](notes/Algorithms/algorithms/search)
+- [排序 Sorting](notes/Algorithms/algorithms/sorting)
+- [图论 Graph Theory   (TODO)](notes/Algorithms/algorithms/graphtheory)
+- [字符串处理 String Manipulation  (TODO)](notes/Algorithms/algorithms/stringManipulation)
+- [二进制处理 Bit Manipulation   (TODO)](notes/Algorithms/algorithms/bitManipulation)
 
 </details>
 	
 <details>
-<summary><b><a href="https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/paradigm">🏠 编程演算法 Algorithmic paradigm</a></b></summary>
+<summary><b><a href="https://github.com/waiyulam/Java-Notes/tree/master/notes/Algorithms/paradigm">🏠 编程演算法 Algorithmic paradigm</a></b></summary>
 <br>
 
-- [分治法 Divide and Conquer](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/paradigm#Divide-and-Conquer-algorithms)
-- [贪婪演算法 Greedy Algorithms](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/paradigm#Greedy-Algorithms)
-- [回溯法&分枝界限法 Backtracking & Branch and Bound](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/paradigm#Backtracking)
-- [动态规划 Big Guy: Dynamic Programming and memoization 😭（TODO)](https://github.com/waiyulam/Interview-Prep-Guide/tree/master/BasicsReview/paradigm#Dynamic-Programming-and-memoization)
+- [分治法 Divide and Conquer](notes/Algorithms/paradigm#Divide-and-Conquer-algorithms)
+- [贪婪演算法 Greedy Algorithms](notes/Algorithms/paradigm#Greedy-Algorithms)
+- [回溯法&分枝界限法 Backtracking & Branch and Bound](notes/Algorithms/paradigm#Backtracking)
+- [动态规划 Big Guy: Dynamic Programming and memoization 😭（TODO)](notes/Algorithms/paradigm#Dynamic-Programming-and-memoization)
 
 </details>
 	
-<br>
-
-## 💾 数据库 Database
-
-<br>
-
-<details>
-<summary><b><a href = 'https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Database'> 🔨 数据库系统原理 </a>  </b></summary>
-
-- 一、[事务 Transaction](Database#Transaction)
-- 二、[并发一致性 Consistency](Database#Anomalies-with-Interleaved-Execution)
-- 三、[封锁 Locking](Database#Concurrency-Control)
-- 四、[隔离级别](Database#隔离级别)
-- 五、[并发控制 Concurrency control ](Database#MVCC)
-- 六、[关系数据库 Relational Database](Database#Relational-model)
-
-</details>
-
-<details>
-<summary><b>🔨<a href = 'https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Database/mysql'> MySQL </a>  </b></summary>
-
-- 一、[索引](Database/mysql#一索引)
-- 二、[查询性能优化](Database/mysql#二查询性能优化)
-- 三、[存储引擎](Database/mysql#三存储引擎)
-- 四、[数据类型](Database/mysql#四数据类型)
-- 五、[切分](Database/mysql#五切分)
-- 六、[复制](Database/mysql#六复制)
-
-</details>
-
-<details>
-<summary><b>🔨 Redis  </b></summary>
-
-</details>
-
-<details>
-<summary><b>🔨 SQL </b></summary>
-
-</details>
 <br>
 
 ## 🏷 语言回顾 Programming Language Review
@@ -162,13 +123,13 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 <br>
 
 <details>
-<summary><b> <a href= 'https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Database/Java'> ☕️ Java </a></b></summary>
+<summary><b> <a href= 'https://github.com/waiyulam/Java-Notes/tree/master/notes/Java'> ☕️ Java </a></b></summary>
 	
-- [语言基础 Basics](Java)
-- [集合框架/容器 Collections](Java/Collections)
-- [并发编程 Concurrency](Java/Concurrency)
-- [虚拟机 JVM](Java/jvm)
-- [设计模式 Design Pattern](Java/designPattern)
+- [语言基础 Basics](notes/Java)
+- [集合框架/容器 Collections](notes/Java/Collections)
+- [并发编程 Concurrency](notes/Java/Concurrency)
+- [虚拟机 JVM](notes/Java/jvm)
+- [设计模式 Design Pattern](notes/Java/designPattern)
 - I/O
 - Web开发技术 Web programming
 
@@ -186,16 +147,118 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 
 <br>
 
+## 🎨 面向对象 OOP Design
+
+<br>
+
+<details>
+<summary><b>📏 面向对象 OOP </b></summary>
+
+- 三大特性： 封装 继承 多态
+- 类图
+- 设计原则
+</details>
+
+<details>
+<summary><b>🎨 设计模式 Design Pattern </b></summary>
+
+- 创建型
+- 行为型
+- 结构型
+</details>
+
+<br>
+
+
+## ☁️ 计算机网络 Networks
+<br>
+
+<details>
+<summary><b>计算机网络 Networks </b></summary>
+
+- 概述&体系结构
+- 物理层
+- 链路层
+- 网络层
+- 传输层
+- 应用层 HTTP
+
+</details>
+
+<details>
+<summary><b><a href = "https://github.com/CyC2018/CS-Notes/blob/master/notes/HTTP.md"> HTTP </a></b></summary>
+
+</details>
+
+<details>
+<summary><b><a href = ""> 网络编程 </a></b></summary>
+
+- [网络编程 Socket](https://github.com/CyC2018/CS-Notes/blob/master/notes/Socket.md)
+- [RESTful API](https://github.com/frank-lam/fullstack-tutorial/blob/master/notes/RESTful%20API.md)
+- [Web网络安全](https://github.com/frank-lam/fullstack-tutorial/blob/master/notes/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8.md)
+</details>
+<br>
+
+## ❓编码实践 Run practice problems
+<br>
+
+* [**🧯 Hackerrank**]()
+* [**🧯 Leetcode**]()
+* [**🧯 剑指OFFER**]()
+* [**🧯 CN笔试面试题库**](https://www.nowcoder.com/contestRoom?from=cyc_github)
+
+<br>
+
+
+## 💾 数据库 Database
+
+<br>
+
+<details>
+<summary><b><a href = 'https://github.com/waiyulam/Java-Notes/tree/master/notes/Database'> 🔨 数据库系统原理 </a>  </b></summary>
+
+- 一、[事务 Transaction](notes/Database#Transaction)
+- 二、[并发一致性 Consistency](notes/Database#Anomalies-with-Interleaved-Execution)
+- 三、[封锁 Locking](notes/Database#Concurrency-Control)
+- 四、[隔离级别](notes/Database#隔离级别)
+- 五、[并发控制 Concurrency control ](notes/Database#MVCC)
+- 六、[关系数据库 Relational Database](notes/Database#Relational-model)
+
+</details>
+
+<details>
+<summary><b>🔨<a href = 'https://github.com/waiyulam/Java-Notes/tree/master/notes/Database/mysql'> MySQL </a>  </b></summary>
+
+- 一、[索引](notes/Database/mysql#一索引)
+- 二、[查询性能优化](notes/Database/mysql#二查询性能优化)
+- 三、[存储引擎](notes/Database/mysql#三存储引擎)
+- 四、[数据类型](notes/Database/mysql#四数据类型)
+- 五、[切分](notes/Database/mysql#五切分)
+- 六、[复制](notes/Database/mysql#六复制)
+
+</details>
+
+<details>
+<summary><b>🔨 Redis  </b></summary>
+
+</details>
+
+<details>
+<summary><b>🔨 SQL </b></summary>
+
+</details>
+<br>
+
 ## 🔨 操作系统 Operating System
 
 <br>
 
 <details>
-<summary><b><a href= 'https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Database/OS'> 🔨 计算机操作系统 OS </a></b></summary>
+<summary><b><a href= 'https://github.com/waiyulam/Java-Notes/tree/master/notes/OS'> 🔨 计算机操作系统 OS </a></b></summary>
 
-- [概述 Introduction](OS)
-- [进程管理 Process](OS/Process)
-- [死锁 Deadlock](OS/Deadlock)
+- [概述 Introduction](notes/OS)
+- [进程管理 Process](notes/OS/Process)
+- [死锁 Deadlock](notes/OS/Deadlock)
 - 内存管理 Memory
 - 设备管理 Disks&Devices
 - 链接 Links
@@ -217,16 +280,16 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 <br>
 
 <details>
-<summary><b><a href= 'https://github.com/waiyulam/Interview-Prep-Guide/tree/master/Database/System/Cache'>🔨 缓存  </a></b></summary>
+<summary><b><a href= 'https://github.com/waiyulam/Java-Notes/tree/master/notes/System/Cache'>🔨 缓存  </a></b></summary>
 
-* [一、缓存特征](System/Cache#一缓存特征)
-* [二、缓存位置](System/Cache##二缓存位置)
-* [三、CDN](System/Cache##三cdn)
-* [四、缓存问题](System/Cache##四缓存问题)
-* [五、数据分布](System/Cache##五数据分布)
-* [六、一致性哈希](System/Cache##六一致性哈希)
-* [七、LRU](System/Cache##七lru)
-* [参考资料](System/Cache##参考资料)
+* [一、缓存特征](notes/System/Cache#一缓存特征)
+* [二、缓存位置](notes/System/Cache##二缓存位置)
+* [三、CDN](notes/System/Cache##三cdn)
+* [四、缓存问题](notes/System/Cache##四缓存问题)
+* [五、数据分布](notes/System/Cache##五数据分布)
+* [六、一致性哈希](notes/System/Cache##六一致性哈希)
+* [七、LRU](notes/System/Cache##七lru)
+* [参考资料](notes/System/Cache##参考资料)
 
 </details>
 
@@ -258,71 +321,9 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 <br>
 
 
-## 🎨 面向对象 OOP Design
-
-<br>
-
-<details>
-<summary><b>📏 面向对象 OOP </b></summary>
-
-- 三大特性： 封装 继承 多态
-- 类图
-- 设计原则
-</details>
-
-<details>
-<summary><b>🎨 设计模式 Design Pattern </b></summary>
-
-- 创建型
-- 行为型
-- 结构型
-</details>
-
-<br>
-
-## ☁️ 计算机网络 Networks
-<br>
-
-<details>
-<summary><b>计算机网络 Networks </b></summary>
-
-- 概述&体系结构
-- 物理层
-- 链路层
-- 网络层
-- 传输层
-- 应用层 HTTP
-
-</details>
-
-<details>
-<summary><b><a href = "https://github.com/CyC2018/CS-Notes/blob/master/notes/HTTP.md"> HTTP </a></b></summary>
-
-</details>
-
-<details>
-<summary><b><a href = ""> 网络编程 </a></b></summary>
-
-- [网络编程 Socket](https://github.com/CyC2018/CS-Notes/blob/master/notes/Socket.md)
-- [RESTful API](https://github.com/frank-lam/fullstack-tutorial/blob/master/notes/RESTful%20API.md)
-- [Web网络安全](https://github.com/frank-lam/fullstack-tutorial/blob/master/notes/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8.md)
-</details>
-<br>
-
 
 ## ➗ 数学基础 Mathmatics
 <br>
-<br>
-
-
-## ❓编码实践 Run practice problems
-<br>
-
-* [**🧯 Hackerrank**]()
-* [**🧯 Leetcode**]()
-* [**🧯 剑指OFFER**]()
-* [**🧯 CN笔试面试题库**](https://www.nowcoder.com/contestRoom?from=cyc_github)
-
 <br>
 
 ## 🍭 后记
