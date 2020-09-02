@@ -5,3 +5,6 @@
     * [非线性数据结构](notes/Algorithms/datastructure/nonlinear/README.md)
   + [核心算法](notes/Algorithms/algorithms/README.md)
   + [算法思维](notes/Algorithms/paradigm/README.md)
+- [java SE核心技术](notes/Java/README.md)
+- [计算机网络](notes/Network/README.md)
+- [算法题典](notes/codingPrograms/README.md)
