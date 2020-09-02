@@ -11,3 +11,7 @@
 
 [GitHub](<https://github.com/waiyulam/Interview-Prep-Guide>)
 [开始阅读](README.md)
+
+<!-- 背景色 -->
+
+![color](#28313B)
