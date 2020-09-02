@@ -65,10 +65,11 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 
 </p>
 
-## 📄 目录
 <br>
 
-### 📖 数据结构与算法
+----------------------------------------------------------------
+
+## 📖 数据结构与算法
 
 <br>
 
@@ -117,9 +118,7 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 	
 <br>
 
-
-----------------------------------------------------------------
-### 💾 数据库 Database
+## 💾 数据库 Database
 
 <br>
 
@@ -158,8 +157,7 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 </details>
 <br>
 
-----------------------------------------------------------------
-### 🏷 语言回顾 Programming Language Review
+## 🏷 语言回顾 Programming Language Review
 
 <br>
 
@@ -188,8 +186,7 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 
 <br>
 
-----------------------------------------------------------------
-### 🔨 操作系统 Operating System
+## 🔨 操作系统 Operating System
 
 <br>
 
@@ -215,8 +212,7 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 
 <br>
 
---------------------------------------------------------------------
-### 💡 系统设计 System Design
+## 💡 系统设计 System Design
 
 <br>
 
@@ -262,8 +258,7 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 <br>
 
 
---------------------------------------------------------
-### 🎨 面向对象 OOP Design
+## 🎨 面向对象 OOP Design
 
 <br>
 
@@ -285,8 +280,7 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 
 <br>
 
-----------------------------------------------------
-### ☁️ 计算机网络 Networks
+## ☁️ 计算机网络 Networks
 <br>
 
 <details>
@@ -315,13 +309,13 @@ Due to my limited level, the knowledge points in the warehouse are from my origi
 </details>
 <br>
 
---------------------------------------------------------
-### ➗ 数学基础 Mathmatics
+
+## ➗ 数学基础 Mathmatics
 <br>
 <br>
 
-----------------------------------------------------------------
-### ❓编码实践 Run practice problems
+
+## ❓编码实践 Run practice problems
 <br>
 
 * [**🧯 Hackerrank**]()
