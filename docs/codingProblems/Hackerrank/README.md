@@ -12,3 +12,5 @@ Some companies won't ask you algorithm problems. Instead, they might focus more 
 - [Equalize The Array](https://www.hackerrank.com/challenges/equality-in-a-array/problem)
 - [Apples And Oranges](https://www.hackerrank.com/challenges/apple-and-orange/problem)
 - [More Operational Style Questions](https://www.hackerrank.com/domains/python)
+
+> [Implementation Category of hackerrank](https://www.hackerrank.com/domains/algorithms?filters%5Bsubdomains%5D%5B%5D=implementation&badge_type=problem-solving)

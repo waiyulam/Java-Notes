@@ -7,4 +7,6 @@
   + [算法思维](notes/Algorithms/paradigm/README.md)
 - [java SE核心技术](notes/Java/README.md)
 - [计算机网络](notes/Network/README.md)
-- [算法题典](notes/codingPrograms/README.md)
+- [算法题典](codingProblems/README.md)
+  + [hackerrank](codingProblems/Hackerrank/README.md)
+  + [Leetcode](codingProblems/Leetcode/README.md)
