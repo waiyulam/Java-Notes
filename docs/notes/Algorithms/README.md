@@ -1,7 +1,7 @@
 - 目录
-  * [基础数据结构](datastructure/README.md)
-  * [核心算法](algorithms/README.md)
-  * [算法思维](paradigm/README.md)
+  * [基础数据结构](notes/Algorithms/datastructure/README.md)
+  * [核心算法](notes/Algorithms/algorithms/README.md)
+  * [算法思维](notes/Algorithms/paradigm/README.md)
   * [干货](#Best-DSA-study-Link)
 
 - 数据结构与算法的干货
