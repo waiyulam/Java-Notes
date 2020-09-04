@@ -94,6 +94,7 @@ body {
 
 .markdown-section h2 {
 	color: #fff;
+	/* color: #fdb900 */
 }
 
 img {
@@ -277,11 +278,12 @@ main.hidden {
 	margin: 0 auto 1rem;
 	font-size: 2.0rem;
 	font-weight: 300;
+	font-style: inherit;
 	text-align: center
 }
 
 .sidebar>h1 a {
-	color: inherit;
+	color: khaki;
 	text-decoration: none
 }
 
@@ -714,16 +716,17 @@ body {
 }
 
 .sidebar {
-	color: var(--textColor);
+	/* color: var(--textColor); */
+	color: lightcoral;
 }
 
 .sidebar li {
-	margin: 6px 0
+	margin: 12px 0
 }
 
 .sidebar ul li a {
 	color: var(--sidebarSublink);
-	font-size: 14px;
+	font-size: 15px;
 	font-weight: 400;
 	overflow: hidden;
 	text-decoration: none;
@@ -767,12 +770,13 @@ body {
 }
 
 .markdown-section h1 {
-	font-size: 2rem;
+	font-size: 3rem;
 	margin: 0 0 1rem
 }
 
 .markdown-section h2 {
-	font-size: 1.75rem;
+	font-size: 2rem;
+	font-style: oblique;
 	margin: 45px 0 .8rem
 }
 
