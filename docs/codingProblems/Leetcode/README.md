@@ -1,59 +1,40 @@
-# Leetcode
-Leetcode 题目整理 ( TAG -> DIFFICULTY -> AC ) 
+<p>
+<h2><font color="deepPink">前言</font></h2>
 
-## Problem solving 
-1. **Defien the problems**  
-    - State the problem specifically ( e.g Data types, Data volumn, Corner cases ,Worst cases, Time Complexity, API)
-    - Identify the expected steps of a process ( e.g. flowchart )
-2. **Generate Alternative solution and Evaluate**
-    - Specify consistent algorithms ( Time & Space )
-    - Seek potential alternative more efficient solutions 
-    - Data structures to be used 
-3. **Implement and follow up the solutions** 
-    - Plan and implement a unit test of the chosen alternative
-    - Seek acceptance criteria 
-    - Test the corner cases 
+本文从 Leetcode 中精选大概 200 左右的题目，去除了某些繁杂但是没有多少算法思想的题目，同时保留了面试中经常被问到的经典题目。
 
-## Template of solving problem (Included) 
-  - **Ideas and steps of a process**
-  - **Languages** ( At least two : python & java )
-  - **Algorithms** ( At least two)
-    - Classic solution (BFS, DFS , DP..)
-    - Best solution (BFS, DFS , DP..)
-  - **Data structures** 
-  - **Time & Space**  
-  - **Testing cases & corner cases evaluation & coverage** 
-  - **Problem Tag** ( e.g data strucutre, algorithms, difficulty )
-  - **Summary for future practices**
-    - what difference compared to other same type of quetions? 
-    - what are the tricks in solving this problem?
-  - **Sample answer from proficient solution discussion** 
-  - **Youtube video tutorials**      
+<h2><font color="deepPink" >算法思想</font></h2>
 
-# Docs 
-   - [Study Guide](https://docs.google.com/spreadsheets/d/1DlLt2_kRsSLbdoOYhMFcpBZMnA-1SK3A/edit#gid=1486985929)
-   - [Leetcode Groups](https://docs.google.com/spreadsheets/u/1/d/1I_fyfIoWEXtHJD32BmVXxj_tishqU7Rd8GqUpRgxhks/edit?usp=drive_web&ouid=104164318499100110569)
-   - [花花酱leetcode video solutions](https://www.youtube.com/user/xxfflower)
-   - [Grandyang solution copy](https://www.cnblogs.com/grandyang/p/4606334.html)
-   - [Sample Solutions](https://docs.google.com/document/d/1Yo13hX7gILsXA0v3zbo1KS0J8r2-8NkXinwGT_v_eCI/edit)
-   - [Leetcode Animation](https://github.com/MisterBooo/LeetCodeAnimation)
-   - [Google High-frequency Questions](https://www.1point3acres.com/bbs/thread-611584-1-1.html)
-   
-# 错题本
-每周巩固一次做过的题目： 解题思路+code+注释（分析时间空间复杂度）+同一道题目有两种解法 + 两种语言（JAVA & PYTHON )   
-[做题归纳总结](https://docs.google.com/spreadsheets/d/1gszcAt1NgN7GYj_uxEBpMqkoAGw2F36EFh3-pmU2yA0/edit#gid=0)   
+- [双指针](Leetcode%20题解%20-%20双指针.md)
+- [排序](Leetcode%20题解%20-%20排序.md)
+- [贪心思想](Leetcode%20题解%20-%20贪心思想.md)
+- [二分查找](Leetcode%20题解%20-%20二分查找.md)
+- [分治](Leetcode%20题解%20-%20分治.md)
+- [搜索](Leetcode%20题解%20-%20搜索.md)
+- [动态规划](Leetcode%20题解%20-%20动态规划.md)
+- [数学](Leetcode%20题解%20-%20数学.md)
 
-# Questions 
-- Warm ups : Before going through the video content about data structures and algorithms, consider trying out these problems below
-  - Sum of Even Numbers After Queries 
-  - Robot Return to Origin
-  - N-Repeated Element in Size 2N Array
-  - Balanced Binary Tree
-  - Longest Substring Without Repeating Characters
-  - Remove Nth Node From End of List
-  - Merge k Sorted Lists
-  - Next Permutation
+<h2><font color="deepPink" >数据结构相关</font></h2>
 
-# Tutorials（ data structure + algorithms )
-1. [LeetCode Group](https://docs.google.com/spreadsheets/d/1I_fyfIoWEXtHJD32BmVXxj_tishqU7Rd8GqUpRgxhks/edit#gid=0)
-2. [LeetCode Sample Solutions](https://drive.google.com/drive/u/1/folders/1Ma_eh0Y6jalhbieUlX5A5nIQyIiFc59G)
+- [链表](Leetcode%20题解%20-%20链表.md)
+- [树](Leetcode%20题解%20-%20树.md)
+- [栈和队列](Leetcode%20题解%20-%20栈和队列.md)
+- [哈希表](Leetcode%20题解%20-%20哈希表.md)
+- [字符串](Leetcode%20题解%20-%20字符串.md)
+- [数组与矩阵](Leetcode%20题解%20-%20数组与矩阵.md)
+- [图](Leetcode%20题解%20-%20图.md)
+- [位运算](Leetcode%20题解%20-%20位运算.md)
+
+<h2><font color="deepPink" > 参考资料</font></h2>
+
+- Leetcode
+- Weiss M A, 冯舜玺. 数据结构与算法分析——C 语言描述[J]. 2004.
+- Sedgewick R. Algorithms[M]. Pearson Education India, 1988.
+- 《编程之美》小组. 编程之美[M]. 电子工业出版社, 2008.
+- 左程云. 程序员代码面试指南[M]. 电子工业出版社, 2015.
+
+</p>
+
+
+
+
