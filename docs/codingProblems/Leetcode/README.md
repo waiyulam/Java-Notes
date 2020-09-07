@@ -5,25 +5,28 @@
 
 <h2><font color="deepPink" >算法思想</font></h2>
 
-- [双指针](codingProblems/Leetcode/algorithms/双指针系列.md)
-- [排序](codingProblems/Leetcode/algorithms/排序系列.md)
-- [贪心思想](codingProblems/Leetcode/algorithms/贪心思想系列.md)
-- [二分查找](codingProblems/Leetcode/algorithms/二分查找系列.md)
-- [分治](codingProblems/Leetcode/algorithms/分治.md)
-- [搜索](codingProblems/Leetcode/algorithms/搜索.md)
-- [动态规划](codingProblems/Leetcode/algorithms/动态规划.md)
-- [数学](codingProblems/Leetcode/algorithms/数学.md)
+- [双指针系列](codingProblems/Leetcode/algorithms/双指针系列.md)
+- [搜索系列](codingProblems/Leetcode/algorithms/搜索.md)
+- [动态规划系列](codingProblems/Leetcode/algorithms/动态规划.md)
+- [二分查找系列](codingProblems/Leetcode/algorithms/二分查找系列.md)
+- [滑动窗口系列](codingProblems/Leetcode/algorithms/滑动窗口.md))
+- [排序系列](codingProblems/Leetcode/algorithms/排序系列.md)
+- [贪心思想系列](codingProblems/Leetcode/algorithms/贪心思想系列.md)
+- [分治系列](codingProblems/Leetcode/algorithms/分治.md)
+- [博弈论系列](codingProblems/Leetcode/algorithms/数学.md)
 
 <h2><font color="deepPink" >数据结构相关</font></h2>
 
-- [链表](Leetcode%20题解%20-%20链表.md)
-- [树](Leetcode%20题解%20-%20树.md)
-- [栈和队列](Leetcode%20题解%20-%20栈和队列.md)
-- [哈希表](Leetcode%20题解%20-%20哈希表.md)
-- [字符串](Leetcode%20题解%20-%20字符串.md)
-- [数组与矩阵](Leetcode%20题解%20-%20数组与矩阵.md)
-- [图](Leetcode%20题解%20-%20图.md)
-- [位运算](Leetcode%20题解%20-%20位运算.md)
+- [数组系列](codingProblems/Leetcode/datastructure/数组.md)
+- [链表系列](codingProblems/Leetcode/datastructure/链表.md)
+- [栈和队列系列](codingProblems/Leetcode/datastructure/栈和队列.md)
+- [堆和优先队列系列](codingProblems/Leetcode/datastructure/堆.md)
+- [哈希表系列](codingProblems/Leetcode/datastructure/哈希表.md)
+- [树系列](codingProblems/Leetcode/datastructure/树.md)
+- [图系列](codingProblems/Leetcode/datastructure/图.md)
+- [字符串系列](codingProblems/Leetcode/datastructure/字符串.md)
+- [数组与矩阵系列](codingProblems/Leetcode/datastructure/数组与矩阵.md)
+- [位运算系列](codingProblems/Leetcode/datastructure/位运算.md)
 
 <h2><font color="deepPink" > 参考资料</font></h2>
 
