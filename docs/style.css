@@ -776,7 +776,7 @@ body {
 
 .markdown-section h2 {
 	font-size: 2rem;
-	font-style: oblique;
+	font-style: initial;
 	margin: 45px 0 .8rem
 }
 
