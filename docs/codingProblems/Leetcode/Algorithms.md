@@ -1,5 +1,7 @@
-<p>
-<h3><font color="Gold">双指针系列</font></h3>
+
+## 一、双指针系列
+
+### 双指针系列练习题汇总
 
 <font color="DeepPink"><b>题目</b></font>|<font color="DeepPink"><b>难度</b></font>|
 ----|-----|
@@ -11,7 +13,9 @@
 <font color="White"><b>06. 判断链表是否存在环(141)</font>|EASY	
 <font color="White"><b>07. 最长子序列(524)</font>|MEDIUM
 
-<h3><font color="Gold" >搜索系列</font></h3>
+## 二、搜索系列
+
+### 搜索系列练习题汇总
 
 <font color="DeepPink"><b>题目</b></font>|<font color="DeepPink"><b>难度</b></font>|<font color="DeepPink"><b>分类</b></font>
 ----|-----|------|
@@ -39,8 +43,9 @@
 <font color="White"><b>22. 数独(37)</font>|HARD|回溯
 <font color="White"><b>23. N 皇后(51)</font>|HARD|回溯
 
-<h3><font color="Gold" >动态规划系列</font></h3>
+## 三、动态规划系列
 
+### 动态规划系列练习题汇总
 
 <font color="DeepPink"><b>题目</b></font>|<font color="DeepPink"><b>难度</b></font>|<font color="DeepPink"><b>分类</b></font>
 ----|-----|------|
@@ -77,7 +82,9 @@
 <font color="White"><b>31.最大子序和(53)</font>|???|最大子序和
 <font color="White"><b>32.三角形最小路径和(120)）</font>|???|三角形路径
 
-<h3><font color="Gold" >二分查找系列</font></h3>
+## 三、二分查找系列
+
+### 二分查找系列练习题汇总
 
 <font color="DeepPink"><b>题目</b></font>|<font color="DeepPink"><b>难度</b></font>|
 ----|-----|
@@ -91,7 +98,9 @@
 <font color="White"><b>08. 第一个错误的版本(278)</font>	|EASY
 <font color="White"><b>09. 查找区间(34)</font>|MEDIUM
 
-<h3><font color="Gold" >滑动窗口</font></h3>
+## 四、滑动窗口系列
+
+### 滑动窗口系列练习题汇总
 
 <font color="DeepPink"><b>题目</b></font>|<font color="DeepPink"><b>难度</b></font>|
 ----|-----|
@@ -100,7 +109,9 @@
 <font color="White"><b>03.找到字符串中所有字母异位词（438）</font>|	
 <font color="White"><b>04.和为s的连续正数序列</font>|	
 
-<h3><font color="Gold" >排序系列</font></h3>
+## 五、排序系列
+
+###  排序系列练习题汇总
 
 <font color="DeepPink"><b>题目</b></font>|<font color="DeepPink"><b>难度</b></font>|
 ----|-----|
@@ -109,7 +120,9 @@
 <font color="White"><b>03.Sort Characters By Frequency(451)</font>|MEDIUM
 <font color="White"><b>04.Sort Colors(75)</font>|MEDIUM
 
-<h3><font color="Gold" >贪心思想系列</font></h3>
+## 六、贪心思想系列
+
+###  贪心思想系列练习题汇总
 
 <font color="DeepPink"><b>题目</b></font>|<font color="DeepPink"><b>难度</b></font>|
 ----|-----|
@@ -125,7 +138,9 @@
 <font color="White"><b>10. 子数组最大的和(53)</font>|EASY	
 <font color="White"><b>11. 分隔字符串使同种字符出现在一起(763)</font>|MEDIUM
 
-<h3><font color="Gold" >分治系列</font></h3>
+## 七、分治系列
+
+###  分治系列练习题汇总
 
 <font color="DeepPink"><b>题目</b></font>|<font color="DeepPink"><b>难度</b></font>|
 ----|-----|
@@ -133,7 +148,9 @@
 <font color="White"><b>02.不同的二叉搜索树(95)</font>|MEDIUM
 
 
-<h3><font color="Gold" >博弈论系列</font></h3>
+## 八、博弈论系列
+
+###  博弈论系列练习题汇总
 
 <font color="DeepPink"><b>题目</b></font>|<font color="DeepPink"><b>难度</b></font>|
 ----|-----|
@@ -148,4 +165,3 @@
 <font color="White"><b>09.巧克力问题</font>|	
 <font color="White"><b>10.大鱼和小鱼的问题</font>|	
 
-</p>
