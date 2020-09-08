@@ -1,8 +1,7 @@
 
 ## 一、数组系列
-
+### 数组问题概述
 ### 数组系列练习题汇总
-
 <font color="DeepPink"><b>题目</b></font>|<font color="DeepPink"><b>难度</b></font>|
 ----|-----|
 <font color="White"><b> [01.两个数组的交集(350)](codingProblems/Leetcode/problems/350-两个数组的交集.md)</font>|		
