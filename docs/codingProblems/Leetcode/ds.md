@@ -1,39 +1,179 @@
 
 ## 一、数组系列
-### 数组问题概述
-### 数组系列练习题汇总
-<font color="DeepPink"><b>题目</b></font>|<font color="DeepPink"><b>难度</b></font>|
-----|-----|
-<font color="White"><b> [01.两个数组的交集(350)](codingProblems/Leetcode/problems/350-两个数组的交集.md)</font>|		
-<font color="White"><b>02.最长公共前缀(14)</font>|	
-<font color="White"><b>03.买卖股票的最佳时机(122）</font>|	
-<font color="White"><b>04.旋转数组(189）</font>|	
-<font color="White"><b>05.原地删除(27)</font>	|	
-<font color="White"><b>06.加一(66)</font>	|	
-<font color="White"><b>07.两数之和(1)</font>	|	
-<font color="White"><b>08.三数之和(15)</font>	|	
-<font color="White"><b>09.Z字形变换(6)</font> |
+### 数组解题思路总结
 
+#### 1.暴力法
+暴力法往往简单易想，当然其效率往往不是最好的，但是如果实现想不出优秀的方案，最好还是写出暴力法的解决方法，并且有总比没有好
+
+#### 2. 双指针
+
+双指针是泛用性最强的一个算法，其主要适用于数组中从前往后，或从后往前的数据交换过程，通过前后两个/首尾两个指针指向不同的数据，来进行数据的交换或处理。
+
+- 双指针思想： 所谓双指针，指的是在遍历对象的过程中，不是普通的使用单个指针进行访问，而是使用两个相同方向或者相反方向的指针进行扫描，从而达到相应的目的。换言之，双指针法充分使用了数组单调性这一特征，从而在某些情况下能够简化一些运算。
+
+不同的指针会带着不同的目的遍历数组
+
+- 快慢指针思想： 快慢指针是同一边开始，两个指针快慢不一样。快慢指针还可以用于找数组的中间位置元素，比如慢指针走一步，快指针都两步，当快指针走到最后一个元素时，慢指针正好指向中间位置的元素。或者可以用来区分数组两种特性的元素比如数组中非零元素和零元素，数组中奇数和偶数等
+
+> 需要注意的是快慢指针会改变原始数组元素的排序方式
+> 对于数据单调性有要求的题目我们会使用双指针的方式将元素插入到新的数组中
+
+<p align="center">
+
+<img width="600px" src= "https://leetcode.com/explore/learn/card/fun-with-arrays/523/conclusion/Figures/Array_Explore/Array_Basics_Conclusion_1.png">
+
+</p>
+
+#### 3.逻辑特性分析法
+之所以我选择这个名字，是因为这里面的算法泛用性没有那么强，往往是针对不同问题的不同逻辑性来实现解决方案的，具体有：
+（1）位运算方法：比如抑或运算在去除相同数字时相当好用；
+（2）波峰波谷法：这是一个泛称，主要是针对类似股票买入卖出、山峰积水等问题的统称，其往往与波峰和波谷有直接关联，其主要思想有两种，一是考虑当前问题的逻辑特性，找到其本质所在（如股票买入卖出其实就是大减小），二是需要结合前后波峰波谷的数值，来实现操作；
+（3）排序算法结合法：排序算法中的思想如快速排序、归并排序、堆排序与冒泡排序等，其思想可以借鉴到大量数组操作上，如冒泡用于交换，快排归并用于查找。
+
+#### 4.四矩阵法
+四矩阵法主要用于数组矩阵的旋转问题之类，其思想在于将矩阵本身分为从外到内的多个n*1的小矩阵，然后再考虑问题的解决方案。具体有两种：
+（1）风车图形法：外层大循环实现风翼内缩，内层小循环实现风翼的绘制，最终的一步为风翼在内部的根点连接，从而解决问题；
+（2）梯形矩阵逼近法：外部大循环用于内缩，而在内部的小循环实现一整圈的四矩阵交换，在完成一层循环后，内层循环的上限-1且下限+1，从而实现梯形逼近，解决问题。
+
+### 数组解题技巧总结
+
+1. 当我们需要在数组中进行插入和删除操作的时候我们需要优先考虑在数组末尾进行操作，因为这样的操作无需考虑数据搬移的问题从而可能获得时间复杂度为O（1）的算法操作
+
+3. 逆向思维： 有时候从尾部开始寻找能够帮助我们减少代码复杂度或者时间成本，因为有时候从头部开始寻找的时候需要额外判断特殊情况。
+
+4. 删除操作我们需要维护一个自己数组的长度 
+
+### 数组解题框架模板总结
+
+#### 查找
+
+- **线性查找**
+
+1. 从线性数据表中的第一个（或者最后一个）记录开始查找。
+2. 以此将记录的关键字与查找的关键字进行比较。
+    - 当某个记录的关键字与查找关键字相等的时候，即查找成功。
+    - 反之，查完所有记录都没有与之相等的关键字，则查找失败。
+
+> 如何处理越界的问题
+
+- **二分查找**
+
+1. 先将表的中间位置记录的关键字与查找关键字比较。
+    - 如果两者相等，则查找成功。
+    - 如果不等，则将表分为两个部分，根据比较结果，决定查找哪个子表。
+
+```java
+int binarysearch(vector<int>& nums, int target) {
+    int left = 0;
+    int right = nums.size() - 1;
+    while (left <= right) {
+        int middle = (left + right) / 2;
+        if (nums[middle] == target) {
+            return middle;
+        }
+        else if (nums[middle] < target) {
+            left = middle + 1;
+        }
+        else {
+            right = middle - 1;
+        }
+    }return -1;
+}
+```
+
+> 注意当数组长度为0的时候，找不到元素的时候这两种情况的边界条件
+
+> 熟记二分查找寻找边界
+
+#### 数组内部移位
+插入到下标处，在有序表中插入，保持有序性。
+
+```java
+int pos1 = 0;//目的位置
+//i为开始位置
+for(int i =0;i<nums.size();i++){
+    //条件
+    if(nums[i] != val){
+         //数组整体向前移
+        nums[pos1++] = nums[i];
+    }
+}
+return pos1;
+```
+
+> 注意边界条件需要相应的特殊措施
+
+#### 头尾指针向中间逼近
+经典的找和的问题都可以从这种思路下手，2数之和，3数之和，还注意要区分是寻找值还是索引（寻找索引则不能排序），是否允许有重复，不允许重复时要怎样避开重复值。
+
+```java
+int pos1 = 0;
+int pos2 = nums.size() - 1;
+while (pos1<pos2) {
+    //判断条件
+
+    //pos更改条件
+    if (nums[pos1]<nums[pos2])
+        pos1++;
+    else
+        pos2--;
+}
+```
+
+> 注意避开重复值的方法
+
+> 注意什么时候左指针加，什么时候右指针减
+
+### 数组系列练习题汇总
+<font color="DeepPink"><b>题目</b></font>|<font color="DeepPink"><b>难度</b></font>|<font color="DeepPink"><b>分类</b></font>
+----|-----|------|
+<font color="White"><b> [01.最大连续1的个数(485)](codingProblems/Leetcode/problems/485-最大连续1的个数.md)</font>|	EASY	| 数组
+<font color="White"><b> [02.统计位数为偶数的数字(1295)](codingProblems/Leetcode/problems/1295-统计位数为偶数的数字.md)</font>|EASY	|	数组:枚举
+<font color="White"><b> [03.有序数组的平方(977)](codingProblems/Leetcode/problems/977-有序数组的平方.md)</font>|	EASY	| 双指针
+<font color="White"><b> [04.复写零(1089)](codingProblems/Leetcode/problems/1089-复写零.md)</font>|	EASY	| 数组插入元素：双指针
+<font color="White"><b> [05.合并两个有序数组(88)](codingProblems/Leetcode/problems/88-合并两个有序数组.md)</font>|	EASY|	数组插入元素：双指针
+<font color="White"><b> [06.原地移除元素(27)](codingProblems/Leetcode/problems/27-移除元素.md)</font>|	EASY|	数组删除元素：快慢指针
+<font color="White"><b> [07.删除排序数组中的重复项(26)](codingProblems/Leetcode/problems/26-删除排序数组中的重复项.md)</font>|	EASY|	数组删除元素：快慢指针
+<font color="White"><b> [08.检查整数及其两倍数是否存在(1346)](codingProblems/Leetcode/problems/1346-检查整数及其两倍数是否存在.md)</font>|	EASY|	数组搜索元素：哈希表
+<font color="White"><b> [09.有效的山脉数组(941)](codingProblems/Leetcode/problems/941-有效的山脉数组.md)</font>|	EASY|	数组搜索元素：扫描遍历
+<font color="White"><b> [10.将每个元素替换为右侧最大元素(1299)](codingProblems/Leetcode/problems/1299-将每个元素替换为右侧最大元素.md)</font>|	EASY|	数组原址操作：逆序遍历
+<font color="White"><b> [11.移动零(283)](codingProblems/Leetcode/problems/283-移动零.md)</font>|	EASY|	数组原址操作：快慢指针
+<font color="White"><b> [12.按奇偶排序数组(905)](codingProblems/Leetcode/problems/905-按奇偶排序数组.md)</font>|	EASY|	数组原址操作：快慢指针
+<font color="White"><b> [13.高度检查器(1051)](codingProblems/Leetcode/problems/1051-高度检查器.md)</font>|	EASY|	数组计数排序
+<font color="White"><b> [14.第三大的数(414)](codingProblems/Leetcode/problems/414-第三大的数.md)</font>|	EASY|	数组计数排序
+<font color="White"><b> [15.找到所有数组中消失的数字(448)](codingProblems/Leetcode/problems/448-找到所有数组中消失的数字.md)</font>|	EASY|	数组计数排序
+<font color="White"><b> 16.两个数组的交集(350)</font>|		|
+<font color="White"><b>17.最长公共前缀(14)</font>|	|
+<font color="White"><b>18.买卖股票的最佳时机(122）</font>|	|
+<font color="White"><b>19.旋转数组(189）</font>|	|
+<font color="White"><b>20.加一(66)</font>	|	|
+<font color="White"><b>21.两数之和(1)</font>	|	|
+<font color="White"><b>22.三数之和(15)</font>	|	|
+<font color="White"><b>23.Z字形变换(6)</font> |        |
+### 参考
+
+[LeetCode数组解题模板](https://blog.csdn.net/weixin_30262255/article/details/99888838?biz_id=102&utm_term=%E6%95%B0%E7%BB%84%E8%A7%A3%E9%A2%98&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-3-99888838&spm=1018.2118.3001.4187)
+[LeetCode Arrays101 tutorial](https://leetcode.com/explore/learn/card/fun-with-arrays/511/in-place-operations/3257/)
 
 ## 二、链表系列
 
 ### 链表系列练习题汇总
 
-<font color="DeepPink"><b>题目</b></font>|<font color="DeepPink"><b>难度</b></font>|
-----|-----|
-<font color="White"><b>01.删除链表倒数第N个节点(19)</font>|		
-<font color="White"><b>02.归并两个有序的链表(21)</font>|	
-<font color="White"><b>03.环形链表(141)</font>|	
-<font color="White"><b>04.两数相加(2)</font>|	
-<font color="White"><b>05.找出两个链表的交点(160)</font>|EASY
-<font color="White"><b>06.链表反转(206)</font>	|EASY
-<font color="White"><b>07.从有序链表中删除重复节点(83)</font>	|	EASY
-<font color="White"><b>08.删除链表的倒数第 n 个节点(19)</font> |MEDIUM
-<font color="White"><b>09.交换链表中的相邻结点(24)</font> |MEDIUM
-<font color="White"><b>10.链表求和(445)</font> |MEDIUM
-<font color="White"><b>11.回文链表(234)</font> |EASY
-<font color="White"><b>12.分隔链表(725)</font> |MEDIUM
-<font color="White"><b>13.链表元素按奇偶聚集(328)</font> |MEDIUM
+<font color="DeepPink"><b>题目</b></font>|<font color="DeepPink"><b>难度</b></font>|<font color="DeepPink"><b>分类</b></font>
+----|-----|-------|
+<font color="White"><b>01.删除链表倒数第N个节点(19)</font>|		|
+<font color="White"><b>02.归并两个有序的链表(21)</font>|	|
+<font color="White"><b>03.环形链表(141)</font>|	|
+<font color="White"><b>04.两数相加(2)</font>|	|
+<font color="White"><b>05.找出两个链表的交点(160)</font>|EASY|
+<font color="White"><b>06.链表反转(206)</font>	|EASY|
+<font color="White"><b>07.从有序链表中删除重复节点(83)</font>	|	EASY|
+<font color="White"><b>08.删除链表的倒数第 n 个节点(19)</font> |MEDIUM|
+<font color="White"><b>09.交换链表中的相邻结点(24)</font> |MEDIUM|
+<font color="White"><b>10.链表求和(445)</font> |MEDIUM|
+<font color="White"><b>11.回文链表(234)</font> |EASY|
+<font color="White"><b>12.分隔链表(725)</font> |MEDIUM|
+<font color="White"><b>13.链表元素按奇偶聚集(328)</font> |MEDIUM|
 
 ## 三、栈和队列系列
 
