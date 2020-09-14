@@ -19,7 +19,7 @@
   + [<font color="Gold" size="3"><b>数据结构与算法小抄</b></font>](notes/Algorithms/Cheatsheet.md)
 - [<font color="deepPink" size="3"><b>java SE核心技术</b></font>](notes/Java/README.md)
   + [<font color="Gold" size="3"><b>Java入门:概述</b></font>](notes/Java/QuickStart.md)
-  + [<font color="Gold" size="3"><b>Java入门:开发环境</b></font>](notes/Java/Env.md)
+  + [<font color="Gold" size="3"><b>Java入门:开发工具和集成开发环境</b></font>](notes/Java/Env.md)
   + [<font color="Gold" size="3"><b>Java入门:基础语法</b></font>](notes/Java/Syntax.md)
 - [<font color="deepPink" size="3"><b>计算机网络</b></font>](notes/Network/README.md)
 - [<font color="deepPink" size="3"><b>算法题典</b></font>](codingProblems/README.md)
